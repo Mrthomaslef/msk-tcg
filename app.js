@@ -2,7 +2,7 @@
 (function () {
   'use strict';
 
-  const CARDS = window.MSK_CARDS || [];
+  const CARDS = (window.MSK_DECK && window.MSK_DECK.visible) || window.MSK_CARDS || [];
   const TOTAL = CARDS.length;
   const BY_ID = Object.fromEntries(CARDS.map((c) => [c.id, c]));
   const PACK_SIZE = 5;
@@ -552,10 +552,12 @@
   });
   setInterval(() => { if (currentView === 'boosters' && $('#stage').hidden) { const before = S.packsLeft; refreshPacks(); if (before !== S.packsLeft) renderHome(); else { updateRefill(); renderTop(); } } }, 30000);
   setupPTR();
+  // editor changes published from another device: reload when nothing is in progress
+  if (window.MSK_DECK) window.MSK_DECK.refresh(() => { if ($('#stage').hidden && $('#modal').hidden) location.reload(); });
   showView('boosters');
 
   // ---------- service worker ----------
   if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
-    navigator.serviceWorker.register('sw.js?v=1').catch(() => {});
+    navigator.serviceWorker.register('sw.js?v=3').catch(() => {});
   }
 })();

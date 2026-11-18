@@ -8,7 +8,7 @@ os.chdir(ROOT)
 sel = json.load(open('data/selection.json'))
 REG_ORDER = ['epaule','coude','main-poignet','rachis','bassin-hanche','genou','cheville-pied','os-entier','parties-molles']
 RAR_ORDER = ['commune','peu-commune','rare','legendaire']
-SRC_LABEL = {'quiz':'Quiz Imagerie — cas Cochin','cotten-epaule':'Cotten — Épaule','cotten-gen':'Cotten — Pathologies générales','sims':'SIMS 2025'}
+SRC_LABEL = {'quiz':'Quiz Imagerie — cas Cochin','cotten-epaule':'Cotten — Épaule','cotten-gen':'Cotten — Pathologies générales','sims':'SIMS 2025','cotten-loco':'Cotten — Pathologies loco-régionales'}
 
 def trim(im):
     """Remove light/dark uniform frames (book figure borders)."""
@@ -46,5 +46,7 @@ for n, s in enumerate(sel, 1):
                       modality=s['modality'], rarity=s['rarity'], source=SRC_LABEL[s['src']],
                       img=f'cards/{cid}.webp', w=im.width, h=im.height))
 json.dump(cards, open('data/cards.json', 'w'), ensure_ascii=False, indent=1)
-open('data/embedded_data.js', 'w').write('window.MSK_CARDS = ' + json.dumps(cards, ensure_ascii=False) + ';\n')
+ov = json.load(open('data/overrides.json')) if os.path.exists('data/overrides.json') else {}
+open('data/embedded_data.js', 'w').write('window.MSK_CARDS = ' + json.dumps(cards, ensure_ascii=False) + ';\n'
+                                         + 'window.MSK_OVERRIDES = ' + json.dumps(ov, ensure_ascii=False) + ';\n')
 print(len(cards), 'cards')

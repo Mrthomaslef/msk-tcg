@@ -1,6 +1,6 @@
 /* MSK TCG service worker: network-first for the app shell, cache-first for card images. */
-const VERSION = 'msk-tcg-v2';
-const SHELL = ['./', 'index.html', 'styles.css?v=2', 'app.js?v=2', 'data/embedded_data.js?v=1', 'assets/icon.svg', 'manifest.webmanifest'];
+const VERSION = 'msk-tcg-v3';
+const SHELL = ['./', 'index.html', 'styles.css?v=3', 'app.js?v=3', 'deck.js?v=1', 'data/embedded_data.js?v=2', 'edit.html', 'edit.css?v=1', 'editor.js?v=1', 'assets/icon.svg', 'manifest.webmanifest'];
 
 self.addEventListener('install', (e) => {
   self.skipWaiting();
@@ -12,6 +12,7 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   const req = e.request;
   if (req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
+  if (req.url.includes('/data/overrides.json')) return; // always live from the network
   if (req.url.includes('/cards/')) {
     e.respondWith(caches.open(VERSION).then((c) => c.match(req).then((hit) => hit || fetch(req).then((res) => { if (res.ok) c.put(req, res.clone()); return res; }))));
     return;

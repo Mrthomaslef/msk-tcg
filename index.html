@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=2" />
+  <link rel="stylesheet" href="styles.css?v=3" />
 </head>
 <body>
   <div class="bg-grid" aria-hidden="true"></div>
@@ -63,6 +63,7 @@
         <div class="binder-tools">
           <button class="chip-btn" id="studyBtn" aria-pressed="false" title="Masquer les titres pour réviser">Révision</button>
           <button class="chip-btn" id="gridBtn" title="Taille de la grille">▦</button>
+          <a class="chip-btn" href="edit.html" title="Éditer / retirer des cartes" aria-label="Éditer les cartes">✎</a>
         </div>
       </div>
       <div class="chips" id="regionChips"></div>
@@ -97,7 +98,8 @@
     <button class="modal-close" id="modalClose" aria-label="Fermer">✕</button>
   </div>
 
-  <script src="data/embedded_data.js?v=1"></script>
-  <script src="app.js?v=2"></script>
+  <script src="data/embedded_data.js?v=2"></script>
+  <script src="deck.js?v=1"></script>
+  <script src="app.js?v=3"></script>
 </body>
 </html>
