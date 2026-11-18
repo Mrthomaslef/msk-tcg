@@ -253,7 +253,7 @@
         const c = cardEl(card, { compact: true, lazy: true });
         const cnt = S.collection[card.id].count;
         if (cnt > 1) c.appendChild(el('span', 'count-badge', `×${cnt}`));
-        c.addEventListener('click', () => openModal(card, !S.study));
+        c.addEventListener('click', () => openModal(card, !S.study, list.filter((x) => owned(x.id))));
         slot.appendChild(c);
         slot.appendChild(el('div', 'slot-title', esc(card.title)));
       } else {
@@ -266,24 +266,69 @@
   }
 
   // ---------- modal (inspect + pinch-zoom) ----------
-  function openModal(card, revealed) {
+  // Inspect modal. `list` = cards you can swipe through (binder: the owned cards of the current filter).
+  let MOD = null;
+  function openModal(card, revealed, list) {
+    const l = (list && list.length) ? list : [card];
+    MOD = { list: l, idx: Math.max(0, l.findIndex((c) => c.id === card.id)), revealed };
+    renderModal(0);
+    $('#modal').hidden = false;
+  }
+  function renderModal(dir) {
     const m = $('#modal'); const box = $('#modalCard'); box.innerHTML = '';
+    const card = MOD.list[MOD.idx]; const revealed = MOD.revealed;
     const c = cardEl(card, { hint: !revealed, tilt: false });
+    if (dir) c.classList.add(dir > 0 ? 'slide-in-r' : 'slide-in-l');
     box.appendChild(c);
     const modalMaxH = () => {
       const cs = getComputedStyle(m); const meta = $('.modal-meta', box);
       return m.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom) - (meta ? meta.offsetHeight + 10 : 0);
     };
     const info = S.collection[card.id];
-    box.appendChild(el('div', 'modal-meta', `${esc(card.source)}${info ? ` · obtenue ×${info.count}` : ''} · pincez l’image pour zoomer`));
+    const many = MOD.list.length > 1;
+    box.appendChild(el('div', 'modal-meta', `${many ? `<b>${MOD.idx + 1} / ${MOD.list.length}</b> · ` : ''}${esc(card.source)}${info ? ` · obtenue ×${info.count}` : ''}<br>${many ? 'glissez ← → pour changer de carte · ' : ''}pincez l’image pour zoomer`));
+    $('#modalPrev').hidden = !many || MOD.idx === 0;
+    $('#modalNext').hidden = !many || MOD.idx === MOD.list.length - 1;
     if (!revealed) {
       c.addEventListener('click', (e) => { if (!c.classList.contains('revealed')) { e.stopPropagation(); fitReveal(c, card, modalMaxH()); c.classList.add('revealed'); SFX.reveal(card.rarity); vibrate(12); } });
     }
     attachZoom($('.card-img', c), $('.card-img img', c));
-    m.hidden = false;
     if (revealed) { c.classList.add('no-anim'); fitReveal(c, card, modalMaxH()); c.classList.add('revealed'); requestAnimationFrame(() => c.classList.remove('no-anim')); }
   }
-  function closeModal() { $('#modal').hidden = true; $('#modalCard').innerHTML = ''; }
+  function stepModal(d) {
+    if (!MOD) return false;
+    const j = MOD.idx + d;
+    const c = $('#modalCard .card');
+    if (j < 0 || j >= MOD.list.length) { if (c) { c.classList.remove('bump'); void c.offsetWidth; c.classList.add('bump'); } return false; }
+    MOD.idx = j; SFX.tick(); vibrate(8); renderModal(d); return true;
+  }
+  // swipe left/right on the modal card (ignored while the image is zoomed or during a pinch)
+  (function setupModalSwipe() {
+    const box = $('#modalCard'); let x0 = null, y0 = 0, multi = false, swiped = 0;
+    const card = () => $('#modalCard .card');
+    const zoomed = () => { const z = $('#modalCard .card-img'); return z && z.dataset.z === '1'; };
+    box.addEventListener('pointerdown', (e) => {
+      if (x0 != null) { multi = true; return; }
+      x0 = e.clientX; y0 = e.clientY; multi = false;
+    });
+    box.addEventListener('pointermove', (e) => {
+      if (x0 == null || multi || zoomed()) return;
+      const dx = e.clientX - x0, dy = e.clientY - y0; const c = card();
+      if (c && Math.abs(dx) > 8 && Math.abs(dx) > Math.abs(dy)) { c.style.transition = 'none'; c.style.transform = `translateX(${dx}px) rotate(${dx / 40}deg)`; }
+    });
+    const end = (e) => {
+      if (x0 == null) return;
+      const dx = e.clientX - x0, dy = e.clientY - y0; const c = card();
+      const ok = !multi && !zoomed() && e.type === 'pointerup' && Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.3;
+      x0 = null;
+      if (ok) { swiped = Date.now(); if (stepModal(dx < 0 ? 1 : -1)) return; }
+      if (c) { c.style.transition = ''; c.style.transform = ''; }
+    };
+    box.addEventListener('pointerup', end); box.addEventListener('pointercancel', end);
+    // a swipe must not also count as a tap (reveal)
+    box.addEventListener('click', (e) => { if (Date.now() - swiped < 400) e.stopPropagation(); }, true);
+  })();
+  function closeModal() { $('#modal').hidden = true; $('#modalCard').innerHTML = ''; MOD = null; }
 
   function attachZoom(box, img) {
     let s = 1, tx = 0, ty = 0; const pts = new Map(); let start = null; let lastTap = 0; let moved = false;
@@ -293,6 +338,7 @@
       tx = Math.min(0, Math.max(w * (1 - s), tx)); ty = Math.min(0, Math.max(h * (1 - s), ty));
       if (s === 1) { tx = 0; ty = 0; }
       img.style.transform = `translate(${tx}px, ${ty}px) scale(${s})`;
+      box.dataset.z = s > 1 ? '1' : '';
     };
     const local = (e) => { const r = box.getBoundingClientRect(); return { x: e.clientX - r.left, y: e.clientY - r.top }; };
     box.addEventListener('pointerdown', (e) => {
@@ -321,6 +367,7 @@
     const up = (e) => {
       const p = pts.get(e.pointerId); pts.delete(e.pointerId);
       if (pts.size === 1) { const q = [...pts.values()][0]; start = { s, tx, ty, p: q }; return; }
+      if (p && start && start.p && Math.abs(p.x - start.p.x) + Math.abs(p.y - start.p.y) > 12) moved = true; // a swipe is not a tap
       start = null;
       if (!moved && p && e.type === 'pointerup') {
         const now = Date.now();
@@ -329,7 +376,7 @@
           apply(); lastTap = 0;
         } else lastTap = now;
       }
-      if (moved) { e.stopPropagation(); }
+      // (pointerup must bubble to the modal swipe handler; taps after a gesture are blocked in the click capture below)
     };
     box.addEventListener('pointerup', up); box.addEventListener('pointercancel', up);
     box.addEventListener('wheel', (e) => {
@@ -496,7 +543,7 @@
       const it = el('div', 'sum-item'); it.style.animationDelay = `${i * 70}ms`;
       const c = cardEl(card, { compact: true });
       if (isNew) c.appendChild(el('span', 'new-badge', 'NEW'));
-      c.addEventListener('click', () => openModal(card, true));
+      c.addEventListener('click', () => openModal(card, true, OP.pulls.map((p) => p.card)));
       it.appendChild(c); it.appendChild(el('div', 'sum-title', esc(card.title)));
       sum.appendChild(it);
     });
@@ -546,9 +593,12 @@
   $('#gridBtn').addEventListener('click', () => { S.dense = !S.dense; save(); renderBinder(); });
   $('#stageClose').addEventListener('click', closeStage);
   $('#modalClose').addEventListener('click', closeModal);
+  $('#modalPrev').addEventListener('click', (e) => { e.stopPropagation(); stepModal(-1); });
+  $('#modalNext').addEventListener('click', (e) => { e.stopPropagation(); stepModal(1); });
   $('#modal').addEventListener('click', (e) => { if (e.target.id === 'modal') closeModal(); });
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') { if (!$('#modal').hidden) closeModal(); else if (!$('#stage').hidden) closeStage(); }
+    if (!$('#modal').hidden && (e.key === 'ArrowRight' || e.key === 'ArrowLeft')) stepModal(e.key === 'ArrowRight' ? 1 : -1);
   });
   setInterval(() => { if (currentView === 'boosters' && $('#stage').hidden) { const before = S.packsLeft; refreshPacks(); if (before !== S.packsLeft) renderHome(); else { updateRefill(); renderTop(); } } }, 30000);
   setupPTR();
@@ -558,6 +608,6 @@
 
   // ---------- service worker ----------
   if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
-    navigator.serviceWorker.register('sw.js?v=3').catch(() => {});
+    navigator.serviceWorker.register('sw.js?v=4').catch(() => {});
   }
 })();

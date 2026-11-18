@@ -480,3 +480,21 @@ main { padding: 0 clamp(16px, 5vw, 40px) calc(var(--nav-h) + var(--sab) + 28px);
   animation: fade 0.2s ease;
 }
 a.chip-btn { text-decoration: none; display: inline-flex; align-items: center; }
+
+/* binder viewer: swipe between cards */
+.modal-card .card { touch-action: pan-y; }
+.modal-card .card-img { touch-action: none; }
+.slide-in-r { animation: slideInR 0.28s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.slide-in-l { animation: slideInL 0.28s cubic-bezier(0.22, 1, 0.36, 1) both; }
+@keyframes slideInR { from { transform: translateX(70%) rotate(4deg); opacity: 0; } }
+@keyframes slideInL { from { transform: translateX(-70%) rotate(-4deg); opacity: 0; } }
+.bump { animation: bump 0.3s ease; }
+@keyframes bump { 30% { transform: translateX(-10px); } 60% { transform: translateX(8px); } }
+.modal-meta b { color: var(--text); }
+.modal-nav {
+  position: fixed; z-index: 160; top: 50%; transform: translateY(-50%);
+  width: 46px; height: 46px; border-radius: 50%; display: none; place-items: center;
+  background: var(--panel-2); border: 1px solid var(--line); color: var(--text); font-size: 1.6rem; line-height: 1;
+}
+.modal-nav.prev { left: 16px; } .modal-nav.next { right: 16px; }
+@media (hover: hover) and (pointer: fine) { .modal-nav:not([hidden]) { display: grid; } }

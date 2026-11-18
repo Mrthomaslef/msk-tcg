@@ -1,6 +1,6 @@
 /* MSK TCG service worker: network-first for the app shell, cache-first for card images. */
-const VERSION = 'msk-tcg-v3';
-const SHELL = ['./', 'index.html', 'styles.css?v=3', 'app.js?v=3', 'deck.js?v=1', 'data/embedded_data.js?v=2', 'edit.html', 'edit.css?v=1', 'editor.js?v=1', 'assets/icon.svg', 'manifest.webmanifest'];
+const VERSION = 'msk-tcg-v4';
+const SHELL = ['./', 'index.html', 'styles.css?v=4', 'app.js?v=4', 'deck.js?v=1', 'data/embedded_data.js?v=2', 'edit.html', 'edit.css?v=1', 'editor.js?v=1', 'assets/icon.svg', 'manifest.webmanifest'];
 
 self.addEventListener('install', (e) => {
   self.skipWaiting();
