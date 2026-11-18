@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#05090f" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="MSK TCG" />
+  <meta name="description" content="MSK TCG : ouvrez des boosters d’imagerie musculosquelettique, révélez le diagnostic et complétez votre classeur." />
+  <title>MSK TCG — Cochin</title>
+  <link rel="icon" type="image/svg+xml" href="assets/icon.svg" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=1" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <!-- pull-to-refresh: rotating arrow only -->
+  <div id="ptr" aria-hidden="true">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-2.64-6.36"/><path d="M21 3v6h-6"/></svg>
+  </div>
+
+  <header class="top">
+    <div class="brand">
+      <img src="assets/icon.svg" alt="" class="brand-logo" />
+      <span class="brand-text">MSK <b>TCG</b></span>
+    </div>
+    <div class="top-right">
+      <div class="pack-counter" id="packCounter" title="Boosters disponibles"></div>
+      <button class="icon-btn" id="soundBtn" aria-label="Son"></button>
+    </div>
+  </header>
+
+  <main id="app">
+    <!-- HOME / BOOSTERS -->
+    <section class="view" id="view-boosters">
+      <div class="hero">
+        <span class="eyebrow">Imagerie ostéo-articulaire · Cochin</span>
+        <h1>Ouvrez un booster,<br /><span class="grad">révélez le diagnostic.</span></h1>
+        <div class="progress-line">
+          <div class="progress-bar"><i id="homeProgress"></i></div>
+          <span id="homeProgressText"></span>
+        </div>
+      </div>
+      <div class="booster-grid" id="boosterGrid"></div>
+      <p class="refill" id="refillText"></p>
+    </section>
+
+    <!-- BINDER -->
+    <section class="view" id="view-binder" hidden>
+      <div class="binder-head">
+        <div>
+          <h2>Classeur</h2>
+          <p class="muted" id="binderCount"></p>
+        </div>
+        <div class="binder-tools">
+          <button class="chip-btn" id="studyBtn" aria-pressed="false" title="Masquer les titres pour réviser">Révision</button>
+          <button class="chip-btn" id="gridBtn" title="Taille de la grille">▦</button>
+        </div>
+      </div>
+      <div class="chips" id="regionChips"></div>
+      <div class="rarity-stats" id="rarityStats"></div>
+      <div class="binder-grid" id="binderGrid"></div>
+    </section>
+  </main>
+
+  <nav class="bottom-nav">
+    <button data-view="boosters" class="active">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2.5" width="14" height="19" rx="2.5"/><path d="M5 7h14M9 12h6M10 16h4"/></svg>
+      <span>Boosters</span>
+    </button>
+    <button data-view="binder">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7.5" height="9" rx="1.5"/><rect x="13.5" y="3" width="7.5" height="9" rx="1.5"/><rect x="3" y="14" width="7.5" height="7" rx="1.5"/><rect x="13.5" y="14" width="7.5" height="7" rx="1.5"/></svg>
+      <span>Classeur</span>
+    </button>
+  </nav>
+
+  <!-- OPENING STAGE (fullscreen, single viewport) -->
+  <div class="stage" id="stage" hidden>
+    <div class="stage-rays" id="stageRays"></div>
+    <button class="stage-close" id="stageClose" aria-label="Fermer">✕</button>
+    <div class="stage-step" id="stageStep"></div>
+    <div class="stage-body" id="stageBody"></div>
+    <div class="stage-foot" id="stageFoot"></div>
+  </div>
+
+  <!-- INSPECT MODAL -->
+  <div class="modal" id="modal" hidden>
+    <div class="modal-card" id="modalCard"></div>
+    <button class="modal-close" id="modalClose" aria-label="Fermer">✕</button>
+  </div>
+
+  <script src="data/embedded_data.js?v=1"></script>
+  <script src="app.js?v=1"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "MSK TCG — Cochin",
+  "short_name": "MSK TCG",
+  "description": "Boosters d’imagerie musculosquelettique : révélez le diagnostic et complétez votre classeur.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#05090f",
+  "theme_color": "#05090f",
+  "lang": "fr",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
