@@ -24,21 +24,13 @@
   const RAR_ORDER = ['commune', 'peu-commune', 'rare', 'legendaire'];
 
   const BOOSTERS = [
-    { id: 'mix', name: 'Cochin Mix', kicker: 'Toutes régions', desc: 'Le grand mélange : tout le squelette.', regions: null, c1: '#38e1ff', c2: '#7c8cff' },
-    { id: 'sup', name: 'Membre supérieur', kicker: 'Épaule · Coude · Main', desc: 'Coiffe, instabilité, poignet et doigts.', regions: ['epaule', 'coude', 'main-poignet'], c1: '#22d3ee', c2: '#2563eb' },
-    { id: 'axial', name: 'Rachis & Bassin', kicker: 'Rachis · Sacro-iliaques · Hanche', desc: 'Spondylarthrite, tassements, coxarthrose.', regions: ['rachis', 'bassin-hanche'], c1: '#a78bfa', c2: '#4f46e5' },
-    { id: 'inf', name: 'Membre inférieur', kicker: 'Genou · Cheville · Pied', desc: 'Fractures, ostéochondroses, arthropathies.', regions: ['genou', 'cheville-pied'], c1: '#34d399', c2: '#0e7490' },
-    { id: 'os', name: 'Os & Systémique', kicker: 'Tumeurs · Métabolique · Génétique', desc: 'Paget, dysplasies, hémopathies, tumeurs.', regions: ['os-entier', 'parties-molles'], c1: '#ffc857', c2: '#db2777' },
+    { id: 'mix', name: 'Cochin Mix', kicker: 'Toutes régions', desc: 'Le grand mélange : tout le squelette.', regions: null, icons: ['hanche', 'epaule', 'genou', 'rachis'], c1: '#38e1ff', c2: '#7c8cff' },
+    { id: 'sup', name: 'Membre supérieur', kicker: 'Épaule · Coude · Main', desc: 'Coiffe, instabilité, poignet et doigts.', regions: ['epaule', 'coude', 'main-poignet'], icons: ['epaule', 'coude', 'main-poignet'], c1: '#22d3ee', c2: '#2563eb' },
+    { id: 'axial', name: 'Rachis & Bassin', kicker: 'Rachis · Sacro-iliaques · Hanche', desc: 'Spondylarthrite, tassements, coxarthrose.', regions: ['rachis', 'bassin-hanche'], icons: ['rachis', 'hanche'], c1: '#a78bfa', c2: '#4f46e5' },
+    { id: 'inf', name: 'Membre inférieur', kicker: 'Genou · Cheville · Pied', desc: 'Fractures, ostéochondroses, arthropathies.', regions: ['genou', 'cheville-pied'], icons: ['genou', 'jambe-cheville-pied'], c1: '#34d399', c2: '#0e7490' },
+    { id: 'os', name: 'Os & Systémique', kicker: 'Tumeurs · Métabolique · Génétique', desc: 'Paget, dysplasies, hémopathies, tumeurs.', regions: ['os-entier', 'parties-molles'], icons: ['dysostose'], c1: '#ffc857', c2: '#db2777' },
   ];
-  const usedCovers = new Set();
-  // themed boosters pick their cover first; the mix booster takes a remaining one
-  [...BOOSTERS.slice(1), BOOSTERS[0]].forEach((b) => {
-    b.pool = CARDS.filter((c) => !b.regions || b.regions.includes(c.region));
-    const free = (c) => !usedCovers.has(c.id);
-    const cover = b.pool.find((c) => free(c) && c.rarity === 'legendaire' && c.modality === 'Radiographie')
-      || b.pool.find((c) => free(c) && c.rarity === 'legendaire') || b.pool.find(free) || b.pool[0];
-    if (cover) { usedCovers.add(cover.id); b.cover = cover.img; }
-  });
+  BOOSTERS.forEach((b) => { b.pool = CARDS.filter((c) => !b.regions || b.regions.includes(c.region)); });
 
   // ---------- state ----------
   const defaults = { collection: {}, packsLeft: MAX_PACKS, resetAt: 0, sound: true, dense: false, study: false, opened: 0 };
@@ -215,7 +207,10 @@
   }
   function packArt(b) {
     return `<div class="pack" style="--c1:${b.c1};--c2:${b.c2}">
-      <div class="pack-xray" style="background-image:url('${b.cover}')"></div>
+      <div class="pack-icons n${b.icons.length}">
+        <img class="main" src="assets/themes/${b.icons[0]}.webp" alt="" draggable="false" />
+        ${b.icons.length > 1 ? `<div class="sub">${b.icons.slice(1).map((i) => `<img src="assets/themes/${i}.webp" alt="" draggable="false" />`).join('')}</div>` : ''}
+      </div>
       <div class="pack-sheen"></div>
       <div class="pack-label"><small>MSK TCG</small><span>${esc(b.name)}</span></div>
     </div>`;
@@ -273,15 +268,20 @@
   // ---------- modal (inspect + pinch-zoom) ----------
   function openModal(card, revealed) {
     const m = $('#modal'); const box = $('#modalCard'); box.innerHTML = '';
-    const c = cardEl(card, { revealed, hint: !revealed, tilt: false });
+    const c = cardEl(card, { hint: !revealed, tilt: false });
     box.appendChild(c);
+    const modalMaxH = () => {
+      const cs = getComputedStyle(m); const meta = $('.modal-meta', box);
+      return m.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom) - (meta ? meta.offsetHeight + 10 : 0);
+    };
     const info = S.collection[card.id];
     box.appendChild(el('div', 'modal-meta', `${esc(card.source)}${info ? ` · obtenue ×${info.count}` : ''} · pincez l’image pour zoomer`));
     if (!revealed) {
-      c.addEventListener('click', (e) => { if (!c.classList.contains('revealed')) { e.stopPropagation(); c.classList.add('revealed'); SFX.reveal(card.rarity); vibrate(12); } });
+      c.addEventListener('click', (e) => { if (!c.classList.contains('revealed')) { e.stopPropagation(); fitReveal(c, card, modalMaxH()); c.classList.add('revealed'); SFX.reveal(card.rarity); vibrate(12); } });
     }
     attachZoom($('.card-img', c), $('.card-img img', c));
     m.hidden = false;
+    if (revealed) { c.classList.add('no-anim'); fitReveal(c, card, modalMaxH()); c.classList.add('revealed'); requestAnimationFrame(() => c.classList.remove('no-anim')); }
   }
   function closeModal() { $('#modal').hidden = true; $('#modalCard').innerHTML = ''; }
 
@@ -447,7 +447,25 @@
     c.addEventListener('pointercancel', () => { sx = null; dx = 0; c.style.transform = ''; });
   }
 
+  // Reveal without hiding the image: the info panel first uses the black bars,
+  // then the card grows downward; the image is always shown whole.
+  function fitReveal(c, card, maxH) {
+    const inner = $('.card-inner', c), pad = $('.card-info .pad', c);
+    if (!inner || !pad) return;
+    const iw = inner.clientWidth, ih = inner.clientHeight;
+    const ratio = (card.h && card.w) ? card.h / card.w : 1;
+    const imgH = Math.min(ih, iw * ratio);
+    const infoH = pad.offsetHeight + 1;
+    if (imgH + infoH <= ih + 1) return; // fits in the bars, image untouched
+    const frame = c.offsetHeight - ih;
+    // grow the card downward; if the screen is too short, scale the image area (image stays whole)
+    const k = Math.min(1, Math.max(0.5, (maxH - frame - infoH) / imgH));
+    c.style.setProperty('--imgh', `${Math.round(imgH * k)}px`);
+    c.classList.add('grow');
+  }
+
   function reveal(c, card) {
+    fitReveal(c, card, $('#stageBody').clientHeight);
     c.classList.add('revealed'); SFX.reveal(card.rarity); vibrate(12);
     const last = OP.idx === OP.pulls.length - 1;
     const foot = $('#stageFoot'); foot.innerHTML = '';

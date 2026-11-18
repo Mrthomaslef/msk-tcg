@@ -126,7 +126,7 @@ main { padding: 0 clamp(16px, 5vw, 40px) calc(var(--nav-h) + var(--sab) + 28px);
 .booster-tile:hover { border-color: rgba(56, 225, 255, 0.45); }
 .booster-tile.disabled { opacity: 0.55; }
 .booster-tile .mini-pack { height: 150px; }
-.booster-tile .pack-xray { inset: 13% 12% 22%; }
+.booster-tile .pack-icons { inset: 13% 10% 22%; padding: 8% 6%; border-radius: 8px; }
 .booster-tile .pack-label { bottom: 8%; }
 .booster-tile .pack-label span { display: none; }
 .booster-tile .pack-label small { font-size: 0.6rem; }
@@ -159,12 +159,17 @@ main { padding: 0 clamp(16px, 5vw, 40px) calc(var(--nav-h) + var(--sab) + 28px);
   animation: sheen 3.6s ease-in-out infinite;
 }
 @keyframes sheen { 0% { transform: translateX(-40%); } 60%, 100% { transform: translateX(40%); } }
-.pack-xray {
-  position: absolute; inset: 14% 12% 26%; border-radius: 10px; opacity: 0.9;
-  background: #000 center/cover no-repeat;
-  box-shadow: inset 0 0 0 2px rgba(255,255,255,0.35), 0 6px 20px rgba(0,0,0,0.5);
-  filter: grayscale(1) contrast(1.15);
+.pack-icons {
+  position: absolute; inset: 14% 11% 25%; border-radius: 12px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4%; padding: 7% 6%;
+  background: radial-gradient(90% 70% at 50% 40%, rgba(56,225,255,0.18), transparent 70%), rgba(5,9,15,0.82);
+  box-shadow: inset 0 0 0 1.5px rgba(255,255,255,0.3), 0 6px 20px rgba(0,0,0,0.45);
 }
+.pack-icons img { display: block; object-fit: contain; filter: drop-shadow(0 0 10px rgba(56,225,255,0.45)); -webkit-user-drag: none; }
+.pack-icons .main { flex: 1.7 1 0; min-height: 0; width: 100%; }
+.pack-icons .sub { flex: 1 1 0; min-height: 0; width: 100%; display: flex; justify-content: center; gap: 8%; }
+.pack-icons .sub img { flex: 0 1 30%; min-width: 0; height: 100%; }
+.pack-icons.n1 .main { flex: 1; }
 .pack-label {
   position: absolute; left: 0; right: 0; bottom: 9%; text-align: center; padding: 0 8px;
   font-family: var(--display); font-weight: 700; color: #fff; text-shadow: 0 2px 8px rgba(0,0,0,0.6);
@@ -216,6 +221,11 @@ main { padding: 0 clamp(16px, 5vw, 40px) calc(var(--nav-h) + var(--sab) + 28px);
   color: var(--rc); background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12);
 }
 .card.revealed .card-info { grid-template-rows: 1fr; border-top-color: var(--rc); }
+/* reveal keeps the image size: the card grows instead of squeezing the image */
+.card.grow { aspect-ratio: auto; }
+.card.grow .card-inner { height: auto; }
+.card.grow .card-img { flex: none; height: var(--imgh); }
+.card.no-anim .card-info { transition: none; }
 .tap-hint {
   position: absolute; z-index: 3; left: 50%; bottom: 14px; transform: translateX(-50%);
   white-space: nowrap; padding: 7px 14px; border-radius: 999px;
