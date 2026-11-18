@@ -5,7 +5,7 @@
 Jeu de cartes à collectionner d’imagerie musculosquelettique (DA du QUIZ Cochin MSK).
 Ouvrez un booster (glissez pour le déchirer) : chaque carte n’affiche que l’image, touchez-la pour révéler le diagnostic et une description courte. Les cartes rejoignent le classeur (mode révision : titres masqués).
 
-- 355 cartes : figures du Cotten (pathologies générales, pathologies loco-régionales 2017, épaule), cas anonymisés du Quiz Imagerie (Cochin), SIMS 2025.
+- 428 cartes : figures du Cotten (pathologies générales, loco-régionales 2017, épaule), cas Cochin déjà présentés (Bone Club, présentations, cours — jamais les cas « à présenter »), images des mails d’avis (anonymisées), cas du Quiz Imagerie.
 - 5 boosters / heure, 5 cartes par booster (la plus rare en dernier), cartes jamais vues favorisées.
 - PWA statique hors-ligne : `index.html`, `styles.css`, `app.js`, `deck.js`, `data/embedded_data.js`, `cards/*.webp`.
 

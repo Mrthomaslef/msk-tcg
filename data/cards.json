@@ -260,8 +260,34 @@
   "h": 383
  },
  {
-  "id": "c062",
+  "id": "c2773",
   "n": 21,
+  "title": "Rupture transfixiante de coiffe",
+  "desc": "Arthroscanner : opacification de la bourse sous-acromio-deltoïdienne via une rupture du supra-épineux.",
+  "region": "epaule",
+  "modality": "TDM",
+  "rarity": "commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2773.webp",
+  "w": 865,
+  "h": 1000
+ },
+ {
+  "id": "c3160",
+  "n": 22,
+  "title": "Bursite sous-acromio-deltoïdienne",
+  "desc": "Épanchement liquidien en croissant de la bourse sous-acromio-deltoïdienne, coiffant la grosse tubérosité.",
+  "region": "epaule",
+  "modality": "IRM",
+  "rarity": "commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3160.webp",
+  "w": 882,
+  "h": 749
+ },
+ {
+  "id": "c062",
+  "n": 23,
   "title": "Bankart osseux",
   "desc": "Fracture du rebord glénoïdal antéro-inférieur associée à une encoche de Hill-Sachs.",
   "region": "epaule",
@@ -274,7 +300,7 @@
  },
  {
   "id": "c077",
-  "n": 22,
+  "n": 24,
   "title": "Ostéonécrose de la tête humérale",
   "desc": "Impaction de la surface articulaire et dissection sous-chondrale chez un patient sous corticoïdes.",
   "region": "epaule",
@@ -287,7 +313,7 @@
  },
  {
   "id": "c199",
-  "n": 23,
+  "n": 25,
   "title": "Syndrome SAPHO sternocostoclaviculaire",
   "desc": "Ostéocondensation et hypertrophie osseuse de la région sternocostoclaviculaire avec proliférations osseuses.",
   "region": "epaule",
@@ -300,7 +326,7 @@
  },
  {
   "id": "c316",
-  "n": 24,
+  "n": 26,
   "title": "Enchondrome huméral en IRM",
   "desc": "Lobules cartilagineux rehaussés en périphérie « en arcs et anneaux » après gadolinium.",
   "region": "epaule",
@@ -313,7 +339,7 @@
  },
  {
   "id": "c492",
-  "n": 25,
+  "n": 27,
   "title": "Luxation sterno-claviculaire post.",
   "desc": "Tête claviculaire gauche déplacée en arrière du manubrium, vers le médiastin.",
   "region": "epaule",
@@ -326,7 +352,7 @@
  },
  {
   "id": "c1010",
-  "n": 26,
+  "n": 28,
   "title": "Dénervation de la coiffe",
   "desc": "Involution graisseuse des corps musculaires supra- et infra-épineux secondaire à une dénervation (Y sagittal T1).",
   "region": "epaule",
@@ -339,7 +365,7 @@
  },
  {
   "id": "c1016",
-  "n": 27,
+  "n": 29,
   "title": "Acétabulisation de l'acromion",
   "desc": "Face inférieure de l'acromion concave moulant une tête humérale ascensionnée : rupture massive chronique de coiffe.",
   "region": "epaule",
@@ -352,7 +378,7 @@
  },
  {
   "id": "c1019",
-  "n": 28,
+  "n": 30,
   "title": "Angle critique de l'épaule",
   "desc": "Angle critique élevé (41°) par extension latérale de l'acromion, associé aux ruptures de la coiffe supérieure.",
   "region": "epaule",
@@ -365,7 +391,7 @@
  },
  {
   "id": "c1022",
-  "n": 29,
+  "n": 31,
   "title": "Amyotrophie du long biceps",
   "desc": "Chef long hyperéchogène et atrophique après rupture tendineuse, comparé au chef court normal.",
   "region": "epaule",
@@ -378,7 +404,7 @@
  },
  {
   "id": "c1024",
-  "n": 30,
+  "n": 32,
   "title": "Conflit sous-coracoïdien",
   "desc": "Tendon subscapulaire déformé contre la face postérieure du processus coracoïde, tête humérale excentrée en avant.",
   "region": "epaule",
@@ -391,7 +417,7 @@
  },
  {
   "id": "c1031",
-  "n": 31,
+  "n": 33,
   "title": "Luxation du long biceps",
   "desc": "Tendon du long biceps luxé en avant du tubercule mineur avec large rupture du subscapulaire.",
   "region": "epaule",
@@ -404,7 +430,7 @@
  },
  {
   "id": "c1044",
-  "n": 32,
+  "n": 34,
   "title": "Foramen sous-labral",
   "desc": "Passage fin et régulier du contraste sous le labrum antéro-supérieur : variante anatomique, pas une lésion.",
   "region": "epaule",
@@ -417,7 +443,7 @@
  },
  {
   "id": "c1124",
-  "n": 33,
+  "n": 35,
   "title": "Kyste paralabral",
   "desc": "Kyste en hypersignal adjacent au labrum, signant une fissure labrale sous-jacente (SLAP).",
   "region": "epaule",
@@ -430,7 +456,7 @@
  },
  {
   "id": "c1150",
-  "n": 34,
+  "n": 36,
   "title": "Déformation de Sprengel",
   "desc": "Surélévation congénitale de la scapula, dysmorphique, au bord médial convexe.",
   "region": "epaule",
@@ -443,7 +469,7 @@
  },
  {
   "id": "c1174",
-  "n": 35,
+  "n": 37,
   "title": "Syndrome de Parsonage-Turner",
   "desc": "Œdème de dénervation homogène des muscles supra- et infra-épineux (territoire du nerf suprascapulaire).",
   "region": "epaule",
@@ -456,7 +482,7 @@
  },
  {
   "id": "c1181",
-  "n": 36,
+  "n": 38,
   "title": "Kyste paralabral spinoglénoïdal",
   "desc": "Kyste mucoïde paralabral occupant l'échancrure spinoglénoïdale, comprimant le nerf suprascapulaire.",
   "region": "epaule",
@@ -469,7 +495,7 @@
  },
  {
   "id": "c1186",
-  "n": 37,
+  "n": 39,
   "title": "Omarthrose à coiffe continente",
   "desc": "Chondrolyse glénoïdale postérieure prédominante avec subluxation postérieure de la tête humérale.",
   "region": "epaule",
@@ -482,7 +508,7 @@
  },
  {
   "id": "c1192",
-  "n": 38,
+  "n": 40,
   "title": "Ostéonécrose humérale en IRM",
   "desc": "Liseré serpigineux en hyposignal T1 délimitant la zone nécrotique de la tête humérale.",
   "region": "epaule",
@@ -495,7 +521,7 @@
  },
  {
   "id": "c1198",
-  "n": 39,
+  "n": 41,
   "title": "Kyste acromio-claviculaire",
   "desc": "Volumineux kyste arthrosynovial multiloculé en hypersignal T2 au-dessus d'une articulation AC arthrosique.",
   "region": "epaule",
@@ -507,8 +533,34 @@
   "h": 379
  },
  {
+  "id": "c2801",
+  "n": 42,
+  "title": "Conflit postéro-supérieur de Walch",
+  "desc": "Arthroscanner : géodes du versant postéro-supérieur du tubercule majeur, conflit glénoïdien interne.",
+  "region": "epaule",
+  "modality": "TDM",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2801.webp",
+  "w": 706,
+  "h": 756
+ },
+ {
+  "id": "c3162",
+  "n": 43,
+  "title": "Encoche de Malgaigne en IRM",
+  "desc": "Encoche postérolatérale de la tête humérale avec œdème adjacent : séquelle de luxation antérieure.",
+  "region": "epaule",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3162.webp",
+  "w": 725,
+  "h": 709
+ },
+ {
   "id": "c032",
-  "n": 40,
+  "n": 44,
   "title": "Fracture de butée de Latarjet",
   "desc": "Greffon coracoïdien fracturé au passage de la vis, non fusionné au col antérieur de la glène.",
   "region": "epaule",
@@ -521,7 +573,7 @@
  },
  {
   "id": "c057",
-  "n": 41,
+  "n": 45,
   "title": "Complexe de Buford",
   "desc": "Absence de labrum antéro-supérieur et ligament glénohuméral moyen épais « en corde ».",
   "region": "epaule",
@@ -534,7 +586,7 @@
  },
  {
   "id": "c064",
-  "n": 42,
+  "n": 46,
   "title": "Lésion HAGL",
   "desc": "Désinsertion humérale du LGHI avec fuite de liquide le long de la diaphyse humérale (J-sign).",
   "region": "epaule",
@@ -547,7 +599,7 @@
  },
  {
   "id": "c079",
-  "n": 43,
+  "n": 47,
   "title": "Signe du geyser acromio-claviculaire",
   "desc": "Opacification d'un kyste arthrosynovial acromio-claviculaire sur rupture massive de coiffe.",
   "region": "epaule",
@@ -560,7 +612,7 @@
  },
  {
   "id": "c080",
-  "n": 44,
+  "n": 48,
   "title": "Désinsertion du grand pectoral",
   "desc": "Désinsertion complète de l'enthèse humérale avec rétraction tendineuse et hypersignal T2 local.",
   "region": "epaule",
@@ -573,7 +625,7 @@
  },
  {
   "id": "c387",
-  "n": 45,
+  "n": 49,
   "title": "Amylose AL de l'épaule",
   "desc": "Distension marquée de la bourse sous-acromiodeltoïdienne par un matériel échogène hétérogène.",
   "region": "epaule",
@@ -586,7 +638,7 @@
  },
  {
   "id": "c1025",
-  "n": 46,
+  "n": 50,
   "title": "Conflit postéro-supérieur",
   "desc": "Rupture profonde du supra-épineux postérieur venant au contact du labrum postéro-supérieur en position ABER.",
   "region": "epaule",
@@ -599,7 +651,7 @@
  },
  {
   "id": "c1051",
-  "n": 47,
+  "n": 51,
   "title": "Lésion HAGL en arthrographie",
   "desc": "Fuite de contraste le long de la diaphyse humérale témoignant d'une désinsertion humérale du LGHI.",
   "region": "epaule",
@@ -612,7 +664,7 @@
  },
  {
   "id": "c1056",
-  "n": 48,
+  "n": 52,
   "title": "Lésion GLAD",
   "desc": "Fissure du cartilage glénoïdal antéro-inférieur opacifiée en arthroscanner, labrum non détaché.",
   "region": "epaule",
@@ -625,7 +677,7 @@
  },
  {
   "id": "c1071",
-  "n": 49,
+  "n": 53,
   "title": "Lésion de Bennett",
   "desc": "Ossification glénoïdale postéro-inférieure avec encoche de McLaughlin et désinsertion labrale postérieure.",
   "region": "epaule",
@@ -638,7 +690,7 @@
  },
  {
   "id": "c1182",
-  "n": 50,
+  "n": 54,
   "title": "Atteinte du nerf axillaire",
   "desc": "Dégénérescence graisseuse et atrophie isolée du muscle petit rond en coupe sagittale T1.",
   "region": "epaule",
@@ -651,7 +703,7 @@
  },
  {
   "id": "c1201",
-  "n": 51,
+  "n": 55,
   "title": "Ostéochondrome scapulaire",
   "desc": "Ostéochondrome de la face antérieure de la scapula au contact du gril costal, cause de scapula à ressaut.",
   "region": "epaule",
@@ -663,8 +715,21 @@
   "h": 429
  },
  {
+  "id": "c2622",
+  "n": 56,
+  "title": "Migration intra-osseuse d'apatite",
+  "desc": "Calcification en hyposignal du tubercule majeur avec œdème médullaire étendu de la tête humérale.",
+  "region": "epaule",
+  "modality": "IRM",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2622.webp",
+  "w": 464,
+  "h": 635
+ },
+ {
   "id": "c131",
-  "n": 52,
+  "n": 57,
   "title": "Épaule de Milwaukee",
   "desc": "Ascension de la tête humérale avec destruction et fragmentation osseuse gléno-humérale.",
   "region": "epaule",
@@ -677,7 +742,7 @@
  },
  {
   "id": "c232",
-  "n": 53,
+  "n": 58,
   "title": "Arthropathie neurogène (syringomyélie)",
   "desc": "Destruction et fragmentation massive de l'extrémité humérale proximale avec débris : épaule de Charcot.",
   "region": "epaule",
@@ -690,7 +755,7 @@
  },
  {
   "id": "c1048",
-  "n": 54,
+  "n": 59,
   "title": "Lésion BHAGL",
   "desc": "Ossification séquellaire au col huméral médial : avulsion osseuse humérale du ligament gléno-huméral inférieur.",
   "region": "epaule",
@@ -703,7 +768,7 @@
  },
  {
   "id": "c503",
-  "n": 55,
+  "n": 60,
   "title": "Fracture supracondylienne",
   "desc": "Trait supracondylien ; la ligne humérale antérieure ne traverse plus le capitulum de profil.",
   "region": "coude",
@@ -716,7 +781,7 @@
  },
  {
   "id": "c506",
-  "n": 56,
+  "n": 61,
   "title": "Avulsion de l'épicondyle médial",
   "desc": "Noyau de l'épicondyle médial arraché et déplacé vers le bas chez l'enfant.",
   "region": "coude",
@@ -729,7 +794,7 @@
  },
  {
   "id": "c507",
-  "n": 57,
+  "n": 62,
   "title": "Fracture de la tête radiale",
   "desc": "Fracture de la tête radiale (Mason II) avec épanchement soulevant les liserés graisseux.",
   "region": "coude",
@@ -742,7 +807,7 @@
  },
  {
   "id": "c509",
-  "n": 58,
+  "n": 63,
   "title": "Luxation postérieure du coude",
   "desc": "Luxation postérieure avec fractures associées du processus coronoïde et de la tête radiale.",
   "region": "coude",
@@ -755,7 +820,7 @@
  },
  {
   "id": "c1205",
-  "n": 59,
+  "n": 64,
   "title": "Épicondylite médiale",
   "desc": "Enthésophyte de l'épicondyle médial à l'insertion du tendon commun des fléchisseurs-pronateurs.",
   "region": "coude",
@@ -768,7 +833,7 @@
  },
  {
   "id": "c1208",
-  "n": 60,
+  "n": 65,
   "title": "Rupture du biceps brachial distal",
   "desc": "Rupture complète du tendon distal du biceps avec importante rétraction tendinomusculaire proximale.",
   "region": "coude",
@@ -781,7 +846,7 @@
  },
  {
   "id": "c1215",
-  "n": 61,
+  "n": 66,
   "title": "Bursite olécrânienne",
   "desc": "Collection de la bourse olécrânienne avec rehaussement synovial périphérique après gadolinium.",
   "region": "coude",
@@ -794,7 +859,7 @@
  },
  {
   "id": "c502",
-  "n": 62,
+  "n": 67,
   "title": "Fracture du capitulum",
   "desc": "Fragment capitulaire et trochléen latéral ascensionné en avant de la palette humérale.",
   "region": "coude",
@@ -807,7 +872,7 @@
  },
  {
   "id": "c1213",
-  "n": 63,
+  "n": 68,
   "title": "Rupture du tendon tricipital",
   "desc": "Solution de continuité du tendon du triceps à son insertion olécrânienne, comblée de liquide en T2.",
   "region": "coude",
@@ -820,7 +885,7 @@
  },
  {
   "id": "c109",
-  "n": 64,
+  "n": 69,
   "title": "Arthropathie à CPP du coude",
   "desc": "Ostéocondensation sous-chondrale en bande à limite nette et calcifications capsulo-synoviales.",
   "region": "coude",
@@ -833,7 +898,7 @@
  },
  {
   "id": "c148",
-  "n": 65,
+  "n": 70,
   "title": "Coude rhumatoïde détruit",
   "desc": "Destruction du coude avec résorption osseuse considérable des berges articulaires.",
   "region": "coude",
@@ -846,7 +911,7 @@
  },
  {
   "id": "c1210",
-  "n": 66,
+  "n": 71,
   "title": "Bursite bicipito-radiale",
   "desc": "Bursopathie liquidienne autour du tendon distal du biceps, associée à une tendinopathie distale.",
   "region": "coude",
@@ -859,7 +924,7 @@
  },
  {
   "id": "c1217",
-  "n": 67,
+  "n": 72,
   "title": "Séquelle d'ostéonécrose de la trochlée",
   "desc": "Concavité centrale de la trochlée humérale réalisant un aspect en « V inversé ».",
   "region": "coude",
@@ -871,8 +936,21 @@
   "h": 435
  },
  {
+  "id": "c3376",
+  "n": 73,
+  "title": "Schwannome du nerf ulnaire",
+  "desc": "Masse hypoéchogène fusiforme excentrée sur le nerf, refoulant les fascicules nerveux en périphérie.",
+  "region": "coude",
+  "modality": "Échographie",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3376.webp",
+  "w": 738,
+  "h": 384
+ },
+ {
   "id": "c310",
-  "n": 68,
+  "n": 74,
   "title": "Ostéosarcome parostéal",
   "desc": "Masse ossifiée dense en « champignon » semblant posée sur la corticale humérale.",
   "region": "coude",
@@ -885,7 +963,7 @@
  },
  {
   "id": "c135",
-  "n": 69,
+  "n": 75,
   "title": "Synovite rhumatoïde au Doppler",
   "desc": "Synovite de la 2e MCP avec hyperhémie en mode Doppler énergie.",
   "region": "main-poignet",
@@ -898,7 +976,7 @@
  },
  {
   "id": "c142",
-  "n": 70,
+  "n": 76,
   "title": "Coup de vent cubital rhumatoïde",
   "desc": "Arthrite évoluée des MCP avec déviation ulnaire des phalanges proximales.",
   "region": "main-poignet",
@@ -911,7 +989,7 @@
  },
  {
   "id": "c180",
-  "n": 71,
+  "n": 77,
   "title": "Rhumatisme psoriasique digital",
   "desc": "Aspect en « pencil-in-cup » des IPD et ankylose d'une IPD : atteinte distale destructrice et ankylosante.",
   "region": "main-poignet",
@@ -924,7 +1002,7 @@
  },
  {
   "id": "c211",
-  "n": 72,
+  "n": 78,
   "title": "Acro-ostéolyse sclérodermique",
   "desc": "Résorption des houppes phalangiennes avec atrophie pulpaire et calcifications des parties molles.",
   "region": "main-poignet",
@@ -937,7 +1015,7 @@
  },
  {
   "id": "c237",
-  "n": 73,
+  "n": 79,
   "title": "Hyperparathyroïdie : résorption",
   "desc": "Résorption sous-périostée du bord radial des phalanges moyennes et résorption des houppes phalangiennes.",
   "region": "main-poignet",
@@ -950,7 +1028,7 @@
  },
  {
   "id": "c340",
-  "n": 74,
+  "n": 80,
   "title": "Kyste synovial dorsal du poignet",
   "desc": "Formation anéchogène polylobée reliée à l'interligne articulaire par un pédicule.",
   "region": "main-poignet",
@@ -963,7 +1041,7 @@
  },
  {
   "id": "c456",
-  "n": 75,
+  "n": 81,
   "title": "Maladie des exostoses multiples",
   "desc": "Raccourcissement de l'ulna, luxation de la tête radiale et déformation de Madelung.",
   "region": "main-poignet",
@@ -976,7 +1054,7 @@
  },
  {
   "id": "c511",
-  "n": 76,
+  "n": 82,
   "title": "Fracture de Galeazzi",
   "desc": "Fracture du tiers distal du radius associée à une luxation de la tête ulnaire.",
   "region": "main-poignet",
@@ -989,7 +1067,7 @@
  },
  {
   "id": "c512",
-  "n": 77,
+  "n": 83,
   "title": "Fracture en « motte de beurre »",
   "desc": "Bombement cortical métaphysaire radial distal chez l'enfant et fracture de la styloïde ulnaire.",
   "region": "main-poignet",
@@ -1002,7 +1080,7 @@
  },
  {
   "id": "c513",
-  "n": 78,
+  "n": 84,
   "title": "Fracture de Pouteau-Colles",
   "desc": "Trait transversal supra-articulaire du radius avec bascule dorsale de l'épiphyse.",
   "region": "main-poignet",
@@ -1015,7 +1093,7 @@
  },
  {
   "id": "c514",
-  "n": 79,
+  "n": 85,
   "title": "Fracture de Goyrand-Smith",
   "desc": "Trait supra-articulaire du radius avec déplacement palmaire du fragment distal.",
   "region": "main-poignet",
@@ -1028,7 +1106,7 @@
  },
  {
   "id": "c515",
-  "n": 80,
+  "n": 86,
   "title": "Fracture de Hutchinson",
   "desc": "Fracture articulaire détachant la styloïde radiale (fracture du chauffeur).",
   "region": "main-poignet",
@@ -1041,7 +1119,7 @@
  },
  {
   "id": "c517",
-  "n": 81,
+  "n": 87,
   "title": "Pseudarthrose du scaphoïde",
   "desc": "Trait scaphoïdien persistant à berges nettes et condensées, sans consolidation.",
   "region": "main-poignet",
@@ -1054,7 +1132,7 @@
  },
  {
   "id": "c1248",
-  "n": 82,
+  "n": 88,
   "title": "Doigt en maillet (mallet finger)",
   "desc": "Flexion fixée de l'IPD par rupture du tendon extenseur terminal, confirmée en échographie.",
   "region": "main-poignet",
@@ -1066,8 +1144,34 @@
   "h": 432
  },
  {
+  "id": "c2045",
+  "n": 89,
+  "title": "Doigt à ressaut (poulie A1)",
+  "desc": "Épaississement en anneau autour des tendons fléchisseurs d'un doigt : poulie A1 épaissie et ténosynovite.",
+  "region": "main-poignet",
+  "modality": "IRM",
+  "rarity": "commune",
+  "source": "Mails d’avis — cas Cochin",
+  "img": "cards/c2045.webp",
+  "w": 801,
+  "h": 429
+ },
+ {
+  "id": "c2666",
+  "n": 90,
+  "title": "Rhizarthrose",
+  "desc": "Pincement trapézo-métacarpien avec ostéophytose et subluxation latérale de la base du 1er métacarpien.",
+  "region": "main-poignet",
+  "modality": "Radiographie",
+  "rarity": "commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2666.webp",
+  "w": 452,
+  "h": 630
+ },
+ {
   "id": "c096",
-  "n": 83,
+  "n": 91,
   "title": "Arthrose digitale érosive",
   "desc": "Érosion centrale de l'interphalangienne distale donnant une déformation en « aile de mouette ».",
   "region": "main-poignet",
@@ -1080,7 +1184,7 @@
  },
  {
   "id": "c107",
-  "n": 84,
+  "n": 92,
   "title": "SLAC wrist et chondrocalcinose",
   "desc": "Diastasis scapho-lunaire, ascension du capitatum et engrènement radio-scaphoïdien sur dépôts de CPP.",
   "region": "main-poignet",
@@ -1093,7 +1197,7 @@
  },
  {
   "id": "c141",
-  "n": 85,
+  "n": 93,
   "title": "Ankylose carpienne rhumatoïde",
   "desc": "Ankylose radio-carpienne, intercarpienne et carpo-métacarpienne au stade évolué de la PR.",
   "region": "main-poignet",
@@ -1106,7 +1210,7 @@
  },
  {
   "id": "c178",
-  "n": 86,
+  "n": 94,
   "title": "Dactylite psoriasique",
   "desc": "Atteinte en rayon avec efflorescences osseuses et érosions marginales, sans raréfaction osseuse.",
   "region": "main-poignet",
@@ -1119,7 +1223,7 @@
  },
  {
   "id": "c209",
-  "n": 87,
+  "n": 95,
   "title": "Calcinose de la sclérodermie",
   "desc": "Multiples calcifications amorphes des parties molles digitales, en amas crayeux.",
   "region": "main-poignet",
@@ -1132,7 +1236,7 @@
  },
  {
   "id": "c344",
-  "n": 88,
+  "n": 96,
   "title": "Tumeur glomique sous-unguéale",
   "desc": "Nodule hypoéchogène très hypervascularisé en Doppler, érodant la face dorsale de P3.",
   "region": "main-poignet",
@@ -1145,7 +1249,7 @@
  },
  {
   "id": "c369",
-  "n": 89,
+  "n": 97,
   "title": "Acrométastase",
   "desc": "Ostéolyse destructrice de la phalange distale révélant une métastase de carcinome bronchique.",
   "region": "main-poignet",
@@ -1158,7 +1262,7 @@
  },
  {
   "id": "c416",
-  "n": 90,
+  "n": 98,
   "title": "Drépanocytose : syndrome main-pied",
   "desc": "Ostéolyse focale d'un métacarpien avec apposition périostée et tuméfaction des parties molles.",
   "region": "main-poignet",
@@ -1171,7 +1275,7 @@
  },
  {
   "id": "c460",
-  "n": 91,
+  "n": 99,
   "title": "Enchondromatose multiple de la main",
   "desc": "Multiples lacunes métaphysodiaphysaires soufflant les phalanges et métacarpiens (maladie d'Ollier).",
   "region": "main-poignet",
@@ -1184,7 +1288,7 @@
  },
  {
   "id": "c484",
-  "n": 92,
+  "n": 100,
   "title": "Macrodactylie",
   "desc": "Croissance exagérée de l'os et des tissus mous de doigts : syndrome de Protée.",
   "region": "main-poignet",
@@ -1197,7 +1301,7 @@
  },
  {
   "id": "c487",
-  "n": 93,
+  "n": 101,
   "title": "Syndrome d'Ehlers-Danlos",
   "desc": "Hyperlaxité articulaire avec flexion carpienne et du pouce inhabituellement marquée.",
   "region": "main-poignet",
@@ -1210,7 +1314,7 @@
  },
  {
   "id": "c521",
-  "n": 94,
+  "n": 102,
   "title": "Fracture de Rolando",
   "desc": "Fracture articulaire comminutive à 3 fragments de la base du 1er métacarpien.",
   "region": "main-poignet",
@@ -1223,7 +1327,7 @@
  },
  {
   "id": "c1155",
-  "n": 95,
+  "n": 103,
   "title": "Syndactylie osseuse",
   "desc": "Fusion des phalanges distales avec syndactylie membraneuse de la 3e commissure.",
   "region": "main-poignet",
@@ -1236,7 +1340,7 @@
  },
  {
   "id": "c1156",
-  "n": 96,
+  "n": 104,
   "title": "Duplication du pouce",
   "desc": "Duplication complète de la phalange distale (Wassel II) avec élargissement de P1.",
   "region": "main-poignet",
@@ -1249,7 +1353,7 @@
  },
  {
   "id": "c1225",
-  "n": 97,
+  "n": 105,
   "title": "Conflit ulnocarpien",
   "desc": "Œdème focal du bord ulnaire proximal du lunatum, en regard de la tête ulnaire (variance positive).",
   "region": "main-poignet",
@@ -1262,7 +1366,7 @@
  },
  {
   "id": "c1235",
-  "n": 98,
+  "n": 106,
   "title": "Rupture du ligament scapholunaire",
   "desc": "Arthrographie médiocarpienne : passage du contraste dans la radiocarpienne à travers l'interligne scapholunaire.",
   "region": "main-poignet",
@@ -1275,7 +1379,7 @@
  },
  {
   "id": "c1249",
-  "n": 99,
+  "n": 107,
   "title": "Jersey finger",
   "desc": "Avulsion osseuse de la base palmaire de P3 avec tendon fléchisseur profond inséré sur le fragment.",
   "region": "main-poignet",
@@ -1287,8 +1391,73 @@
   "h": 406
  },
  {
+  "id": "c2675",
+  "n": 108,
+  "title": "Désinsertion ulnaire du TFCC (1B)",
+  "desc": "Arthroscanner : passage de contraste à l'insertion ulnaire du complexe fibrocartilagineux triangulaire.",
+  "region": "main-poignet",
+  "modality": "TDM",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2675.webp",
+  "w": 450,
+  "h": 465
+ },
+ {
+  "id": "c2760",
+  "n": 109,
+  "title": "SNAC wrist (stade 2)",
+  "desc": "Pseudarthrose du scaphoïde avec pôle proximal dense nécrotique et pincement radio-scaphoïdien.",
+  "region": "main-poignet",
+  "modality": "Radiographie",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2760.webp",
+  "w": 1000,
+  "h": 795
+ },
+ {
+  "id": "c3121",
+  "n": 110,
+  "title": "Fracture de l'hamulus de l'hamatum",
+  "desc": "Trait de fracture non déplacé à la base du crochet de l'hamatum (flèche) en coupe axiale.",
+  "region": "main-poignet",
+  "modality": "TDM",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3121.webp",
+  "w": 540,
+  "h": 215
+ },
+ {
+  "id": "c3390",
+  "n": 111,
+  "title": "Carpe bossu (carpal boss)",
+  "desc": "Saillie osseuse dorsale ostéophytique à l'interligne carpo-métacarpienne de profil.",
+  "region": "main-poignet",
+  "modality": "Radiographie",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3390.webp",
+  "w": 622,
+  "h": 805
+ },
+ {
+  "id": "c3393",
+  "n": 112,
+  "title": "Enthésopathie calcifiante du FUC",
+  "desc": "Calcification amorphe des parties molles au contact du pisiforme, à l'insertion du fléchisseur ulnaire du carpe.",
+  "region": "main-poignet",
+  "modality": "Radiographie",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3393.webp",
+  "w": 592,
+  "h": 648
+ },
+ {
   "id": "c121",
-  "n": 100,
+  "n": 113,
   "title": "Hémochromatose : MCP",
   "desc": "Atteinte des MCP 2-3 avec ostéophytes en crochet du bord radial des têtes et microgéodes.",
   "region": "main-poignet",
@@ -1301,7 +1470,7 @@
  },
  {
   "id": "c179",
-  "n": 101,
+  "n": 114,
   "title": "Rhumatisme psoriasique mutilant",
   "desc": "Ankylose interphalangienne, résorption osseuse sévère et luxation des têtes métacarpiennes.",
   "region": "main-poignet",
@@ -1314,7 +1483,7 @@
  },
  {
   "id": "c318",
-  "n": 102,
+  "n": 115,
   "title": "Exostose en tourelle",
   "desc": "Ossification juxtacorticale dorsale d'une phalange, évolution d'une prolifération ostéochondromateuse (Nora).",
   "region": "main-poignet",
@@ -1327,7 +1496,7 @@
  },
  {
   "id": "c324",
-  "n": 103,
+  "n": 116,
   "title": "Kyste épidermoïde phalangien",
   "desc": "Petite ostéolyse bien limitée et aspécifique de la houppe de la phalange distale.",
   "region": "main-poignet",
@@ -1340,7 +1509,7 @@
  },
  {
   "id": "c519",
-  "n": 104,
+  "n": 117,
   "title": "Luxation radiocarpienne",
   "desc": "Luxation du carpe sur le radius associée à des fractures des styloïdes radiale et ulnaire.",
   "region": "main-poignet",
@@ -1353,7 +1522,7 @@
  },
  {
   "id": "c1149",
-  "n": 105,
+  "n": 118,
   "title": "Syndrome de Poland : main",
   "desc": "Brachymésophalangie : raccourcissement des phalanges intermédiaires associé à l'hypoplasie pectorale.",
   "region": "main-poignet",
@@ -1366,7 +1535,7 @@
  },
  {
   "id": "c1153",
-  "n": 106,
+  "n": 119,
   "title": "Déficit longitudinal méso-axial",
   "desc": "Élargissement de la 2e commissure et absence du 3e rayon digital, 2e et 4e métacarpiens dysmorphiques.",
   "region": "main-poignet",
@@ -1379,7 +1548,7 @@
  },
  {
   "id": "c1154",
-  "n": 107,
+  "n": 120,
   "title": "Synostose carpienne multiple",
   "desc": "Coalitions scapho-trapézienne et triquétro-hamatale avec bases métacarpiennes dysmorphiques.",
   "region": "main-poignet",
@@ -1392,7 +1561,7 @@
  },
  {
   "id": "c1158",
-  "n": 108,
+  "n": 121,
   "title": "Brachymétacarpie (Albright)",
   "desc": "Métacarpiens courts et trapus et calcifications sous-cutanées : ostéodystrophie héréditaire d'Albright.",
   "region": "main-poignet",
@@ -1405,7 +1574,7 @@
  },
  {
   "id": "c1160",
-  "n": 109,
+  "n": 122,
   "title": "Déformation de Madelung en IRM",
   "desc": "Ligament de Vickers tendu du versant ulnaire du radius distal au triquétrum, avec pont d'épiphysiodèse ulnaire.",
   "region": "main-poignet",
@@ -1418,7 +1587,7 @@
  },
  {
   "id": "c1239",
-  "n": 110,
+  "n": 123,
   "title": "Rupture lunotriquétrale avec VISI",
   "desc": "Rupture de l'arc de Gilula par ascension du triquétrum et bascule palmaire du lunatum de profil.",
   "region": "main-poignet",
@@ -1431,7 +1600,7 @@
  },
  {
   "id": "c1243",
-  "n": 111,
+  "n": 124,
   "title": "Névrome du nerf médian",
   "desc": "Augmentation fusiforme du calibre du nerf médian au canal carpien, en continuité avec le nerf.",
   "region": "main-poignet",
@@ -1444,7 +1613,7 @@
  },
  {
   "id": "c1250",
-  "n": 112,
+  "n": 125,
   "title": "Rupture de la poulie A2",
   "desc": "Écart anormal entre les tendons fléchisseurs et la corticale palmaire de P1, majoré en flexion contrariée.",
   "region": "main-poignet",
@@ -1456,8 +1625,138 @@
   "h": 397
  },
  {
+  "id": "c2006",
+  "n": 126,
+  "title": "Tumeur profonde de la loge palmaire",
+  "desc": "Masse ovalaire profonde de la loge palmaire moyenne, sous l'aponévrose palmaire, en hypersignal T2 hétérogène.",
+  "region": "main-poignet",
+  "modality": "IRM",
+  "rarity": "rare",
+  "source": "Mails d’avis — cas Cochin",
+  "img": "cards/c2006.webp",
+  "w": 807,
+  "h": 392
+ },
+ {
+  "id": "c2041",
+  "n": 127,
+  "title": "Instabilité de l'extenseur ulnaire",
+  "desc": "Tendon ECU subluxé hors de sa gouttière ulnaire, entouré d'un épanchement de sa gaine (ténosynovite).",
+  "region": "main-poignet",
+  "modality": "IRM",
+  "rarity": "rare",
+  "source": "Mails d’avis — cas Cochin",
+  "img": "cards/c2041.webp",
+  "w": 639,
+  "h": 487
+ },
+ {
+  "id": "c2049",
+  "n": 128,
+  "title": "Déchirure des lombricaux (grimpeur)",
+  "desc": "Hypersignal œdémateux et liquidien des muscles lombricaux entre les tendons fléchisseurs, en coronal T2 FS.",
+  "region": "main-poignet",
+  "modality": "IRM",
+  "rarity": "rare",
+  "source": "Mails d’avis — cas Cochin",
+  "img": "cards/c2049.webp",
+  "w": 651,
+  "h": 681
+ },
+ {
+  "id": "c2265",
+  "n": 129,
+  "title": "Bourneville : lésions des phalanges",
+  "desc": "Lésions pseudo-kystiques des phalanges à bords nets et condensés, avec appositions périostées : sclérose tubéreuse.",
+  "region": "main-poignet",
+  "modality": "Radiographie",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2265.webp",
+  "w": 550,
+  "h": 606
+ },
+ {
+  "id": "c2761",
+  "n": 130,
+  "title": "SLAC wrist stade 3 en arthroscanner",
+  "desc": "Diastasis scapholunaire, passage de contraste entre compartiments et chondropathie luno-capitale.",
+  "region": "main-poignet",
+  "modality": "TDM",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2761.webp",
+  "w": 1000,
+  "h": 897
+ },
+ {
+  "id": "c3014",
+  "n": 131,
+  "title": "Pachydermopériostose : doigts",
+  "desc": "Hippocratisme digital : parties molles distales hypertrophiées, touffes phalangiennes élargies et irrégulières.",
+  "region": "main-poignet",
+  "modality": "Radiographie",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3014.webp",
+  "w": 1000,
+  "h": 818
+ },
+ {
+  "id": "c3046",
+  "n": 132,
+  "title": "Lésion de Nora (BPOP)",
+  "desc": "Masse ossifiée sessile appendue à la corticale, sans continuité corticomédullaire avec l'os porteur.",
+  "region": "main-poignet",
+  "modality": "TDM",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3046.webp",
+  "w": 477,
+  "h": 352
+ },
+ {
+  "id": "c3117",
+  "n": 133,
+  "title": "Fracture du lunatum (Kienböck)",
+  "desc": "Lunatum dense, scléreux, avec fracture aiguë du pôle dorsal (flèche) : Kienböck révélé par une fracture.",
+  "region": "main-poignet",
+  "modality": "TDM",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3117.webp",
+  "w": 469,
+  "h": 416
+ },
+ {
+  "id": "c3131",
+  "n": 134,
+  "title": "Luxation périlunaire trans-scaphoïde",
+  "desc": "Capitatum luxé en arrière du lunatum de profil ; fracture du scaphoïde et arcs de Gilula rompus de face.",
+  "region": "main-poignet",
+  "modality": "Radiographie",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3131.webp",
+  "w": 1000,
+  "h": 728
+ },
+ {
+  "id": "c3222",
+  "n": 135,
+  "title": "Kyste de la loge de Guyon",
+  "desc": "Kyste synovial lobulé en hypersignal T2 au bord ulnaire du carpe, comprimant le nerf ulnaire (loge de Guyon).",
+  "region": "main-poignet",
+  "modality": "IRM",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3222.webp",
+  "w": 960,
+  "h": 723
+ },
+ {
   "id": "c218",
-  "n": 113,
+  "n": 136,
   "title": "Ostéite de Perthes-Jüngling",
   "desc": "Aspect grillagé, en dentelle, de l'os trabéculaire des phalanges : sarcoïdose osseuse.",
   "region": "main-poignet",
@@ -1470,7 +1769,7 @@
  },
  {
   "id": "c461",
-  "n": 114,
+  "n": 137,
   "title": "Syndrome de Maffucci",
   "desc": "Enchondromatose déformante de la main associée à de multiples phlébolithes des parties molles.",
   "region": "main-poignet",
@@ -1483,7 +1782,7 @@
  },
  {
   "id": "c578",
-  "n": 115,
+  "n": 138,
   "title": "Lésion métaphysaire en anse de seau",
   "desc": "Liseré métaphysaire arciforme du radius distal : lésion classique très spécifique de maltraitance.",
   "region": "main-poignet",
@@ -1496,7 +1795,7 @@
  },
  {
   "id": "c1151",
-  "n": 116,
+  "n": 139,
   "title": "Main bote radiale",
   "desc": "Agénésie du radius avec incurvation ulnaire et absence complète du 1er rayon.",
   "region": "main-poignet",
@@ -1509,7 +1808,7 @@
  },
  {
   "id": "c1159",
-  "n": 117,
+  "n": 140,
   "title": "Déformation de Madelung",
   "desc": "Pont d'épiphysiodèse radiale distale, surface articulaire radiale inclinée en bas et en dedans.",
   "region": "main-poignet",
@@ -1522,7 +1821,7 @@
  },
  {
   "id": "c1246",
-  "n": 118,
+  "n": 141,
   "title": "Syndrome du marteau hypothénarien",
   "desc": "Angioscanner VRT : thrombose de l'artère ulnaire superficielle et de l'arcade palmaire superficielle.",
   "region": "main-poignet",
@@ -1534,8 +1833,21 @@
   "h": 647
  },
  {
+  "id": "c2255",
+  "n": 142,
+  "title": "Acropachie thyroïdienne de la main",
+  "desc": "Appositions périostées spiculées, bilatérales, des diaphyses des phalanges et métacarpiens (flèches) après Basedow.",
+  "region": "main-poignet",
+  "modality": "Radiographie",
+  "rarity": "legendaire",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2255.webp",
+  "w": 627,
+  "h": 950
+ },
+ {
   "id": "c049",
-  "n": 119,
+  "n": 143,
   "title": "Fractures vertébrales ostéoporotiques",
   "desc": "Tassements cunéiformes de T9 et T12 avec fente sous-chondrale, pédicules et moelle graisseuse respectés.",
   "region": "rachis",
@@ -1548,7 +1860,7 @@
  },
  {
   "id": "c166",
-  "n": 120,
+  "n": 144,
   "title": "Syndesmophytes",
   "desc": "Syndesmophytes fins et verticaux reliant les coins vertébraux.",
   "region": "rachis",
@@ -1561,7 +1873,7 @@
  },
  {
   "id": "c242",
-  "n": 121,
+  "n": 145,
   "title": "Tassements cortisoniques",
   "desc": "Tassements vertébraux multiples avec bande de condensation (cal) sous les plateaux fracturés.",
   "region": "rachis",
@@ -1574,7 +1886,7 @@
  },
  {
   "id": "c248",
-  "n": 122,
+  "n": 146,
   "title": "Spondylodiscite",
   "desc": "Pincement discal et érosions floues des deux plateaux vertébraux en miroir, sans ostéocondensation.",
   "region": "rachis",
@@ -1587,7 +1899,7 @@
  },
  {
   "id": "c252",
-  "n": 123,
+  "n": 147,
   "title": "Spondylodiscite tuberculeuse",
   "desc": "Abcès discovertébral à paroi rehaussée en T1 gadolinium, avec extension épidurale et paravertébrale.",
   "region": "rachis",
@@ -1600,7 +1912,7 @@
  },
  {
   "id": "c278",
-  "n": 124,
+  "n": 148,
   "title": "Tassements ostéoporotiques anciens",
   "desc": "Vertèbres tassées de signal graisseux T1 identique aux vertèbres saines : fractures anciennes consolidées.",
   "region": "rachis",
@@ -1613,7 +1925,7 @@
  },
  {
   "id": "c286",
-  "n": 125,
+  "n": 149,
   "title": "Vertèbre pagétique en cadre",
   "desc": "Vertèbre élargie avec condensation périphérique des corticales donnant un aspect « en cadre ».",
   "region": "rachis",
@@ -1626,7 +1938,7 @@
  },
  {
   "id": "c302",
-  "n": 126,
+  "n": 150,
   "title": "Ostéome ostéoïde de l'arc postérieur",
   "desc": "Nidus arrondi à centre calcifié dans l'arc postérieur, entouré d'une ostéocondensation réactionnelle.",
   "region": "rachis",
@@ -1639,7 +1951,7 @@
  },
  {
   "id": "c352",
-  "n": 127,
+  "n": 151,
   "title": "Schwannome en sablier",
   "desc": "Masse intra- et extracanalaire élargissant le foramen intervertébral en « sablier ».",
   "region": "rachis",
@@ -1652,7 +1964,7 @@
  },
  {
   "id": "c365",
-  "n": 128,
+  "n": 152,
   "title": "Vertèbre « borgne »",
   "desc": "Disparition du contour cortical d'un pédicule de face : ostéolyse métastatique (cancer du sein).",
   "region": "rachis",
@@ -1665,7 +1977,7 @@
  },
  {
   "id": "c367",
-  "n": 129,
+  "n": 153,
   "title": "Vertèbre « ivoire »",
   "desc": "Ostéocondensation homogène de corps vertébraux entiers : métastases condensantes d'un cancer du sein.",
   "region": "rachis",
@@ -1678,7 +1990,7 @@
  },
  {
   "id": "c376",
-  "n": 130,
+  "n": 154,
   "title": "Vertébroplastie de métastases",
   "desc": "Ciment intrasomatique dense comblant les ostéolyses vertébrales de métastases prostatiques.",
   "region": "rachis",
@@ -1691,7 +2003,7 @@
  },
  {
   "id": "c526",
-  "n": 131,
+  "n": 155,
   "title": "Contusion médullaire",
   "desc": "Hypersignal T2 intramédullaire cervical avec tuméfaction du cordon après traumatisme.",
   "region": "rachis",
@@ -1704,7 +2016,7 @@
  },
  {
   "id": "c531",
-  "n": 132,
+  "n": 156,
   "title": "Fracture du pendu (hangman)",
   "desc": "Fracture des isthmes de C2 avec antélisthésis de C2 et atteinte discale C2-C3.",
   "region": "rachis",
@@ -1717,7 +2029,7 @@
  },
  {
   "id": "c537",
-  "n": 133,
+  "n": 157,
   "title": "Burst fracture de C7",
   "desc": "Fracture comminutive du corps de C7 avec recul d'un fragment postérieur dans le canal.",
   "region": "rachis",
@@ -1730,7 +2042,7 @@
  },
  {
   "id": "c1143",
-  "n": 134,
+  "n": 158,
   "title": "Rachischisis postérieur",
   "desc": "Absence de processus épineux visibles en T12 et L1 : défaut de fusion de l'arc postérieur.",
   "region": "rachis",
@@ -1743,7 +2055,7 @@
  },
  {
   "id": "c1254",
-  "n": 135,
+  "n": 159,
   "title": "Uncarthrose cervicale",
   "desc": "Ostéophytose des processus unciformes pluriétagée bien visible sur le cliché de face.",
   "region": "rachis",
@@ -1756,7 +2068,7 @@
  },
  {
   "id": "c1257",
-  "n": 136,
+  "n": 160,
   "title": "Hernie discale cervicale",
   "desc": "Hernie discale postérolatérale droite C6-C7 responsable d’une névralgie cervicobrachiale.",
   "region": "rachis",
@@ -1769,7 +2081,7 @@
  },
  {
   "id": "c1275",
-  "n": 137,
+  "n": 161,
   "title": "Discarthrose et vide discal",
   "desc": "Pincements discaux, ostéophytose marginale et clarté gazeuse intradiscale (phénomène du vide).",
   "region": "rachis",
@@ -1782,7 +2094,7 @@
  },
  {
   "id": "c1287",
-  "n": 138,
+  "n": 162,
   "title": "Spondylolisthésis par lyse isthmique",
   "desc": "Glissement antérieur de L5 sur S1 de stade 2 de Meyerding sur lyse isthmique bilatérale.",
   "region": "rachis",
@@ -1795,7 +2107,7 @@
  },
  {
   "id": "c1291",
-  "n": 139,
+  "n": 163,
   "title": "Hyperostose vertébrale thoracique",
   "desc": "Coulée ossifiante antérieure continue sur plusieurs étages thoraciques avec disques préservés.",
   "region": "rachis",
@@ -1808,7 +2120,7 @@
  },
  {
   "id": "c1295",
-  "n": 140,
+  "n": 164,
   "title": "Hernie intraspongieuse",
   "desc": "Hernie du disque dans le plateau vertébral entourée d'un œdème de l'os spongieux adjacent.",
   "region": "rachis",
@@ -1821,7 +2133,7 @@
  },
  {
   "id": "c1301",
-  "n": 141,
+  "n": 165,
   "title": "Fracture vertébrale ostéoporotique",
   "desc": "Recul du coin postéro-supérieur et bande d'impaction trabéculaire sous le plateau vertébral fracturé.",
   "region": "rachis",
@@ -1834,7 +2146,7 @@
  },
  {
   "id": "c1310",
-  "n": 142,
+  "n": 166,
   "title": "Scoliose lombaire",
   "desc": "Courbure frontale à grande convexité lombaire gauche avec rotation vertébrale sur le cliché debout.",
   "region": "rachis",
@@ -1846,8 +2158,21 @@
   "h": 666
  },
  {
+  "id": "c2826",
+  "n": 167,
+  "title": "Métastase vertébrale mammaire",
+  "desc": "Corps vertébral lombaire hétérogène, mixte lytique et condensant, typique d'une métastase mammaire.",
+  "region": "rachis",
+  "modality": "TDM",
+  "rarity": "commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2826.webp",
+  "w": 359,
+  "h": 358
+ },
+ {
   "id": "c025",
-  "n": 143,
+  "n": 168,
   "title": "Myélome avec fracture pathologique",
   "desc": "Tassement de T3 avec bombement convexe du mur postérieur et épidurite antérieure réduisant le canal.",
   "region": "rachis",
@@ -1860,7 +2185,7 @@
  },
  {
   "id": "c151",
-  "n": 144,
+  "n": 169,
   "title": "Diastasis C1-C2 rhumatoïde",
   "desc": "Élargissement de l'espace atloïdo-odontoïdien antérieur et réduction de la distance postérieure.",
   "region": "rachis",
@@ -1873,7 +2198,7 @@
  },
  {
   "id": "c169",
-  "n": 145,
+  "n": 170,
   "title": "Lésions de Romanus",
   "desc": "Ostéite des coins vertébraux en hypersignal T2 triangulaire le long du mur antérieur.",
   "region": "rachis",
@@ -1886,7 +2211,7 @@
  },
  {
   "id": "c182",
-  "n": 146,
+  "n": 171,
   "title": "Parasyndesmophytes psoriasiques",
   "desc": "Ponts osseux latéraux épais, à distance du disque et asymétriques : parasyndesmophytes du rhumatisme psoriasique.",
   "region": "rachis",
@@ -1899,7 +2224,7 @@
  },
  {
   "id": "c255",
-  "n": 147,
+  "n": 172,
   "title": "Abcès paravertébraux tuberculeux",
   "desc": "Volumineux abcès des psoas bilatéraux contenant des calcifications : signature tuberculeuse.",
   "region": "rachis",
@@ -1912,7 +2237,7 @@
  },
  {
   "id": "c260",
-  "n": 148,
+  "n": 173,
   "title": "Abcès épidural postérieur",
   "desc": "Collection épidurale postérieure étendue sur plusieurs niveaux, à paroi rehaussée après gadolinium.",
   "region": "rachis",
@@ -1925,7 +2250,7 @@
  },
  {
   "id": "c276",
-  "n": 149,
+  "n": 174,
   "title": "Phénomène du vide intrasomatique",
   "desc": "Fente gazeuse linéaire sous le plateau d'une vertèbre tassée : signe en faveur d'une fracture ostéoporotique.",
   "region": "rachis",
@@ -1938,7 +2263,7 @@
  },
  {
   "id": "c305",
-  "n": 150,
+  "n": 175,
   "title": "Ostéoblastome cervical",
   "desc": "Lésion expansive calcifiée de C3 réduisant le foramen transversaire, avec condensation du corps vertébral.",
   "region": "rachis",
@@ -1951,7 +2276,7 @@
  },
  {
   "id": "c323",
-  "n": 151,
+  "n": 176,
   "title": "Kyste osseux anévrysmal vertébral",
   "desc": "Multiples logettes avec niveaux liquide-liquide en T2, comprimant la moelle.",
   "region": "rachis",
@@ -1964,7 +2289,7 @@
  },
  {
   "id": "c329",
-  "n": 152,
+  "n": 177,
   "title": "Chordome sacré",
   "desc": "Masse sacrée lytique médiane avec fragments osseux intralésionnels et extensions en « pseudopodes ».",
   "region": "rachis",
@@ -1977,7 +2302,7 @@
  },
  {
   "id": "c406",
-  "n": 153,
+  "n": 178,
   "title": "Vertebra plana",
   "desc": "Effondrement complet de plusieurs corps vertébraux en galette chez l'enfant : histiocytose langerhansienne.",
   "region": "rachis",
@@ -1990,7 +2315,7 @@
  },
  {
   "id": "c419",
-  "n": 154,
+  "n": 179,
   "title": "Drépanocytose : vertèbres en « H »",
   "desc": "Enfoncements centraux en marche d'escalier des plateaux vertébraux sur plusieurs étages.",
   "region": "rachis",
@@ -2003,7 +2328,7 @@
  },
  {
   "id": "c473",
-  "n": 155,
+  "n": 180,
   "title": "NF1 : ectasie durale",
   "desc": "Méningocèle sacrée avec scalloping postérieur du corps vertébral de L5 en T2.",
   "region": "rachis",
@@ -2016,7 +2341,7 @@
  },
  {
   "id": "c529",
-  "n": 156,
+  "n": 181,
   "title": "Fracture de Jefferson",
   "desc": "Disjonction divergente des masses latérales de C1 sur le cliché bouche ouverte.",
   "region": "rachis",
@@ -2029,7 +2354,7 @@
  },
  {
   "id": "c1137",
-  "n": 157,
+  "n": 182,
   "title": "Bloc vertébral congénital",
   "desc": "Fusion T9-T11 avec persistance de disques rudimentaires d'épaisseur réduite.",
   "region": "rachis",
@@ -2042,7 +2367,7 @@
  },
  {
   "id": "c1141",
-  "n": 158,
+  "n": 183,
   "title": "Syndrome de Klippel-Feil",
   "desc": "Fusions vertébrales cervicales multiples des corps et des arcs postérieurs ; cou court.",
   "region": "rachis",
@@ -2055,7 +2380,7 @@
  },
  {
   "id": "c1261",
-  "n": 159,
+  "n": 184,
   "title": "Myélopathie cervicarthrosique",
   "desc": "Protrusions discales étagées avec atrophie médullaire et hypersignal T2 intramédullaire étendu.",
   "region": "rachis",
@@ -2068,7 +2393,7 @@
  },
  {
   "id": "c1272",
-  "n": 160,
+  "n": 185,
   "title": "Ossification du LLP",
   "desc": "Bande d'ossification dense le long du mur postérieur des corps vertébraux cervicaux, rétrécissant le canal.",
   "region": "rachis",
@@ -2081,7 +2406,7 @@
  },
  {
   "id": "c1281",
-  "n": 161,
+  "n": 186,
   "title": "Lipomatose épidurale",
   "desc": "Excès de graisse épidurale déformant le sac dural en « Y » (aspect trifolié) à l'étage lombaire bas.",
   "region": "rachis",
@@ -2094,7 +2419,7 @@
  },
  {
   "id": "c1284",
-  "n": 162,
+  "n": 187,
   "title": "Kyste arachnoïdien extradural",
   "desc": "Kyste en hypersignal T2 liquidien périradiculaire (type kyste de Tarlov) contenant une racine.",
   "region": "rachis",
@@ -2107,7 +2432,7 @@
  },
  {
   "id": "c1305",
-  "n": 163,
+  "n": 188,
   "title": "Fente liquidienne intrasomatique",
   "desc": "Fente en hypersignal T2 sous le plateau de T12 fracturé avec recul du coin postéro-supérieur : fracture ostéoporotique.",
   "region": "rachis",
@@ -2119,8 +2444,34 @@
   "h": 493
  },
  {
+  "id": "c2846",
+  "n": 189,
+  "title": "Myélome en TDM corps entier",
+  "desc": "Déminéralisation diffuse, lacunes multiples des corps vertébraux et tassements étagés.",
+  "region": "rachis",
+  "modality": "TDM",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2846.webp",
+  "w": 384,
+  "h": 1000
+ },
+ {
+  "id": "c3107",
+  "n": 190,
+  "title": "Dystrophie rachidienne de croissance",
+  "desc": "Plateaux vertébraux ondulés et irréguliers, empreintes discales étagées (flèches) : maladie de Scheuermann.",
+  "region": "rachis",
+  "modality": "TDM",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3107.webp",
+  "w": 781,
+  "h": 599
+ },
+ {
   "id": "c067",
-  "n": 164,
+  "n": 191,
   "title": "Avulsion radiculaire plexus brachial",
   "desc": "Plage médullaire en hyposignal T2 (hémosidérine) en regard d'une avulsion radiculaire traumatique.",
   "region": "rachis",
@@ -2133,7 +2484,7 @@
  },
  {
   "id": "c113",
-  "n": 165,
+  "n": 192,
   "title": "Calcification du ligament transverse",
   "desc": "Calcifications curvilignes du ligament transverse en arrière de l'odontoïde (dépôts de CPP).",
   "region": "rachis",
@@ -2146,7 +2497,7 @@
  },
  {
   "id": "c258",
-  "n": 166,
+  "n": 193,
   "title": "Spondylodiscite du nourrisson",
   "desc": "Inflammation des plateaux L5-S1 et disque hétérogène en partie hypo-intense en T2 (Kingella kingae).",
   "region": "rachis",
@@ -2159,7 +2510,7 @@
  },
  {
   "id": "c400",
-  "n": 167,
+  "n": 194,
   "title": "Vertèbres en « maillot de rugby »",
   "desc": "Ostéocondensation en bandes des plateaux vertébraux alternant avec des bandes claires : myélofibrose.",
   "region": "rachis",
@@ -2172,7 +2523,7 @@
  },
  {
   "id": "c481",
-  "n": 168,
+  "n": 195,
   "title": "Sclérose tubéreuse de Bourneville",
   "desc": "Multiples petits îlots ostéocondensants ovalaires des corps vertébraux et du bassin.",
   "region": "rachis",
@@ -2185,7 +2536,7 @@
  },
  {
   "id": "c527",
-  "n": 169,
+  "n": 196,
   "title": "Dissection traumatique vertébrale",
   "desc": "Fracture du foramen transverse avec thrombose de l'artère vertébrale en angioscanner.",
   "region": "rachis",
@@ -2198,7 +2549,7 @@
  },
  {
   "id": "c530",
-  "n": 170,
+  "n": 197,
   "title": "Fracture de l'odontoïde déplacée",
   "desc": "Déplacement postérieur de l'odontoïde fracturée avec compression médullaire en T2.",
   "region": "rachis",
@@ -2211,7 +2562,7 @@
  },
  {
   "id": "c544",
-  "n": 171,
+  "n": 198,
   "title": "Fracture-dislocation rachidienne",
   "desc": "Trait horizontal du corps vertébral avec translation par cisaillement et dissection intimale aortique associée.",
   "region": "rachis",
@@ -2224,7 +2575,7 @@
  },
  {
   "id": "c1142",
-  "n": 172,
+  "n": 199,
   "title": "Rachischisis antérieur",
   "desc": "Fente sagittale du corps de L4 (vertèbre papillon) avec hypertrophie compensatrice de L3.",
   "region": "rachis",
@@ -2237,7 +2588,7 @@
  },
  {
   "id": "c1144",
-  "n": 173,
+  "n": 200,
   "title": "Occipitalisation de l'atlas",
   "desc": "Fusion des masses latérales de C1 avec les condyles occipitaux, associée à une impression basilaire.",
   "region": "rachis",
@@ -2250,7 +2601,7 @@
  },
  {
   "id": "c1145",
-  "n": 174,
+  "n": 201,
   "title": "Hypoplasie de l'odontoïde",
   "desc": "Odontoïde hypoplasique avec hypertrophie de l'arc antérieur de C1 et rétrécissement canalaire.",
   "region": "rachis",
@@ -2263,7 +2614,7 @@
  },
  {
   "id": "c1268",
-  "n": 175,
+  "n": 202,
   "title": "Fracture sur hyperostose vertébrale",
   "desc": "Fracture horizontale transcorporéale de C5 sur rachis cervical ankylosé par l'hyperostose.",
   "region": "rachis",
@@ -2276,7 +2627,7 @@
  },
  {
   "id": "c1279",
-  "n": 176,
+  "n": 203,
   "title": "Arachnoïdite lombaire",
   "desc": "Racines accolées à la paroi du sac dural donnant un aspect de « sac vide » en T2.",
   "region": "rachis",
@@ -2288,8 +2639,47 @@
   "h": 406
  },
  {
+  "id": "c2621",
+  "n": 204,
+  "title": "Tendinite calcifiante du long du cou",
+  "desc": "Calcification amorphe prévertébrale en regard de C1-C2, dans le muscle long du cou : cause de cervicalgie aiguë.",
+  "region": "rachis",
+  "modality": "TDM",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2621.webp",
+  "w": 709,
+  "h": 579
+ },
+ {
+  "id": "c2868",
+  "n": 205,
+  "title": "Pannus rhumatoïde C1-C2",
+  "desc": "Pannus synovial en hypersignal T2 FS autour de l'odontoïde (flèche), au contact de la moelle.",
+  "region": "rachis",
+  "modality": "IRM",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2868.webp",
+  "w": 662,
+  "h": 565
+ },
+ {
+  "id": "c3054",
+  "n": 206,
+  "title": "Spondylodiscite à Candida",
+  "desc": "Lyse du corps vertébral de L1 avec géode antérolatérale et sclérose réactionnelle : spondylodiscite fongique.",
+  "region": "rachis",
+  "modality": "TDM",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3054.webp",
+  "w": 490,
+  "h": 562
+ },
+ {
   "id": "c132",
-  "n": 177,
+  "n": 207,
   "title": "Ochronose (alcaptonurie)",
   "desc": "Calcifications discales et discopathies sévères pluriétagées.",
   "region": "rachis",
@@ -2302,7 +2692,7 @@
  },
  {
   "id": "c133",
-  "n": 178,
+  "n": 208,
   "title": "Hyperoxalurie primitive (oxalose)",
   "desc": "Ostéocondensation axiale, néphrocalcinose et résorption sous-chondrale des plateaux vertébraux.",
   "region": "rachis",
@@ -2315,7 +2705,7 @@
  },
  {
   "id": "c167",
-  "n": 179,
+  "n": 209,
   "title": "Signe du rail central",
   "desc": "Ossification interépineuse en « rail central » avec ankylose sacro-iliaque et zygapophysaire.",
   "region": "rachis",
@@ -2328,7 +2718,7 @@
  },
  {
   "id": "c172",
-  "n": 180,
+  "n": 210,
   "title": "Ectasie durale de la SA",
   "desc": "Sac dural dilaté à contours festonnés avec diverticules érodant l'arc postérieur.",
   "region": "rachis",
@@ -2341,7 +2731,7 @@
  },
  {
   "id": "c1132",
-  "n": 181,
+  "n": 211,
   "title": "Régression caudale",
   "desc": "Interruption brutale du sacrum à hauteur des échancrures sciatiques avec diastasis pubien majeur.",
   "region": "rachis",
@@ -2354,7 +2744,7 @@
  },
  {
   "id": "c1140",
-  "n": 182,
+  "n": 212,
   "title": "Diastématomyélie",
   "desc": "Deux hémi-moelles séparées par un éperon intracanalaire en coupe axiale T2.",
   "region": "rachis",
@@ -2367,7 +2757,7 @@
  },
  {
   "id": "c1273",
-  "n": 183,
+  "n": 213,
   "title": "Spondylolyse cervicale",
   "desc": "Fente verticale corticalisée des massifs articulaires de C6 avec défaut de fermeture de l'épineuse.",
   "region": "rachis",
@@ -2380,7 +2770,7 @@
  },
  {
   "id": "c1412",
-  "n": 184,
+  "n": 214,
   "title": "Charcot-Marie-Tooth 1A",
   "desc": "Hypertrophie considérable et diffuse des racines L3 à S1 du plexus lombosacré en IRM.",
   "region": "rachis",
@@ -2393,7 +2783,7 @@
  },
  {
   "id": "c046",
-  "n": 185,
+  "n": 215,
   "title": "Métastase lytique du toit acétabulaire",
   "desc": "Ostéolyse de la zone portante du toit du cotyle, à haut risque fracturaire.",
   "region": "bassin-hanche",
@@ -2406,7 +2796,7 @@
  },
  {
   "id": "c088",
-  "n": 186,
+  "n": 216,
   "title": "Coxarthrose supéro-latérale",
   "desc": "Pincement supéro-latéral, ostéophytose péricapitale et épaississement cortical médial du col.",
   "region": "bassin-hanche",
@@ -2419,7 +2809,7 @@
  },
  {
   "id": "c159",
-  "n": 187,
+  "n": 217,
   "title": "Sacro-iliite bilatérale",
   "desc": "Berges sacro-iliaques floues et irrégulières avec ostéocondensation prédominant au tiers inférieur.",
   "region": "bassin-hanche",
@@ -2432,7 +2822,7 @@
  },
  {
   "id": "c162",
-  "n": 188,
+  "n": 218,
   "title": "Ankylose sacro-iliaque",
   "desc": "Fusion osseuse bilatérale des sacro-iliaques sans ostéocondensation résiduelle.",
   "region": "bassin-hanche",
@@ -2445,7 +2835,7 @@
  },
  {
   "id": "c164",
-  "n": 189,
+  "n": 219,
   "title": "Sacro-iliite active en IRM",
   "desc": "Œdème osseux sous-chondral bilatéral prédominant au pied des sacro-iliaques.",
   "region": "bassin-hanche",
@@ -2458,7 +2848,7 @@
  },
  {
   "id": "c268",
-  "n": 190,
+  "n": 220,
   "title": "Infection de prothèse de hanche",
   "desc": "Ostéolyses multifocales au contact de la tige et apposition périostée circonférentielle.",
   "region": "bassin-hanche",
@@ -2471,7 +2861,7 @@
  },
  {
   "id": "c321",
-  "n": 191,
+  "n": 221,
   "title": "Kyste osseux anévrysmal",
   "desc": "Lésion ostéolytique excentrée soufflante du fémur circonscrite par une fine coque osseuse.",
   "region": "bassin-hanche",
@@ -2484,7 +2874,7 @@
  },
  {
   "id": "c462",
-  "n": 192,
+  "n": 222,
   "title": "Dysplasie fibreuse",
   "desc": "Lésion fémorale de densité en verre dépoli cerclée d'un épais liseré de sclérose.",
   "region": "bassin-hanche",
@@ -2497,7 +2887,7 @@
  },
  {
   "id": "c555",
-  "n": 193,
+  "n": 223,
   "title": "Fracture du col fémoral Garden III",
   "desc": "Fracture cervicale complète déplacée en varus, travées céphaliques non alignées avec le cotyle.",
   "region": "bassin-hanche",
@@ -2510,7 +2900,7 @@
  },
  {
   "id": "c1312",
-  "n": 194,
+  "n": 224,
   "title": "Ostéonécrose de la tête fémorale",
   "desc": "Fine dissection sous-chondrale (coquille d'œuf) avec décroché du contour épiphysaire : stade III de Ficat.",
   "region": "bassin-hanche",
@@ -2523,7 +2913,7 @@
  },
  {
   "id": "c1317",
-  "n": 195,
+  "n": 225,
   "title": "Fracture de fatigue du col fémoral",
   "desc": "Bande de condensation du bord inférieur du col en radiographie, trait en hyposignal entouré d'œdème en T2.",
   "region": "bassin-hanche",
@@ -2536,7 +2926,7 @@
  },
  {
   "id": "c1341",
-  "n": 196,
+  "n": 226,
   "title": "Coxarthrose évoluée",
   "desc": "Pincement supérolatéral complet, ostéophytose acétabulaire et péricapitale, buttressing du col fémoral.",
   "region": "bassin-hanche",
@@ -2549,7 +2939,7 @@
  },
  {
   "id": "c1346",
-  "n": 197,
+  "n": 227,
   "title": "Rétroversion acétabulaire",
   "desc": "Signe du croisement : le mur postérieur croise le mur antérieur de l'acétabulum, dessinant un « 8 ».",
   "region": "bassin-hanche",
@@ -2562,7 +2952,7 @@
  },
  {
   "id": "c1356",
-  "n": 198,
+  "n": 228,
   "title": "Ostéolyse périprothétique",
   "desc": "Ostéolyse granulomateuse expansive du fémur proximal et autour de la cupule, étendue à la branche iliopubienne.",
   "region": "bassin-hanche",
@@ -2575,7 +2965,7 @@
  },
  {
   "id": "c1361",
-  "n": 199,
+  "n": 229,
   "title": "Ossifications périprothétiques",
   "desc": "Ossifications hétérotopiques étendues des parties molles autour d'une prothèse totale de hanche (stade 3).",
   "region": "bassin-hanche",
@@ -2588,7 +2978,7 @@
  },
  {
   "id": "c1377",
-  "n": 200,
+  "n": 230,
   "title": "Rupture du moyen glutéal",
   "desc": "Lame tendineuse rompue, rétractée et détendue avec dégénérescence graisseuse du corps musculaire en T1.",
   "region": "bassin-hanche",
@@ -2601,7 +2991,7 @@
  },
  {
   "id": "c045",
-  "n": 201,
+  "n": 231,
   "title": "Fracture sacrée en H par insuffisance",
   "desc": "Bandes d'œdème verticales des ailerons sacrés réunies par un trait transversal : aspect en H.",
   "region": "bassin-hanche",
@@ -2614,7 +3004,7 @@
  },
  {
   "id": "c174",
-  "n": 202,
+  "n": 232,
   "title": "Ankylose coxo-fémorale",
   "desc": "Fusion osseuse coxo-fémorale associée à une ankylose sacro-iliaque.",
   "region": "bassin-hanche",
@@ -2627,7 +3017,7 @@
  },
  {
   "id": "c201",
-  "n": 203,
+  "n": 233,
   "title": "Sacro-iliite du SAPHO",
   "desc": "Ostéocondensation iliaque gauche massive contrastant avec des érosions sacro-iliaques peu marquées.",
   "region": "bassin-hanche",
@@ -2640,7 +3030,7 @@
  },
  {
   "id": "c282",
-  "n": 204,
+  "n": 234,
   "title": "Stries de Looser-Milkman",
   "desc": "Bandes claires transversales des branches iliopubienne et ischiopubienne sans cal : ostéomalacie.",
   "region": "bassin-hanche",
@@ -2653,7 +3043,7 @@
  },
  {
   "id": "c300",
-  "n": 205,
+  "n": 235,
   "title": "Calcinose pseudo-tumorale",
   "desc": "Masse péri-articulaire coxofémorale faite de multiples lobules calcifiés avec résorption de la tête fémorale.",
   "region": "bassin-hanche",
@@ -2666,7 +3056,7 @@
  },
  {
   "id": "c361",
-  "n": 206,
+  "n": 236,
   "title": "Chondromatose synoviale primitive",
   "desc": "Multiples chondromes libres ossifiés, arrondis et calibrés, dans la cavité articulaire de hanche.",
   "region": "bassin-hanche",
@@ -2679,7 +3069,7 @@
  },
  {
   "id": "c551",
-  "n": 207,
+  "n": 237,
   "title": "Avulsion de l'épine iliaque ant.-inf.",
   "desc": "Fragment apophysaire de l'épine iliaque antéro-inférieure arraché et déplacé vers le bas (droit fémoral).",
   "region": "bassin-hanche",
@@ -2692,7 +3082,7 @@
  },
  {
   "id": "c552",
-  "n": 208,
+  "n": 238,
   "title": "Séquelle d'avulsion ischiatique",
   "desc": "Volumineux fragment apophysaire ischiatique aux contours corticalisés, en pseudarthrose.",
   "region": "bassin-hanche",
@@ -2705,7 +3095,7 @@
  },
  {
   "id": "c553",
-  "n": 209,
+  "n": 239,
   "title": "Luxation postérieure de hanche",
   "desc": "Tête fémorale luxée en arrière avec fracture de la paroi postérieure, fragment ascensionné.",
   "region": "bassin-hanche",
@@ -2718,7 +3108,7 @@
  },
  {
   "id": "c1318",
-  "n": 210,
+  "n": 240,
   "title": "Fracture d'insuffisance acétabulaire",
   "desc": "Trait en hyposignal du toit de l'acétabulum entouré d'œdème médullaire en T1 et T2 chez un sujet ostéoporotique.",
   "region": "bassin-hanche",
@@ -2731,7 +3121,7 @@
  },
  {
   "id": "c1322",
-  "n": 211,
+  "n": 241,
   "title": "Maladie de Legg-Perthes-Calvé",
   "desc": "Dissection sous-chondrale antérolatérale de l'épiphyse fémorale, bien visible sur le profil.",
   "region": "bassin-hanche",
@@ -2744,7 +3134,7 @@
  },
  {
   "id": "c1335",
-  "n": 212,
+  "n": 242,
   "title": "Épiphysiolyse fémorale supérieure",
   "desc": "Physe floue, épiphyse moins haute et opacité métaphysaire en croissant (metaphyseal blanch sign).",
   "region": "bassin-hanche",
@@ -2757,7 +3147,7 @@
  },
  {
   "id": "c1337",
-  "n": 213,
+  "n": 243,
   "title": "Luxation congénitale de hanche",
   "desc": "Tête fémorale décentrée avec fond cotyloïdien élargi à 12 mm (pulvinar) et limbus verticalisé.",
   "region": "bassin-hanche",
@@ -2770,7 +3160,7 @@
  },
  {
   "id": "c1344",
-  "n": 214,
+  "n": 244,
   "title": "Protrusion acétabulaire",
   "desc": "Fosse acétabulaire projetée en dedans de la ligne ilio-ischiatique de plus de 3 mm, couverture excessive.",
   "region": "bassin-hanche",
@@ -2783,7 +3173,7 @@
  },
  {
   "id": "c1369",
-  "n": 215,
+  "n": 245,
   "title": "Rupture du droit fémoral proximal",
   "desc": "Rupture complète des tendons direct et indirect du droit fémoral avec hypersignal T2 hématique.",
   "region": "bassin-hanche",
@@ -2796,7 +3186,7 @@
  },
  {
   "id": "c1372",
-  "n": 216,
+  "n": 246,
   "title": "Ostéome du droit fémoral",
   "desc": "Ossification mature allongée le long du droit fémoral, séquelle d'une désinsertion proximale.",
   "region": "bassin-hanche",
@@ -2809,7 +3199,7 @@
  },
  {
   "id": "c1389",
-  "n": 217,
+  "n": 247,
   "title": "Désinsertion des ischiojambiers",
   "desc": "Désinsertion complète de l'enthèse ischiatique avec volumineux hématome comprimant le nerf sciatique.",
   "region": "bassin-hanche",
@@ -2821,8 +3211,34 @@
   "h": 375
  },
  {
+  "id": "c2001",
+  "n": 248,
+  "title": "Métastase lytique ilio-pubienne",
+  "desc": "Volumineuse masse tissulaire en hypersignal envahissant la loge obturatrice et les adducteurs.",
+  "region": "bassin-hanche",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "source": "Mails d’avis — cas Cochin",
+  "img": "cards/c2001.webp",
+  "w": 926,
+  "h": 714
+ },
+ {
+  "id": "c2907",
+  "n": 249,
+  "title": "SpA : sacro-iliite et coxite",
+  "desc": "Sacro-iliite bilatérale avec pincement concentrique des deux coxo-fémorales chez un adulte jeune.",
+  "region": "bassin-hanche",
+  "modality": "Radiographie",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2907.webp",
+  "w": 881,
+  "h": 756
+ },
+ {
   "id": "c089",
-  "n": 218,
+  "n": 250,
   "title": "Coxarthrose destructrice rapide",
   "desc": "Interligne initialement normal évoluant en chondrolyse complète avec destruction céphalique en 2 ans.",
   "region": "bassin-hanche",
@@ -2835,7 +3251,7 @@
  },
  {
   "id": "c359",
-  "n": 219,
+  "n": 251,
   "title": "Ostéochondromatose synoviale",
   "desc": "Multiples corps ostéochondraux et élargissement de l'interligne coxofémoral gauche.",
   "region": "bassin-hanche",
@@ -2848,7 +3264,7 @@
  },
  {
   "id": "c549",
-  "n": 220,
+  "n": 252,
   "title": "Fracture transverse du sacrum",
   "desc": "Fracture en zone 3 de Denis avec déplacement antérieur du bloc supérieur comprimant les racines sacrées.",
   "region": "bassin-hanche",
@@ -2861,7 +3277,7 @@
  },
  {
   "id": "c1328",
-  "n": 221,
+  "n": 253,
   "title": "Séquelle de Legg-Perthes-Calvé",
   "desc": "Coxa magna, contour céphalique irrégulier et ligne arciforme métaphysaire du sagging rope sign.",
   "region": "bassin-hanche",
@@ -2874,7 +3290,7 @@
  },
  {
   "id": "c1333",
-  "n": 222,
+  "n": 254,
   "title": "Ostéochondrite disséquante post-LPC",
   "desc": "Fragment ostéochondral cerclé d'un liseré dans l'épiphyse fémorale, séquelle de Legg-Perthes-Calvé.",
   "region": "bassin-hanche",
@@ -2887,7 +3303,7 @@
  },
  {
   "id": "c1353",
-  "n": 223,
+  "n": 255,
   "title": "Piédestal sous la tige fémorale",
   "desc": "Ossification endostée en regard de l'extrémité distale de la tige, témoin d'un transfert de contraintes.",
   "region": "bassin-hanche",
@@ -2900,7 +3316,7 @@
  },
  {
   "id": "c1362",
-  "n": 224,
+  "n": 256,
   "title": "Conflit cupule–iliopsoas",
   "desc": "Débord antérieur de la cupule de 14 mm en TDM, source de conflit avec le tendon iliopsoas.",
   "region": "bassin-hanche",
@@ -2913,7 +3329,7 @@
  },
  {
   "id": "c1367",
-  "n": 225,
+  "n": 257,
   "title": "Pseudo-tumeur sur PTH métal-métal",
   "desc": "Collection à paroi épaisse et contenu liquidien au contact de la prothèse, collet visible en profondeur.",
   "region": "bassin-hanche",
@@ -2926,7 +3342,7 @@
  },
  {
   "id": "c1374",
-  "n": 226,
+  "n": 258,
   "title": "Hématome ossifié du muscle iliaque",
   "desc": "Ossification curviligne séquellaire d'un hématome sous-périosté le long de la face endopelvienne de l'ilium.",
   "region": "bassin-hanche",
@@ -2939,7 +3355,7 @@
  },
  {
   "id": "c1393",
-  "n": 227,
+  "n": 259,
   "title": "Para-ostéoarthropathie neurogène",
   "desc": "Opacité floue péri-articulaire après coma, puis ossification organisée à différenciation corticospongieuse.",
   "region": "bassin-hanche",
@@ -2952,7 +3368,7 @@
  },
  {
   "id": "c1409",
-  "n": 228,
+  "n": 260,
   "title": "Schwannome du nerf pudendal",
   "desc": "Masse ovalaire bien limitée, rehaussée après gadolinium, sur le trajet du nerf pudendal.",
   "region": "bassin-hanche",
@@ -2964,8 +3380,34 @@
   "h": 466
  },
  {
+  "id": "c2971",
+  "n": 261,
+  "title": "Métallose : pseudotumeur de PTH",
+  "desc": "Collection refoulant l'iliopsoas, à paroi et septa très denses (débris métalliques), ostéolyse acétabulaire.",
+  "region": "bassin-hanche",
+  "modality": "TDM",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2971.webp",
+  "w": 750,
+  "h": 770
+ },
+ {
+  "id": "c3262",
+  "n": 262,
+  "title": "Ossification d'hématome des adducteurs",
+  "desc": "Ossification linéaire de l'hématome à la face médiale de la cuisse, 6 semaines après désinsertion des adducteurs.",
+  "region": "bassin-hanche",
+  "modality": "Radiographie",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3262.webp",
+  "w": 920,
+  "h": 1000
+ },
+ {
   "id": "c435",
-  "n": 229,
+  "n": 263,
   "title": "Cornes iliaques (onychodysplasie)",
   "desc": "Excroissances osseuses bilatérales de la face postérieure des ailes iliaques (cornes iliaques).",
   "region": "bassin-hanche",
@@ -2978,7 +3420,7 @@
  },
  {
   "id": "c1411",
-  "n": 230,
+  "n": 264,
   "title": "Neurofibrome plexiforme sacré",
   "desc": "Multiples masses nodulaires en hypersignal le long du plexus lombosacré dans une neurofibromatose de type 1.",
   "region": "bassin-hanche",
@@ -2991,7 +3433,7 @@
  },
  {
   "id": "c097",
-  "n": 231,
+  "n": 265,
   "title": "Chondrocalcinose articulaire",
   "desc": "Liseré calcique linéaire et granuleux du cartilage hyalin, parallèle à l'os sous-chondral.",
   "region": "genou",
@@ -3004,7 +3446,7 @@
  },
  {
   "id": "c222",
-  "n": 232,
+  "n": 266,
   "title": "Arthropathie hémophilique du genou",
   "desc": "Pincement diffus, érosions marginales et volumineuses géodes sous-chondrales chez un hémophile.",
   "region": "genou",
@@ -3017,7 +3459,7 @@
  },
  {
   "id": "c309",
-  "n": 233,
+  "n": 267,
   "title": "Ostéosarcome mixte",
   "desc": "Lésion métaphysaire avec minéralisation tumorale des parties molles et éperon de Codman.",
   "region": "genou",
@@ -3030,7 +3472,7 @@
  },
  {
   "id": "c311",
-  "n": 234,
+  "n": 268,
   "title": "Ostéochondrome pédiculé",
   "desc": "Exostose pédiculée en continuité corticospongieuse avec l'os porteur, orientée à l'opposé de l'articulation.",
   "region": "genou",
@@ -3043,7 +3485,7 @@
  },
  {
   "id": "c326",
-  "n": 235,
+  "n": 269,
   "title": "Fibrome non ossifiant",
   "desc": "Lacune corticale métaphysaire tibiale excentrée, multiloculée, à bord scléreux festonné.",
   "region": "genou",
@@ -3056,7 +3498,7 @@
  },
  {
   "id": "c356",
-  "n": 236,
+  "n": 270,
   "title": "TCG ténosynoviale localisée",
   "desc": "Nodule synovial postérieur bien limité du genou, hypo-intense en T1 et rehaussé.",
   "region": "genou",
@@ -3069,7 +3511,7 @@
  },
  {
   "id": "c559",
-  "n": 237,
+  "n": 271,
   "title": "Fracture du plateau tibial latéral",
   "desc": "Fracture mixte : enfoncement du plateau latéral et séparation d'un fragment marginal.",
   "region": "genou",
@@ -3082,7 +3524,7 @@
  },
  {
   "id": "c561",
-  "n": 238,
+  "n": 272,
   "title": "Luxation aiguë de la patella",
   "desc": "Œdème osseux du condyle latéral avec lésion ostéochondrale à sa partie postérieure, épanchement.",
   "region": "genou",
@@ -3095,7 +3537,7 @@
  },
  {
   "id": "c1415",
-  "n": 239,
+  "n": 273,
   "title": "Dysplasie de trochlée",
   "desc": "Signe du croisement : la ligne du fond de trochlée rejoint le bord antérieur des condyles sur le profil strict.",
   "region": "genou",
@@ -3108,7 +3550,7 @@
  },
  {
   "id": "c1416",
-  "n": 240,
+  "n": 274,
   "title": "Éperon sus-trochléen",
   "desc": "Saillie osseuse sus-trochléenne sur le profil strict : dysplasie de trochlée de type B.",
   "region": "genou",
@@ -3121,7 +3563,7 @@
  },
  {
   "id": "c1428",
-  "n": 241,
+  "n": 275,
   "title": "Rupture du tendon quadricipital",
   "desc": "Solution de continuité complète du tendon quadricipital avec hématome et tendon patellaire ondulé.",
   "region": "genou",
@@ -3134,7 +3576,7 @@
  },
  {
   "id": "c1430",
-  "n": 242,
+  "n": 276,
   "title": "Jumper's knee",
   "desc": "Épaississement proximal du tendon patellaire avec fissure postérieure hyperintense T2 et œdème de la pointe.",
   "region": "genou",
@@ -3147,7 +3589,7 @@
  },
  {
   "id": "c1432",
-  "n": 243,
+  "n": 277,
   "title": "Maladie d'Osgood-Schlatter",
   "desc": "Avulsion focale ossifiée de la tubérosité tibiale avec épaississement des parties molles prétibiales.",
   "region": "genou",
@@ -3160,7 +3602,7 @@
  },
  {
   "id": "c1441",
-  "n": 244,
+  "n": 278,
   "title": "Plica suprapatellaire incomplète",
   "desc": "Repli synovial fin suprapatellaire, bien délimité de part et d'autre par l'épanchement intra-articulaire en T2.",
   "region": "genou",
@@ -3173,7 +3615,7 @@
  },
  {
   "id": "c1454",
-  "n": 245,
+  "n": 279,
   "title": "Ossification de Pellegrini-Stieda",
   "desc": "Ossification corticalisée en regard de l'insertion fémorale du LCM, séquelle d'avulsion osseuse proximale.",
   "region": "genou",
@@ -3186,7 +3628,7 @@
  },
  {
   "id": "c1471",
-  "n": 246,
+  "n": 280,
   "title": "Bursite ansérine",
   "desc": "Volumineuse distension liquidienne de la bourse de la patte d'oie à la face médiale du tibia proximal.",
   "region": "genou",
@@ -3199,7 +3641,7 @@
  },
  {
   "id": "c1478",
-  "n": 247,
+  "n": 281,
   "title": "Fracture de Segond",
   "desc": "Fine avulsion osseuse du rebord latéral du plateau tibial, très évocatrice d'une rupture du LCA.",
   "region": "genou",
@@ -3212,7 +3654,7 @@
  },
  {
   "id": "c1480",
-  "n": 248,
+  "n": 282,
   "title": "Syndrome de la bandelette iliotibiale",
   "desc": "Infiltration de la graisse entre tractus iliotibial et condyle fémoral latéral, avec bursite débutante.",
   "region": "genou",
@@ -3225,7 +3667,7 @@
  },
  {
   "id": "c1489",
-  "n": 249,
+  "n": 283,
   "title": "Fracture de contrainte du tibia",
   "desc": "Bande de condensation transversale métaphysaire tibiale proximale, de topographie médiale et postérieure.",
   "region": "genou",
@@ -3237,8 +3679,73 @@
   "h": 414
  },
  {
+  "id": "c2065",
+  "n": 284,
+  "title": "Fracture de fatigue du tibia proximal",
+  "desc": "Œdème médullaire métaphyso-épiphysaire tibial proximal en hypersignal DP FS, avec bandes irrégulières.",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2065.webp",
+  "w": 951,
+  "h": 1000
+ },
+ {
+  "id": "c2557",
+  "n": 285,
+  "title": "Osgood-Schlatter en IRM",
+  "desc": "Fragmentation de la tubérosité tibiale antérieure avec œdème des parties molles prétibiales chez l'adolescent.",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2557.webp",
+  "w": 715,
+  "h": 763
+ },
+ {
+  "id": "c2990",
+  "n": 286,
+  "title": "Kyste poplité (de Baker)",
+  "desc": "Collection en hypersignal T2 entre gastrocnémien médial et semi-membraneux, communiquant avec l'articulation.",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2990.webp",
+  "w": 775,
+  "h": 815
+ },
+ {
+  "id": "c3196",
+  "n": 287,
+  "title": "Rupture du LCA",
+  "desc": "LCA détendu, ondulé et arciforme, ayant perdu son parallélisme avec la ligne de Blumensaat.",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3196.webp",
+  "w": 851,
+  "h": 1000
+ },
+ {
+  "id": "c3290",
+  "n": 288,
+  "title": "Kyste poplité cloisonné",
+  "desc": "Collection anéchogène postéro-médiale à cloisons internes, communiquant entre semi-membraneux et gastrocnémien médial.",
+  "region": "genou",
+  "modality": "Échographie",
+  "rarity": "commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3290.webp",
+  "w": 1000,
+  "h": 626
+ },
+ {
   "id": "c117",
-  "n": 250,
+  "n": 289,
   "title": "Dépôts de CPP du cartilage",
   "desc": "Dépôts hyperéchogènes ponctuels et linéaires au sein du tiers moyen du cartilage trochléen.",
   "region": "genou",
@@ -3251,7 +3758,7 @@
  },
  {
   "id": "c226",
-  "n": 251,
+  "n": 290,
   "title": "Hémophilie : dépôts d'hémosidérine",
   "desc": "Hyposignal synovial majoré en écho de gradient (artefact de susceptibilité) et érosion du condyle fémoral.",
   "region": "genou",
@@ -3264,7 +3771,7 @@
  },
  {
   "id": "c357",
-  "n": 252,
+  "n": 291,
   "title": "TCG ténosynoviale diffuse",
   "desc": "Synovite diffuse en hyposignal magnifié en écho de gradient (hémosidérine), avec « blooming ».",
   "region": "genou",
@@ -3277,7 +3784,7 @@
  },
  {
   "id": "c389",
-  "n": 253,
+  "n": 292,
   "title": "Leucémie aiguë lymphoblastique",
   "desc": "Bandes claires métaphysaires transversales fémorale et tibiale chez l'enfant.",
   "region": "genou",
@@ -3290,7 +3797,7 @@
  },
  {
   "id": "c414",
-  "n": 254,
+  "n": 293,
   "title": "Maladie de Gaucher : Erlenmeyer",
   "desc": "Défaut de modelage de la métaphyse fémorale distale, évasée en « flacon d'Erlenmeyer ».",
   "region": "genou",
@@ -3303,7 +3810,7 @@
  },
  {
   "id": "c444",
-  "n": 255,
+  "n": 294,
   "title": "Ostéogenèse imparfaite",
   "desc": "Métaphyse fémorale distale en « pop-corn » avec enclouage centromédullaire télescopique.",
   "region": "genou",
@@ -3316,7 +3823,7 @@
  },
  {
   "id": "c445",
-  "n": 256,
+  "n": 295,
   "title": "OI : stries des bisphosphonates",
   "desc": "Multiples stries métaphysaires denses en « barreaux d'échelle » liées aux cures de bisphosphonates.",
   "region": "genou",
@@ -3329,7 +3836,7 @@
  },
  {
   "id": "c466",
-  "n": 257,
+  "n": 296,
   "title": "Syndrome de Jaffé-Campanacci",
   "desc": "Multiples fibromes non ossifiants métaphysaires de grande taille, excentrés, autour du genou.",
   "region": "genou",
@@ -3342,7 +3849,7 @@
  },
  {
   "id": "c560",
-  "n": 258,
+  "n": 297,
   "title": "Fracture bitubérositaire (Schatzker V)",
   "desc": "Fracture comminutive intéressant les deux plateaux tibiaux, avec enfoncement et séparation.",
   "region": "genou",
@@ -3355,7 +3862,7 @@
  },
  {
   "id": "c1294",
-  "n": 259,
+  "n": 298,
   "title": "Hyperostose de la patella (DISH)",
   "desc": "Enthésophytes exubérants « hérissant » les pôles et la face antérieure de la patella.",
   "region": "genou",
@@ -3368,7 +3875,7 @@
  },
  {
   "id": "c1431",
-  "n": 260,
+  "n": 299,
   "title": "Rupture du tendon patellaire",
   "desc": "Ascension marquée de la patella (patella alta) sur le profil, signe indirect de rupture du tendon patellaire.",
   "region": "genou",
@@ -3381,7 +3888,7 @@
  },
  {
   "id": "c1460",
-  "n": 261,
+  "n": 300,
   "title": "Désinsertion distale du LCM",
   "desc": "LCM désinséré de son insertion tibiale, rétracté en restant en profondeur du tendon du gracile.",
   "region": "genou",
@@ -3394,7 +3901,7 @@
  },
  {
   "id": "c1469",
-  "n": 262,
+  "n": 301,
   "title": "Bursopathie du LCM",
   "desc": "Collection liquidienne en hypersignal soulevant le LCM superficiel, avec extension antérieure en axial.",
   "region": "genou",
@@ -3407,7 +3914,7 @@
  },
  {
   "id": "c1487",
-  "n": 263,
+  "n": 302,
   "title": "Anévrisme poplité thrombosé",
   "desc": "Volumineuse dilatation de l'artère poplitée avec thrombus pariétal en croissant, en coupe axiale.",
   "region": "genou",
@@ -3420,7 +3927,7 @@
  },
  {
   "id": "c1493",
-  "n": 264,
+  "n": 303,
   "title": "Ostéonécrose systémique du genou",
   "desc": "Plages épiphyso-métaphysaires fémorales cernées d'un liseré serpigineux en T1, en carte de géographie.",
   "region": "genou",
@@ -3433,7 +3940,7 @@
  },
  {
   "id": "c1511",
-  "n": 265,
+  "n": 304,
   "title": "Descellement septique de PTG",
   "desc": "Liseré ostéolytique périprothétique circonférentiel > 2 mm, bascule de la tige tibiale et appositions périostées.",
   "region": "genou",
@@ -3446,7 +3953,7 @@
  },
  {
   "id": "c1514",
-  "n": 266,
+  "n": 305,
   "title": "Fracture périprothétique fémorale",
   "desc": "Fracture supracondylienne du fémur au-dessus de l'implant fémoral d'une prothèse totale de genou.",
   "region": "genou",
@@ -3459,7 +3966,7 @@
  },
  {
   "id": "c1517",
-  "n": 267,
+  "n": 306,
   "title": "Descellement granulomateux de PTG",
   "desc": "Larges plages d'ostéolyse des condyles fémoraux et du plateau tibial médial autour des implants.",
   "region": "genou",
@@ -3471,8 +3978,125 @@
   "h": 470
  },
  {
+  "id": "c2023",
+  "n": 307,
+  "title": "Infarctus osseux du condyle fémoral",
+  "desc": "Plage condylienne géographique hétérogène cernée d'un liseré serpigineux, aspect typique d'infarctus osseux.",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "source": "Mails d’avis — cas Cochin",
+  "img": "cards/c2023.webp",
+  "w": 1000,
+  "h": 516
+ },
+ {
+  "id": "c2559",
+  "n": 308,
+  "title": "Maladie de Sinding-Larsen-Johansson",
+  "desc": "Fragmentation de la pointe de la patella à l'insertion proximale du tendon patellaire chez l'adolescent.",
+  "region": "genou",
+  "modality": "Radiographie",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2559.webp",
+  "w": 400,
+  "h": 430
+ },
+ {
+  "id": "c2561",
+  "n": 309,
+  "title": "Avulsion de la base de la patella",
+  "desc": "Petit fragment osseux arraché au pôle supérieur de la patella, à l'insertion du tendon quadricipital.",
+  "region": "genou",
+  "modality": "Radiographie",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2561.webp",
+  "w": 1000,
+  "h": 909
+ },
+ {
+  "id": "c2624",
+  "n": 310,
+  "title": "Goutte : tophus fémoro-patellaire",
+  "desc": "Érosion marginale à l'emporte-pièce de la patella au contact d'un tophus de densité tissulaire élevée.",
+  "region": "genou",
+  "modality": "TDM",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2624.webp",
+  "w": 624,
+  "h": 690
+ },
+ {
+  "id": "c2664",
+  "n": 311,
+  "title": "Rupture méniscale en anse de seau",
+  "desc": "Fragment méniscal luxé dans l'échancrure sous le LCP : signe du double LCP.",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2664.webp",
+  "w": 758,
+  "h": 761
+ },
+ {
+  "id": "c3189",
+  "n": 312,
+  "title": "Ménisque discoïde",
+  "desc": "Ménisque latéral élargi, continu d'avant en arrière en coupe sagittale, sans aspect en nœud papillon.",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3189.webp",
+  "w": 797,
+  "h": 624
+ },
+ {
+  "id": "c3236",
+  "n": 313,
+  "title": "Fracture de fatigue du plateau tibial",
+  "desc": "Œdème médullaire du plateau tibial médial traversé par une bande linéaire en hyposignal parallèle à l'interligne.",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3236.webp",
+  "w": 680,
+  "h": 899
+ },
+ {
+  "id": "c3288",
+  "n": 314,
+  "title": "Calcification du LCL du genou",
+  "desc": "Calcification amorphe en regard du condyle fémoral latéral, sur le trajet du ligament collatéral latéral.",
+  "region": "genou",
+  "modality": "Radiographie",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3288.webp",
+  "w": 800,
+  "h": 1000
+ },
+ {
+  "id": "c3289",
+  "n": 315,
+  "title": "Kyste de l'échancrure du genou",
+  "desc": "Formation kystique cloisonnée en hypersignal T2 dans l'échancrure, au contact des ligaments croisés.",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3289.webp",
+  "w": 607,
+  "h": 830
+ },
+ {
   "id": "c284",
-  "n": 268,
+  "n": 316,
   "title": "Hypophosphatasie infantile",
   "desc": "Élargissement irrégulier du cartilage de croissance avec encoches radiotransparentes métaphysaires.",
   "region": "genou",
@@ -3485,7 +4109,7 @@
  },
  {
   "id": "c558",
-  "n": 269,
+  "n": 317,
   "title": "Luxation traumatique du genou",
   "desc": "Rupture des deux ligaments croisés et avulsion du biceps fémoral de la tête fibulaire en T2.",
   "region": "genou",
@@ -3498,7 +4122,7 @@
  },
  {
   "id": "c1168",
-  "n": 270,
+  "n": 318,
   "title": "Luxation congénitale de la patella",
   "desc": "Patella fixée sur le versant latéral du condyle fémoral latéral, avec amyotrophie du vaste latéral.",
   "region": "genou",
@@ -3511,7 +4135,7 @@
  },
  {
   "id": "c1427",
-  "n": 271,
+  "n": 319,
   "title": "Défect dorsal de la patella",
   "desc": "Lacune arrondie bien cerclée d'un liseré de sclérose au quadrant supérolatéral de la patella.",
   "region": "genou",
@@ -3524,7 +4148,7 @@
  },
  {
   "id": "c1438",
-  "n": 272,
+  "n": 320,
   "title": "Maladie de Hoffa",
   "desc": "Hypertrophie et anomalies de signal mal limitées de la partie postérieure du corps adipeux infrapatellaire.",
   "region": "genou",
@@ -3537,7 +4161,7 @@
  },
  {
   "id": "c1439",
-  "n": 273,
+  "n": 321,
   "title": "Kyste mucoïde du Hoffa",
   "desc": "Kyste plurilobulé en hypersignal DP du corps adipeux infrapatellaire avec pertuis vers l'échancrure.",
   "region": "genou",
@@ -3550,7 +4174,7 @@
  },
  {
   "id": "c1448",
-  "n": 274,
+  "n": 322,
   "title": "Ossicule méniscal",
   "desc": "Ossification dans la corne postérieure du ménisque, visible en radiographie de profil et en hypersignal médullaire T1.",
   "region": "genou",
@@ -3563,7 +4187,7 @@
  },
  {
   "id": "c1456",
-  "n": 275,
+  "n": 323,
   "title": "Fracture de Segond inversée",
   "desc": "Avulsion osseuse du bord médial du plateau tibial, à l'insertion distale du LCM profond.",
   "region": "genou",
@@ -3576,7 +4200,7 @@
  },
  {
   "id": "c1467",
-  "n": 276,
+  "n": 324,
   "title": "Avulsion du semi-membraneux",
   "desc": "Fragment osseux arraché du rebord tibial postéromédial à l'insertion du tendon direct du semi-membraneux.",
   "region": "genou",
@@ -3589,7 +4213,7 @@
  },
  {
   "id": "c1485",
-  "n": 277,
+  "n": 325,
   "title": "Luxation tibiofibulaire proximale",
   "desc": "L'axe de la tête fibulaire ne pointe plus vers l'épicondyle latéral, avec diastasis tibiofibulaire.",
   "region": "genou",
@@ -3602,7 +4226,7 @@
  },
  {
   "id": "c1500",
-  "n": 278,
+  "n": 326,
   "title": "Maladie de Blount infantile",
   "desc": "Dépression de l'épiphyse tibiale médiale et métaphyse médiale déformée « en bec », avec sclérose.",
   "region": "genou",
@@ -3614,8 +4238,34 @@
   "h": 558
  },
  {
+  "id": "c2989",
+  "n": 327,
+  "title": "Lipome arborescent",
+  "desc": "Prolifération synoviale villeuse en franges de signal graisseux, baignant dans l'épanchement articulaire.",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2989.webp",
+  "w": 625,
+  "h": 695
+ },
+ {
+  "id": "c3194",
+  "n": 328,
+  "title": "Schwannome du nerf fibulaire commun",
+  "desc": "Masse ovalaire bien limitée en hypersignal T2 franc, sur le trajet du nerf fibulaire commun (fosse poplitée).",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3194.webp",
+  "w": 576,
+  "h": 608
+ },
+ {
   "id": "c1167",
-  "n": 279,
+  "n": 329,
   "title": "Small patella syndrome",
   "desc": "Absence bilatérale de patella sur les clichés de profil des genoux, avec chevilles en « ball in socket ».",
   "region": "genou",
@@ -3628,7 +4278,7 @@
  },
  {
   "id": "c1486",
-  "n": 280,
+  "n": 330,
   "title": "Kyste intraneural du nerf fibulaire",
   "desc": "Kyste tubulé disséquant la branche articulaire et remontant le long du nerf fibulaire commun en T2.",
   "region": "genou",
@@ -3640,8 +4290,21 @@
   "h": 452
  },
  {
+  "id": "c2143",
+  "n": 331,
+  "title": "Mélorhéostose du genou en TDM",
+  "desc": "Hyperostose corticale dense « en cire coulante » le long du condyle fémoral latéral et du tibia.",
+  "region": "genou",
+  "modality": "TDM",
+  "rarity": "legendaire",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2143.webp",
+  "w": 568,
+  "h": 890
+ },
+ {
   "id": "c092",
-  "n": 281,
+  "n": 332,
   "title": "Arthrose cunéo-métatarsienne",
   "desc": "Ostéophytes dorsaux cunéo-métatarsiens donnant un aspect de tarse « bossu ».",
   "region": "cheville-pied",
@@ -3654,7 +4317,7 @@
  },
  {
   "id": "c093",
-  "n": 282,
+  "n": 333,
   "title": "Hallux rigidus",
   "desc": "Pincement de la MTP1, ostéophytes marginaux, sclérose et géodes sous-chondrales.",
   "region": "cheville-pied",
@@ -3667,7 +4330,7 @@
  },
  {
   "id": "c137",
-  "n": 283,
+  "n": 334,
   "title": "Érosion de la 5e tête métatarsienne",
   "desc": "Érosion marginale profonde du bord latéral de la tête du 5e métatarsien : polyarthrite rhumatoïde.",
   "region": "cheville-pied",
@@ -3680,7 +4343,7 @@
  },
  {
   "id": "c181",
-  "n": 284,
+  "n": 335,
   "title": "Rhumatisme psoriasique du calcanéus",
   "desc": "Érosions hyperostosantes postérosupérieures et proliférations osseuses plantaires duveteuses du calcanéus.",
   "region": "cheville-pied",
@@ -3693,7 +4356,7 @@
  },
  {
   "id": "c185",
-  "n": 285,
+  "n": 336,
   "title": "Enthésite achilléenne psoriasique",
   "desc": "Tendon calcanéen épaissi hyperhémié en Doppler énergie à l'enthèse, avec bursite rétrocalcanéenne associée.",
   "region": "cheville-pied",
@@ -3706,7 +4369,7 @@
  },
  {
   "id": "c192",
-  "n": 286,
+  "n": 337,
   "title": "Arthrite juvénile idiopathique",
   "desc": "Hypertrophie synoviale talocrurale bilatérale rehaussée après gadolinium : synovite active des deux chevilles.",
   "region": "cheville-pied",
@@ -3719,7 +4382,7 @@
  },
  {
   "id": "c227",
-  "n": 287,
+  "n": 338,
   "title": "Ostéoarthropathie nerveuse diabétique",
   "desc": "Subluxation tarsométatarsienne avec fragments ostéochondraux dorsaux : pied de Charcot débutant.",
   "region": "cheville-pied",
@@ -3732,7 +4395,7 @@
  },
  {
   "id": "c261",
-  "n": 288,
+  "n": 339,
   "title": "Abcès de Brodie",
   "desc": "Lacune métaphysaire tibiale distale bien limitée à liseré condensé chez l'enfant.",
   "region": "cheville-pied",
@@ -3745,7 +4408,7 @@
  },
  {
   "id": "c562",
-  "n": 289,
+  "n": 340,
   "title": "Fracture bimalléolaire",
   "desc": "Fracture fibulaire intertuberculaire et fracture horizontale de la malléole médiale (rotation latérale).",
   "region": "cheville-pied",
@@ -3758,7 +4421,7 @@
  },
  {
   "id": "c568",
-  "n": 290,
+  "n": 341,
   "title": "Fracture thalamique du calcanéus",
   "desc": "Fracture-séparation à trois fragments : corticothalamique, antéromédial et postérolatéral.",
   "region": "cheville-pied",
@@ -3771,7 +4434,7 @@
  },
  {
   "id": "c574",
-  "n": 291,
+  "n": 342,
   "title": "Fracture de contrainte du 4e MT",
   "desc": "Trait et réaction périostée diaphysaires du 4e métatarsien, sans traumatisme majeur.",
   "region": "cheville-pied",
@@ -3784,7 +4447,7 @@
  },
  {
   "id": "c1107",
-  "n": 292,
+  "n": 343,
   "title": "Hallux valgus",
   "desc": "Angle M1-P1 de 40° avec metatarsus varus (M1-M2 de 20°) et pied égyptien.",
   "region": "cheville-pied",
@@ -3797,7 +4460,7 @@
  },
  {
   "id": "c1122",
-  "n": 293,
+  "n": 344,
   "title": "Algodystrophie (SDRC 1) du pied",
   "desc": "Raréfaction osseuse du tarse et de l'avant-pied à prédominance sous-chondrale.",
   "region": "cheville-pied",
@@ -3810,7 +4473,7 @@
  },
  {
   "id": "c1547",
-  "n": 294,
+  "n": 345,
   "title": "Maladie de Haglund",
   "desc": "Angle postérosupérieur du calcanéus saillant, infiltration rétrocalcanéenne et volumineux enthésophyte.",
   "region": "cheville-pied",
@@ -3823,7 +4486,7 @@
  },
  {
   "id": "c1550",
-  "n": 295,
+  "n": 346,
   "title": "Os naviculaire accessoire",
   "desc": "Os accessoire au bord médial du naviculaire : type II (synchondrose) et type III (naviculaire cornu).",
   "region": "cheville-pied",
@@ -3835,8 +4498,34 @@
   "h": 412
  },
  {
+  "id": "c2967",
+  "n": 347,
+  "title": "Fracture de contrainte du 2e MT",
+  "desc": "Cal périosté fusiforme autour de la diaphyse du 2e métatarsien : fracture de fatigue en consolidation.",
+  "region": "cheville-pied",
+  "modality": "Radiographie",
+  "rarity": "commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2967.webp",
+  "w": 473,
+  "h": 588
+ },
+ {
+  "id": "c3254",
+  "n": 348,
+  "title": "Apophysite calcanéenne (Sever)",
+  "desc": "Noyau d'ossification apophysaire postérieur du calcanéus fragmenté et condensé chez l'enfant.",
+  "region": "cheville-pied",
+  "modality": "Radiographie",
+  "rarity": "commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3254.webp",
+  "w": 1000,
+  "h": 763
+ },
+ {
   "id": "c004",
-  "n": 296,
+  "n": 349,
   "title": "Ossification membrane interosseuse",
   "desc": "Pont osseux mature bien cortiqué entre tibia et fibula, sans réaction périostée : ossification post-traumatique.",
   "region": "cheville-pied",
@@ -3849,7 +4538,7 @@
  },
  {
   "id": "c023",
-  "n": 297,
+  "n": 350,
   "title": "Ostéome ostéoïde du col du talus",
   "desc": "Nidus arrondi infracentimétrique du col du talus centré par une calcification en cocarde, sclérose discrète.",
   "region": "cheville-pied",
@@ -3862,7 +4551,7 @@
  },
  {
   "id": "c094",
-  "n": 298,
+  "n": 351,
   "title": "Maladie de Freiberg",
   "desc": "Tête du 3e métatarsien aplatie et déformée avec arthrose métatarsophalangienne secondaire.",
   "region": "cheville-pied",
@@ -3875,7 +4564,7 @@
  },
  {
   "id": "c204",
-  "n": 299,
+  "n": 352,
   "title": "Ostéomyélite chronique multifocale",
   "desc": "Ostéolyse métaphysaire du versant médial de la malléole latérale avec discrète ostéocondensation périlésionnelle.",
   "region": "cheville-pied",
@@ -3888,7 +4577,7 @@
  },
  {
   "id": "c234",
-  "n": 300,
+  "n": 353,
   "title": "Acromégalie : talon",
   "desc": "Épaississement du coussinet plantaire et enthésophytes du calcanéus.",
   "region": "cheville-pied",
@@ -3901,7 +4590,7 @@
  },
  {
   "id": "c335",
-  "n": 301,
+  "n": 354,
   "title": "Lipome intra-osseux du calcanéus",
   "desc": "Lacune claire du triangle neutre calcanéen avec calcification centrale en cocarde.",
   "region": "cheville-pied",
@@ -3914,7 +4603,7 @@
  },
  {
   "id": "c565",
-  "n": 302,
+  "n": 355,
   "title": "Ostéonécrose post-traumatique du talus",
   "desc": "Condensation du corps du talus après fracture ostéosynthésée par vis.",
   "region": "cheville-pied",
@@ -3927,7 +4616,7 @@
  },
  {
   "id": "c1106",
-  "n": 303,
+  "n": 356,
   "title": "Synostose talo-calcanéenne",
   "desc": "Signe de l'anneau (« C ») de profil, hypoplasie du col du talus et mauvaise visibilité de l'interligne subtalaire.",
   "region": "cheville-pied",
@@ -3940,7 +4629,7 @@
  },
  {
   "id": "c1115",
-  "n": 304,
+  "n": 357,
   "title": "Fracture de contrainte du sésamoïde",
   "desc": "Trait de fracture du sésamoïde médial de l'hallux, à distinguer d'un sésamoïde bipartite.",
   "region": "cheville-pied",
@@ -3953,7 +4642,7 @@
  },
  {
   "id": "c1117",
-  "n": 305,
+  "n": 358,
   "title": "Fracture de contrainte du tibia distal",
   "desc": "Bande ostéocondensée transversale de la métaphyse tibiale distale.",
   "region": "cheville-pied",
@@ -3966,7 +4655,7 @@
  },
  {
   "id": "c1121",
-  "n": 306,
+  "n": 359,
   "title": "Maladie de Köhler",
   "desc": "Ostéopénie puis aplatissement et aspect hétérogène du naviculaire chez l'enfant algique.",
   "region": "cheville-pied",
@@ -3979,7 +4668,7 @@
  },
  {
   "id": "c1556",
-  "n": 307,
+  "n": 360,
   "title": "Fissure du court fibulaire",
   "desc": "Tendon court fibulaire clivé en deux hémitendons, le long fibulaire s'incarcérant entre eux.",
   "region": "cheville-pied",
@@ -3991,8 +4680,34 @@
   "h": 510
  },
  {
+  "id": "c2924",
+  "n": 361,
+  "title": "Lésion ostéochondrale instable (talus)",
+  "desc": "Arthroscanner : contraste à l'interface os-fragment du dôme talien médial, signe d'instabilité.",
+  "region": "cheville-pied",
+  "modality": "TDM",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2924.webp",
+  "w": 775,
+  "h": 542
+ },
+ {
+  "id": "c3187",
+  "n": 362,
+  "title": "Pied de Charcot en IRM",
+  "desc": "Désorganisation du médio-pied avec anomalies de signal diffuses des os du tarse : neuro-ostéoarthropathie.",
+  "region": "cheville-pied",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3187.webp",
+  "w": 982,
+  "h": 633
+ },
+ {
   "id": "c176",
-  "n": 308,
+  "n": 363,
   "title": "Phalange d'ivoire psoriasique",
   "desc": "Ostéocondensation et prolifération osseuse de la phalange distale de l'hallux, tuméfaction des parties molles.",
   "region": "cheville-pied",
@@ -4005,7 +4720,7 @@
  },
  {
   "id": "c233",
-  "n": 309,
+  "n": 364,
   "title": "Arthropathie neurogène de la lèpre",
   "desc": "Acro-ostéolyse majeure des orteils avec phalanges effilées : arthropathie neurogène lépreuse.",
   "region": "cheville-pied",
@@ -4018,7 +4733,7 @@
  },
  {
   "id": "c236",
-  "n": 310,
+  "n": 365,
   "title": "Acropachie thyroïdienne",
   "desc": "Apposition périostée chronique du bord médial du 1er métatarsien et épaississement des parties molles.",
   "region": "cheville-pied",
@@ -4031,7 +4746,7 @@
  },
  {
   "id": "c454",
-  "n": 311,
+  "n": 366,
   "title": "Maladie de Trevor",
   "desc": "Prolifération osseuse épiphysaire en continuité avec le versant médial du dôme du talus.",
   "region": "cheville-pied",
@@ -4044,7 +4759,7 @@
  },
  {
   "id": "c468",
-  "n": 312,
+  "n": 367,
   "title": "Fibrodysplasie ossifiante progressive",
   "desc": "Hallux court avec 1er métatarsien distal triangulaire dévié en dedans, bilatéral.",
   "region": "cheville-pied",
@@ -4057,7 +4772,7 @@
  },
  {
   "id": "c482",
-  "n": 313,
+  "n": 368,
   "title": "Syndrome de Protée",
   "desc": "Hypertrophie du tissu graisseux plantaire donnant un aspect cérébriforme au pied.",
   "region": "cheville-pied",
@@ -4070,7 +4785,7 @@
  },
  {
   "id": "c564",
-  "n": 314,
+  "n": 369,
   "title": "Fractures Salter III des malléoles",
   "desc": "Traits épiphysaires verticaux traversant la physe aux malléoles médiale et latérale chez l'adolescent.",
   "region": "cheville-pied",
@@ -4083,7 +4798,7 @@
  },
  {
   "id": "c572",
-  "n": 315,
+  "n": 370,
   "title": "Fracture-luxation de Lisfranc",
   "desc": "Luxation latérale homolatérale de tous les métatarsiens avec fragments à la base du 1er métatarsien.",
   "region": "cheville-pied",
@@ -4096,7 +4811,7 @@
  },
  {
   "id": "c1098",
-  "n": 316,
+  "n": 371,
   "title": "Muscle peroneus quartus",
   "desc": "Muscle accessoire en arrière des tendons fibulaires, se terminant sur l'éminence rétrotrochléaire du calcanéus.",
   "region": "cheville-pied",
@@ -4109,7 +4824,7 @@
  },
  {
   "id": "c1102",
-  "n": 317,
+  "n": 372,
   "title": "Muscle soléaire accessoire",
   "desc": "Muscle surnuméraire en arrière du long fléchisseur de l'hallux et en avant du tendon calcanéen : pseudo-tumeur.",
   "region": "cheville-pied",
@@ -4122,7 +4837,7 @@
  },
  {
   "id": "c1560",
-  "n": 318,
+  "n": 373,
   "title": "Avulsion périostée des fibulaires",
   "desc": "Écaille osseuse latérale à la malléole fibulaire, signant une luxation des tendons fibulaires.",
   "region": "cheville-pied",
@@ -4134,8 +4849,34 @@
   "h": 516
  },
  {
+  "id": "c2865",
+  "n": 374,
+  "title": "Malformation artérioveineuse du pied",
+  "desc": "Hypertrophie des parties molles, vaisseaux plantaires rehaussés et lacunes osseuses calcanéennes.",
+  "region": "cheville-pied",
+  "modality": "TDM",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2865.webp",
+  "w": 650,
+  "h": 560
+ },
+ {
+  "id": "c3247",
+  "n": 375,
+  "title": "Fracture de fatigue de l'os peroneum",
+  "desc": "Os peroneum fragmenté en plusieurs morceaux sur le trajet du long fibulaire, en regard du cuboïde.",
+  "region": "cheville-pied",
+  "modality": "Radiographie",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3247.webp",
+  "w": 801,
+  "h": 1000
+ },
+ {
   "id": "c048",
-  "n": 319,
+  "n": 376,
   "title": "Pied de Madura (mycétome)",
   "desc": "Infiltration nodulaire trans-compartimentale des parties molles plantaires et du tarse.",
   "region": "cheville-pied",
@@ -4148,7 +4889,7 @@
  },
  {
   "id": "c569",
-  "n": 320,
+  "n": 377,
   "title": "Fracture du calcanéus en bec de canard",
   "desc": "Volumineux fragment corticothalamique basculé vers le haut et l'arrière, donnant l'aspect en bec de canard.",
   "region": "cheville-pied",
@@ -4161,7 +4902,7 @@
  },
  {
   "id": "c1545",
-  "n": 321,
+  "n": 378,
   "title": "Xanthomatose cérébrotendineuse",
   "desc": "Tendon calcanéen très épaissi, disséqué par une infiltration xanthomateuse hétérogène.",
   "region": "cheville-pied",
@@ -4174,7 +4915,7 @@
  },
  {
   "id": "c273",
-  "n": 322,
+  "n": 379,
   "title": "Fracture fémorale atypique",
   "desc": "Fracture diaphysaire fémorale transverse simple chez une patiente sous bisphosphonates au long cours.",
   "region": "os-entier",
@@ -4187,7 +4928,7 @@
  },
  {
   "id": "c315",
-  "n": 323,
+  "n": 380,
   "title": "Enchondrome",
   "desc": "Calcifications cartilagineuses « en anneaux et arcs » intramédullaires avec petites érosions endostées.",
   "region": "os-entier",
@@ -4200,7 +4941,7 @@
  },
  {
   "id": "c338",
-  "n": 324,
+  "n": 381,
   "title": "Sarcome d'Ewing du tibia",
   "desc": "Ostéolyse perméative agressive avec appositions périostées spiculées perpendiculaires.",
   "region": "os-entier",
@@ -4213,7 +4954,7 @@
  },
  {
   "id": "c379",
-  "n": 325,
+  "n": 382,
   "title": "Myélome : crâne « à l'emporte-pièce »",
   "desc": "Multiples lacunes de la voûte, arrondies, bien limitées, sans liseré de sclérose.",
   "region": "os-entier",
@@ -4226,7 +4967,7 @@
  },
  {
   "id": "c395",
-  "n": 326,
+  "n": 383,
   "title": "Lymphome osseux primitif",
   "desc": "Ostéolyse diaphysaire fémorale bien limitée, spongieuse et corticale, sans réaction périostée.",
   "region": "os-entier",
@@ -4239,7 +4980,7 @@
  },
  {
   "id": "c405",
-  "n": 327,
+  "n": 384,
   "title": "Histiocytose langerhansienne",
   "desc": "Ostéolyse diaphysaire fémorale ovalaire avec scalloping endosté régulier.",
   "region": "os-entier",
@@ -4252,7 +4993,7 @@
  },
  {
   "id": "c463",
-  "n": 328,
+  "n": 385,
   "title": "Dysplasie fibreuse du crâne",
   "desc": "Expansion de la voûte en verre dépoli avec amincissement de la table externe.",
   "region": "os-entier",
@@ -4265,7 +5006,7 @@
  },
  {
   "id": "c491",
-  "n": 329,
+  "n": 386,
   "title": "Ostéoarthropathie hypertrophiante",
   "desc": "Appositions périostées fines et continues des diaphyses tibiale et fibulaire (syndrome de Pierre Marie).",
   "region": "os-entier",
@@ -4278,7 +5019,7 @@
  },
  {
   "id": "c1521",
-  "n": 330,
+  "n": 387,
   "title": "Syndrome tibial médial d'effort",
   "desc": "Corticale tibiale floue et striée associée à un épaississement endosté et périosté réparateur.",
   "region": "os-entier",
@@ -4291,7 +5032,7 @@
  },
  {
   "id": "c217",
-  "n": 331,
+  "n": 388,
   "title": "Périartérite noueuse : périostite",
   "desc": "Apposition périostée fémorale active rehaussée en T1 gadolinium, circonférentielle.",
   "region": "os-entier",
@@ -4304,7 +5045,7 @@
  },
  {
   "id": "c241",
-  "n": 332,
+  "n": 389,
   "title": "Tumeurs brunes du tibia",
   "desc": "Lacunes ostéolytiques excentrées bien limitées et corticale finement fibrillaire (résorption intracorticale).",
   "region": "os-entier",
@@ -4317,7 +5058,7 @@
  },
  {
   "id": "c281",
-  "n": 333,
+  "n": 390,
   "title": "Rachitisme",
   "desc": "Genu varum bilatéral avec métaphyses élargies, évasées et irrégulières aux genoux.",
   "region": "os-entier",
@@ -4330,7 +5071,7 @@
  },
  {
   "id": "c288",
-  "n": 334,
+  "n": 391,
   "title": "Paget : front de résorption",
   "desc": "Front ostéolytique en « flamme » ou « brin d'herbe » nettement démarqué de l'os normal du fémur.",
   "region": "os-entier",
@@ -4343,7 +5084,7 @@
  },
  {
   "id": "c470",
-  "n": 335,
+  "n": 392,
   "title": "Myopathie de Duchenne évoluée",
   "desc": "Dégénérescence graisseuse complète des muscles des ceintures et des cuisses en T1.",
   "region": "os-entier",
@@ -4356,7 +5097,7 @@
  },
  {
   "id": "c1522",
-  "n": 336,
+  "n": 393,
   "title": "Fracture de fatigue tibiale antérieure",
   "desc": "Trait transversal radiotransparent de la corticale antérieure de la diaphyse tibiale (« dreaded black line »).",
   "region": "os-entier",
@@ -4368,8 +5109,34 @@
   "h": 358
  },
  {
+  "id": "c2252",
+  "n": 394,
+  "title": "Périostose de stase veineuse",
+  "desc": "Appositions périostées épaisses et ondulées du tibia et de la fibula distaux : insuffisance veineuse chronique.",
+  "region": "os-entier",
+  "modality": "Radiographie",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2252.webp",
+  "w": 410,
+  "h": 958
+ },
+ {
+  "id": "c2701",
+  "n": 395,
+  "title": "Ostéome ostéoïde cortical",
+  "desc": "Épaississement cortical localisé centré par un petit nidus lacunaire à centre minéralisé.",
+  "region": "os-entier",
+  "modality": "TDM",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2701.webp",
+  "w": 782,
+  "h": 787
+ },
+ {
   "id": "c033",
-  "n": 337,
+  "n": 396,
   "title": "Chondrosarcome, fracture pathologique",
   "desc": "Matrice calcifiée en anneaux et arcs, scalloping endostéal profond et fracture pathologique diaphysaire.",
   "region": "os-entier",
@@ -4382,7 +5149,7 @@
  },
  {
   "id": "c264",
-  "n": 338,
+  "n": 397,
   "title": "Ostéomyélite tuberculeuse",
   "desc": "Ostéolyse excentrée avec fragment osseux dans les parties molles adjacentes, très évocateur de BK.",
   "region": "os-entier",
@@ -4395,7 +5162,7 @@
  },
  {
   "id": "c337",
-  "n": 339,
+  "n": 398,
   "title": "Dysplasie ostéofibreuse",
   "desc": "Lésion corticale antérieure multiloculaire du tibia chez l'enfant.",
   "region": "os-entier",
@@ -4408,7 +5175,7 @@
  },
  {
   "id": "c421",
-  "n": 340,
+  "n": 399,
   "title": "β-thalassémie : crâne",
   "desc": "Élargissement considérable du diploé avec amincissement de la table externe par hyperplasie médullaire.",
   "region": "os-entier",
@@ -4421,7 +5188,7 @@
  },
  {
   "id": "c580",
-  "n": 341,
+  "n": 400,
   "title": "Fractures étagées des arcs costaux",
   "desc": "Cals multiples des arcs costaux postérieurs chez le nourrisson, hautement évocateurs de maltraitance.",
   "region": "os-entier",
@@ -4434,7 +5201,7 @@
  },
  {
   "id": "c1164",
-  "n": 342,
+  "n": 401,
   "title": "Incurvation tibiale postéromédiale",
   "desc": "Incurvation congénitale du tibia et de la fibula à convexité postéromédiale chez le nourrisson.",
   "region": "os-entier",
@@ -4447,7 +5214,7 @@
  },
  {
   "id": "c1165",
-  "n": 343,
+  "n": 402,
   "title": "Incurvation tibiale antéromédiale",
   "desc": "Tibia incurvé à convexité antéromédiale avec absence de fibula (hémimélie fibulaire).",
   "region": "os-entier",
@@ -4460,7 +5227,7 @@
  },
  {
   "id": "c1520",
-  "n": 344,
+  "n": 403,
   "title": "Syndrome de loge chronique",
   "desc": "Tuméfaction en hypersignal T2 de la loge antérieure de jambe après effort, comparée au côté sain.",
   "region": "os-entier",
@@ -4472,8 +5239,47 @@
   "h": 375
  },
  {
+  "id": "c2700",
+  "n": 404,
+  "title": "Lipome paraostéal",
+  "desc": "Masse de densité graisseuse accolée à la corticale fémorale, contenant une ossification irrégulière à base corticale.",
+  "region": "os-entier",
+  "modality": "TDM",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2700.webp",
+  "w": 1000,
+  "h": 915
+ },
+ {
+  "id": "c2706",
+  "n": 405,
+  "title": "Apatite de la ligne âpre",
+  "desc": "Calcifications nuageuses de la ligne âpre fémorale avec érosion corticale : résorption de dépôt d'apatite.",
+  "region": "os-entier",
+  "modality": "TDM",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2706.webp",
+  "w": 789,
+  "h": 762
+ },
+ {
+  "id": "c2710",
+  "n": 406,
+  "title": "Hématome périosté ossifié",
+  "desc": "Masse juxtacorticale tibiale cernée d'une coque ossifiée en hyposignal, au contenu hétérogène.",
+  "region": "os-entier",
+  "modality": "IRM",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2710.webp",
+  "w": 354,
+  "h": 360
+ },
+ {
   "id": "c285",
-  "n": 345,
+  "n": 407,
   "title": "Ostéoporose circonscrite de Paget",
   "desc": "Large plage ostéolytique frontale nettement limitée : phase lytique initiale de la maladie de Paget du crâne.",
   "region": "os-entier",
@@ -4486,7 +5292,7 @@
  },
  {
   "id": "c407",
-  "n": 346,
+  "n": 408,
   "title": "Maladie d'Erdheim-Chester",
   "desc": "Hyperfixation intense et symétrique des régions métaphysodiaphysaires des membres inférieurs.",
   "region": "os-entier",
@@ -4499,7 +5305,7 @@
  },
  {
   "id": "c423",
-  "n": 347,
+  "n": 409,
   "title": "Dysplasie thanatophore",
   "desc": "Thorax étroit à côtes courtes contrastant avec un abdomen volumineux, os longs très courts.",
   "region": "os-entier",
@@ -4512,7 +5318,7 @@
  },
  {
   "id": "c450",
-  "n": 348,
+  "n": 410,
   "title": "Mélorhéostose",
   "desc": "Hyperostose corticale périarticulaire en « coulée de cire de bougie » du fémur et d'un rayon du pied.",
   "region": "os-entier",
@@ -4525,7 +5331,7 @@
  },
  {
   "id": "c1134",
-  "n": 349,
+  "n": 411,
   "title": "Sirénomélie",
   "desc": "Fusion des membres inférieurs chez un fœtus, avec deux pieds plus ou moins fusionnés (sympus dipus).",
   "region": "os-entier",
@@ -4538,7 +5344,7 @@
  },
  {
   "id": "c1163",
-  "n": 350,
+  "n": 412,
   "title": "Duplication fémorale distale",
   "desc": "Deux métaphyses fémorales distales distinctes associées à une absence de tibia (hémimélie tibiale).",
   "region": "os-entier",
@@ -4550,8 +5356,47 @@
   "h": 560
  },
  {
+  "id": "c2238",
+  "n": 413,
+  "title": "Syndrome de McCune-Albright",
+  "desc": "Dysplasie fibreuse étendue de la base et de la voûte du crâne : os soufflé en verre dépoli, plages lytiques.",
+  "region": "os-entier",
+  "modality": "TDM",
+  "rarity": "legendaire",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2238.webp",
+  "w": 359,
+  "h": 444
+ },
+ {
+  "id": "c3002",
+  "n": 414,
+  "title": "Pachydermopériostose : tibia",
+  "desc": "Appositions périostées épaisses et irrégulières des métaphyses et diaphyses tibiale et fibulaire distales.",
+  "region": "os-entier",
+  "modality": "Radiographie",
+  "rarity": "legendaire",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3002.webp",
+  "w": 762,
+  "h": 1000
+ },
+ {
+  "id": "c3089",
+  "n": 415,
+  "title": "Kyste osseux anévrysmal du clivus",
+  "desc": "Lésion multiloculée de la base du crâne, logettes en hypersignal T2 avec niveaux liquide-liquide.",
+  "region": "os-entier",
+  "modality": "IRM",
+  "rarity": "legendaire",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3089.webp",
+  "w": 443,
+  "h": 377
+ },
+ {
   "id": "c347",
-  "n": 351,
+  "n": 416,
   "title": "Liposarcome myxoïde",
   "desc": "Masse lobulée fortement hyperintense en T2, d'allure pseudo-kystique.",
   "region": "parties-molles",
@@ -4564,7 +5409,7 @@
  },
  {
   "id": "c1533",
-  "n": 352,
+  "n": 417,
   "title": "Tennis leg",
   "desc": "Collection hématique fusiforme interaponévrotique entre gastrocnémien médial et soléaire en T2.",
   "region": "parties-molles",
@@ -4577,7 +5422,7 @@
  },
  {
   "id": "c1382",
-  "n": 353,
+  "n": 418,
   "title": "Décollement de Morel-Lavallée",
   "desc": "Collection liquidienne étendue entre le fascia et le tissu sous-cutané de la face latérale de cuisse.",
   "region": "parties-molles",
@@ -4589,8 +5434,47 @@
   "h": 447
  },
  {
+  "id": "c2024",
+  "n": 419,
+  "title": "Tumeur desmoïde de la paroi abdominale",
+  "desc": "Masse fusiforme intramusculaire de la paroi abdominale antérieure, intensément rehaussée après gadolinium.",
+  "region": "parties-molles",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "source": "Mails d’avis — cas Cochin",
+  "img": "cards/c2024.webp",
+  "w": 776,
+  "h": 695
+ },
+ {
+  "id": "c2025",
+  "n": 420,
+  "title": "Myxome intramusculaire de la jambe",
+  "desc": "Nodule ovalaire intramusculaire bien limité, en franc hypersignal T2 homogène, d'aspect pseudo-kystique.",
+  "region": "parties-molles",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "source": "Mails d’avis — cas Cochin",
+  "img": "cards/c2025.webp",
+  "w": 934,
+  "h": 677
+ },
+ {
+  "id": "c2894",
+  "n": 421,
+  "title": "Myxome intramusculaire",
+  "desc": "Masse ovalaire en hypersignal T2 pseudo-liquidien avec coiffe d'œdème péri-lésionnelle aux pôles.",
+  "region": "parties-molles",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2894.webp",
+  "w": 667,
+  "h": 718
+ },
+ {
   "id": "c348",
-  "n": 354,
+  "n": 422,
   "title": "Biopsie TDM d'un liposarcome",
   "desc": "Aiguille de biopsie guidée par TDM au sein d'une masse adipeuse hétérogène dédifférenciée.",
   "region": "parties-molles",
@@ -4603,7 +5487,7 @@
  },
  {
   "id": "c364",
-  "n": 355,
+  "n": 423,
   "title": "Ostéosarcome extrasquelettique",
   "desc": "Masse des parties molles de cuisse à ossifications centrales prédominantes, à distance du fémur.",
   "region": "parties-molles",
@@ -4613,5 +5497,70 @@
   "img": "cards/c364.webp",
   "w": 416,
   "h": 446
+ },
+ {
+  "id": "c2046",
+  "n": 424,
+  "title": "Tumeur desmoïde de la paroi thoracique",
+  "desc": "Masse dorsale hétérogène striée de bandes en hyposignal (collagène), aspect évocateur de fibromatose.",
+  "region": "parties-molles",
+  "modality": "IRM",
+  "rarity": "rare",
+  "source": "Mails d’avis — cas Cochin",
+  "img": "cards/c2046.webp",
+  "w": 597,
+  "h": 410
+ },
+ {
+  "id": "c2608",
+  "n": 425,
+  "title": "Angioléiomyome",
+  "desc": "Masse ovalaire des parties molles, bien limitée, en hypersignal intense et homogène, avec un vide de signal vasculaire.",
+  "region": "parties-molles",
+  "modality": "IRM",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2608.webp",
+  "w": 760,
+  "h": 698
+ },
+ {
+  "id": "c2859",
+  "n": 426,
+  "title": "Malformation artérioveineuse embolisée",
+  "desc": "MAV de la cuisse gauche : matériel d'embolisation hyperdense et remaniements lacunaires fémoraux.",
+  "region": "parties-molles",
+  "modality": "TDM",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2859.webp",
+  "w": 551,
+  "h": 769
+ },
+ {
+  "id": "c3079",
+  "n": 427,
+  "title": "Tumeur desmoïde",
+  "desc": "Volumineuse masse des parties molles en hypersignal T2 hétérogène, avec bandes en hyposignal (collagène).",
+  "region": "parties-molles",
+  "modality": "IRM",
+  "rarity": "rare",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c3079.webp",
+  "w": 709,
+  "h": 678
+ },
+ {
+  "id": "c2902",
+  "n": 428,
+  "title": "Chondrosarcome myxoïde extra-osseux",
+  "desc": "Volumineuse masse multilobulée en hypersignal T2 cloisonnée, aspect en grappe de la cuisse.",
+  "region": "parties-molles",
+  "modality": "IRM",
+  "rarity": "legendaire",
+  "source": "Cas Cochin — présentations",
+  "img": "cards/c2902.webp",
+  "w": 515,
+  "h": 713
  }
 ]

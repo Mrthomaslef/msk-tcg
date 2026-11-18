@@ -8,7 +8,7 @@ os.chdir(ROOT)
 sel = json.load(open('data/selection.json'))
 REG_ORDER = ['epaule','coude','main-poignet','rachis','bassin-hanche','genou','cheville-pied','os-entier','parties-molles']
 RAR_ORDER = ['commune','peu-commune','rare','legendaire']
-SRC_LABEL = {'quiz':'Quiz Imagerie — cas Cochin','cotten-epaule':'Cotten — Épaule','cotten-gen':'Cotten — Pathologies générales','sims':'SIMS 2025','cotten-loco':'Cotten — Pathologies loco-régionales'}
+SRC_LABEL = {'quiz':'Quiz Imagerie — cas Cochin','cotten-epaule':'Cotten — Épaule','cotten-gen':'Cotten — Pathologies générales','sims':'SIMS 2025','cotten-loco':'Cotten — Pathologies loco-régionales','drive':'Cas Cochin — présentations','mail':'Mails d’avis — cas Cochin'}
 
 def trim(im):
     """Remove light/dark uniform frames (book figure borders)."""

@@ -4458,5 +4458,1086 @@
   "path": "/Users/thomaslefevre/.t3/projects/creation-de-cours/livre_osteo/extracted_loco/x-994-1804.jpg",
   "src": "cotten-loco",
   "cap": "29. Pathologies des tissus mous | Fig. 29.42 Instabilité antérieure des tendons des muscles fibulaires. a. Fine écaille osseuse témoignant de l'avulsion du périoste lors d'une luxation des tendons des muscles fibulaires (phase aiguë). b. Ossification plus épaisse à la phase chronique d'une luxation des tendons des muscles fibulaires passée inaperçue. 1 2 3 || Fig. 29.43 Schéma de la classification de l'instabilité rétromalléolaire. 1 : état normal (tendon du muscle court fibulaire en violet clair, tendon du muscle long fibulaire en violet foncé) ; 2 : instabilité rétromalléolaire de type A ; 3 : instabilité de type B avec une "
+ },
+ {
+  "i": 2001,
+  "title": "Métastase lytique ilio-pubienne",
+  "desc": "Volumineuse masse tissulaire en hypersignal envahissant la loge obturatrice et les adducteurs.",
+  "region": "bassin-hanche",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "crop": [
+   0.0,
+   0.05,
+   0.49,
+   0.96
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/quiz-image-3/public/figures/mails/mail-48.jpg",
+  "src": "mail",
+  "cap": "mail-48 | Métastase osseuse ostéolytique de la branche ilio-pubienne avec envahissement des parties molles"
+ },
+ {
+  "i": 2006,
+  "title": "Tumeur profonde de la loge palmaire",
+  "desc": "Masse ovalaire profonde de la loge palmaire moyenne, sous l'aponévrose palmaire, en hypersignal T2 hétérogène.",
+  "region": "main-poignet",
+  "modality": "IRM",
+  "rarity": "rare",
+  "crop": [
+   0.345,
+   0.09,
+   0.69,
+   0.5
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/quiz-image-3/public/figures/mails/mail-53.jpg",
+  "src": "mail",
+  "cap": "mail-53 | Tumeur profonde des parties molles de la loge palmaire moyenne de la main (sous l'aponévrose palmaire)"
+ },
+ {
+  "i": 2023,
+  "title": "Infarctus osseux du condyle fémoral",
+  "desc": "Plage condylienne géographique hétérogène cernée d'un liseré serpigineux, aspect typique d'infarctus osseux.",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "crop": [
+   0.0,
+   0.1,
+   1.0,
+   0.97
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/quiz-image-3/public/figures/mails/mail-08.jpg",
+  "src": "mail",
+  "cap": "mail-08 | Infarctus osseux (ostéonécrose) du condyle fémoral"
+ },
+ {
+  "i": 2024,
+  "title": "Tumeur desmoïde de la paroi abdominale",
+  "desc": "Masse fusiforme intramusculaire de la paroi abdominale antérieure, intensément rehaussée après gadolinium.",
+  "region": "parties-molles",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "crop": [
+   0.505,
+   0.03,
+   1.0,
+   0.98
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/quiz-image-3/public/figures/mails/mail-09.jpg",
+  "src": "mail",
+  "cap": "mail-09 | Tumeur desmoïde (fibromatose profonde) de la paroi abdominale"
+ },
+ {
+  "i": 2025,
+  "title": "Myxome intramusculaire de la jambe",
+  "desc": "Nodule ovalaire intramusculaire bien limité, en franc hypersignal T2 homogène, d'aspect pseudo-kystique.",
+  "region": "parties-molles",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "crop": [
+   0.0,
+   0.02,
+   0.5,
+   0.98
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/quiz-image-3/public/figures/mails/mail-10.jpg",
+  "src": "mail",
+  "cap": "mail-10 | Myxome intramusculaire de la jambe"
+ },
+ {
+  "i": 2041,
+  "title": "Instabilité de l'extenseur ulnaire",
+  "desc": "Tendon ECU subluxé hors de sa gouttière ulnaire, entouré d'un épanchement de sa gaine (ténosynovite).",
+  "region": "main-poignet",
+  "modality": "IRM",
+  "rarity": "rare",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/quiz-image-3/public/figures/mails/mail-30.jpg",
+  "src": "mail",
+  "cap": "mail-30 | Instabilité (subluxation) et ténosynovite de l'extenseur ulnaire du carpe (ECU) par rupture du rétinaculum (Inoue type A)"
+ },
+ {
+  "i": 2045,
+  "title": "Doigt à ressaut (poulie A1)",
+  "desc": "Épaississement en anneau autour des tendons fléchisseurs d'un doigt : poulie A1 épaissie et ténosynovite.",
+  "region": "main-poignet",
+  "modality": "IRM",
+  "rarity": "commune",
+  "crop": [
+   0.22,
+   0.22,
+   0.97,
+   0.88
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/quiz-image-3/public/figures/mails/mail-34.jpg",
+  "src": "mail",
+  "cap": "mail-34 | Doigt à ressaut (ténosynovite sténosante des fléchisseurs sur épaississement de la poulie A1)"
+ },
+ {
+  "i": 2046,
+  "title": "Tumeur desmoïde de la paroi thoracique",
+  "desc": "Masse dorsale hétérogène striée de bandes en hyposignal (collagène), aspect évocateur de fibromatose.",
+  "region": "parties-molles",
+  "modality": "IRM",
+  "rarity": "rare",
+  "crop": [
+   0.1,
+   0.3,
+   0.9,
+   0.85
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/quiz-image-3/public/figures/mails/mail-35.jpg",
+  "src": "mail",
+  "cap": "mail-35 | Tumeur desmoïde (fibromatose profonde) de la paroi thoracique dorsale"
+ },
+ {
+  "i": 2049,
+  "title": "Déchirure des lombricaux (grimpeur)",
+  "desc": "Hypersignal œdémateux et liquidien des muscles lombricaux entre les tendons fléchisseurs, en coronal T2 FS.",
+  "region": "main-poignet",
+  "modality": "IRM",
+  "rarity": "rare",
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   0.72
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/quiz-image-3/public/figures/mails/mail-38.jpg",
+  "src": "mail",
+  "cap": "mail-38 | Déchirure / désinsertion des muscles lombricaux de la main (lésion de grimpeur)"
+ },
+ {
+  "i": 2065,
+  "title": "Fracture de fatigue du tibia proximal",
+  "desc": "Œdème médullaire métaphyso-épiphysaire tibial proximal en hypersignal DP FS, avec bandes irrégulières.",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "commune",
+  "crop": [
+   0.1,
+   0.06,
+   0.92,
+   1.0
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/3f8757a9b344.jpg",
+  "src": "drive",
+  "cap": "CAS-01 ✅ Fracture de fatigue tibiale/CAS-01.pptx slide 91 | "
+ },
+ {
+  "i": 2143,
+  "title": "Mélorhéostose du genou en TDM",
+  "desc": "Hyperostose corticale dense « en cire coulante » le long du condyle fémoral latéral et du tibia.",
+  "region": "genou",
+  "modality": "TDM",
+  "rarity": "legendaire",
+  "crop": [
+   0.3,
+   0.05,
+   0.68,
+   1.0
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/5618d8a40d27.jpg",
+  "src": "drive",
+  "cap": "Cas intéressants/CAS CLINIQUE mélorhéostose.pptx slide 135 | "
+ },
+ {
+  "i": 2238,
+  "title": "Syndrome de McCune-Albright",
+  "desc": "Dysplasie fibreuse étendue de la base et de la voûte du crâne : os soufflé en verre dépoli, plages lytiques.",
+  "region": "os-entier",
+  "modality": "TDM",
+  "rarity": "legendaire",
+  "crop": [
+   0.15,
+   0.13,
+   0.85,
+   1.0
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/6cb6c6ae8c94.jpg",
+  "src": "drive",
+  "cap": "Cas intéressants/Lésions de la voute du crâne- MLacroix.pptx slide 38 | Introduction  Anatomie Lésions focales Que retenir ? Conclusion Syndrome de Mac Cune Albright         Table externe Dysplasie fibreuse Anomalies étendues 17"
+ },
+ {
+  "i": 2255,
+  "title": "Acropachie thyroïdienne de la main",
+  "desc": "Appositions périostées spiculées, bilatérales, des diaphyses des phalanges et métacarpiens (flèches) après Basedow.",
+  "region": "main-poignet",
+  "modality": "Radiographie",
+  "rarity": "legendaire",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/e359fccc6d78.jpg",
+  "src": "drive",
+  "cap": "Cas intéressants/PPT Bone Club fev24 - AH.pptx slide 9 | Insuffisance veineuse chronique  Fracture Ostéoarthropathie   hypertrophiante  (OAH)  Acropachie  thyroïdienne  Hypervitaminose A  Fluorose  Infection (ostéite syphilitique, ostéites à foyers multiples)  Maladie de  Caffey Leucémie, lymphome Appositions périostées diffuses / plurifocales Manifestati"
+ },
+ {
+  "i": 2265,
+  "title": "Bourneville : lésions des phalanges",
+  "desc": "Lésions pseudo-kystiques des phalanges à bords nets et condensés, avec appositions périostées : sclérose tubéreuse.",
+  "region": "main-poignet",
+  "modality": "Radiographie",
+  "rarity": "rare",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/7b92d8b0485b.jpg",
+  "src": "drive",
+  "cap": "Cas intéressants/PPT Bone Club fev24 - AH.pptx slide 26 | Sclérose tubéreuse de Bourneville Atteinte osseuse : Environ 45-60% des patients  Aucun signe clinique – traduction radiologique uniquement Lésions pseudo-kystiques corticales et spongieuses   :  Métacarpes, métatarses, phalanges  Contours irréguliers, limites nettes et condensées en périphérie Appo"
+ },
+ {
+  "i": 2252,
+  "title": "Périostose de stase veineuse",
+  "desc": "Appositions périostées épaisses et ondulées du tibia et de la fibula distaux : insuffisance veineuse chronique.",
+  "region": "os-entier",
+  "modality": "Radiographie",
+  "rarity": "peu-commune",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/2e2d7a3186f1.jpg",
+  "src": "drive",
+  "cap": "Cas intéressants/PPT Bone Club fev24 - AH.pptx slide 6 | Insuffisance veineuse chronique  Fracture  Ostéoarthropathie   hypertrophiante  (OAH)  Acropachie  thyroïdienne  Hypervitaminose A  Fluorose  Infection (ostéite syphilitique, ostéites à foyers multiples)  Maladie de  Caffey Leucémie, lymphome MI : tibia -  fibula Lié à l’augmentation de la pression "
+ },
+ {
+  "i": 2557,
+  "title": "Osgood-Schlatter en IRM",
+  "desc": "Fragmentation de la tubérosité tibiale antérieure avec œdème des parties molles prétibiales chez l'adolescent.",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "commune",
+  "crop": [
+   0.0,
+   0.13,
+   1.0,
+   0.89
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/154915f5dc12.jpg",
+  "src": "drive",
+  "cap": "Radiographie + quiz/Radio du genou.pptx slide 55 | Osgood-Schlatter"
+ },
+ {
+  "i": 2559,
+  "title": "Maladie de Sinding-Larsen-Johansson",
+  "desc": "Fragmentation de la pointe de la patella à l'insertion proximale du tendon patellaire chez l'adolescent.",
+  "region": "genou",
+  "modality": "Radiographie",
+  "rarity": "peu-commune",
+  "crop": [
+   0.3,
+   0.3,
+   0.72,
+   0.72
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/7d55c0fdabc1.jpg",
+  "src": "drive",
+  "cap": "Radiographie + quiz/Radio du genou.pptx slide 59 | Sinding-Larsen"
+ },
+ {
+  "i": 2561,
+  "title": "Avulsion de la base de la patella",
+  "desc": "Petit fragment osseux arraché au pôle supérieur de la patella, à l'insertion du tendon quadricipital.",
+  "region": "genou",
+  "modality": "Radiographie",
+  "rarity": "peu-commune",
+  "crop": [
+   0.15,
+   0.05,
+   0.82,
+   1.0
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/983e40ebb7e7.jpg",
+  "src": "drive",
+  "cap": "Radiographie + quiz/Radio du genou.pptx slide 66 | H  18ans / avulsion de la base de la patella"
+ },
+ {
+  "i": 2608,
+  "title": "Angioléiomyome",
+  "desc": "Masse ovalaire des parties molles, bien limitée, en hypersignal intense et homogène, avec un vide de signal vasculaire.",
+  "region": "parties-molles",
+  "modality": "IRM",
+  "rarity": "rare",
+  "crop": [
+   0.08,
+   0.25,
+   0.92,
+   0.82
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/116cae2c9086.jpg",
+  "src": "drive",
+  "cap": "Cours larib/Angioleïomyome - Thomas-  Bone Club.pptx slide 228 | "
+ },
+ {
+  "i": 2621,
+  "title": "Tendinite calcifiante du long du cou",
+  "desc": "Calcification amorphe prévertébrale en regard de C1-C2, dans le muscle long du cou : cause de cervicalgie aiguë.",
+  "region": "rachis",
+  "modality": "TDM",
+  "rarity": "rare",
+  "crop": [
+   0.55,
+   0.0,
+   0.99,
+   0.75
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/ceb20b64b976.jpg",
+  "src": "drive",
+  "cap": "Cours David Zeitoun/DES topo Final 1.pptx slide 18 | Cas 6 :  Résorption d’ a patite dans les muscles long du cou "
+ },
+ {
+  "i": 2622,
+  "title": "Migration intra-osseuse d'apatite",
+  "desc": "Calcification en hyposignal du tubercule majeur avec œdème médullaire étendu de la tête humérale.",
+  "region": "epaule",
+  "modality": "IRM",
+  "rarity": "rare",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/1c9152bae0a5.jpg",
+  "src": "drive",
+  "cap": "Cours David Zeitoun/DES topo Final 1.pptx slide 20 | Apatite "
+ },
+ {
+  "i": 2624,
+  "title": "Goutte : tophus fémoro-patellaire",
+  "desc": "Érosion marginale à l'emporte-pièce de la patella au contact d'un tophus de densité tissulaire élevée.",
+  "region": "genou",
+  "modality": "TDM",
+  "rarity": "peu-commune",
+  "crop": [
+   0.6,
+   0.02,
+   1.0,
+   0.97
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/6a646b1e628f.jpg",
+  "src": "drive",
+  "cap": "Cours David Zeitoun/DES topo Final 1.pptx slide 23 | Cas 8 : Goutte "
+ },
+ {
+  "i": 2664,
+  "title": "Rupture méniscale en anse de seau",
+  "desc": "Fragment méniscal luxé dans l'échancrure sous le LCP : signe du double LCP.",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/9488a23b0ac3.jpg",
+  "src": "drive",
+  "cap": "Cours David Zeitoun/Genou.pptx slide 92 | Anse de seau  Signes IRM :  Amputation partielle du ménisque  Pas d’image en nœud papillon (2 coupes  sag ) Segment luxé dans l’échancrure (double LCP) Pièges : Ligament transverse  Ostéophyte  Phénomène de vide  LCA  Nodules ostéo- chondromateux . "
+ },
+ {
+  "i": 2666,
+  "title": "Rhizarthrose",
+  "desc": "Pincement trapézo-métacarpien avec ostéophytose et subluxation latérale de la base du 1er métacarpien.",
+  "region": "main-poignet",
+  "modality": "Radiographie",
+  "rarity": "commune",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/15110fe75c06.jpg",
+  "src": "drive",
+  "cap": "Cours David Zeitoun/Poignet.pptx slide 8 | Rizarthrose   1 2 3 3 4 Facteurs pronostiques :  Hauteur du trapèze  &gt; 8mm : prothèse possible &lt; 8mm  :  trapézectomie  / interposition  lig    Degré de subluxation de la TM  Possibilité d’abduction du pouce Facteurs étiologiques :  Dysplasie du trapèze &lt; 140° Anomalie de la base de M1 "
+ },
+ {
+  "i": 2675,
+  "title": "Désinsertion ulnaire du TFCC (1B)",
+  "desc": "Arthroscanner : passage de contraste à l'insertion ulnaire du complexe fibrocartilagineux triangulaire.",
+  "region": "main-poignet",
+  "modality": "TDM",
+  "rarity": "peu-commune",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/c2438473b67e.jpg",
+  "src": "drive",
+  "cap": "Cours David Zeitoun/Poignet.pptx slide 83 | Imagerie 1 2 3 3 4 Arthroscanner :  Avulsion ulnaire du TFCC (1 B): Complète ou partielle Instabilité radio-ulnaire si atteinte du segment  fovéolaire   "
+ },
+ {
+  "i": 2700,
+  "title": "Lipome paraostéal",
+  "desc": "Masse de densité graisseuse accolée à la corticale fémorale, contenant une ossification irrégulière à base corticale.",
+  "region": "os-entier",
+  "modality": "TDM",
+  "rarity": "rare",
+  "crop": [
+   0.1,
+   0.06,
+   0.86,
+   0.97
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/8f8330aeb4c3.jpg",
+  "src": "drive",
+  "cap": "Cours David Zeitoun/SF 2017 Images minéralisée à la surface GENAH.pptx slide 7 | IMAGES CARACTERISTIQUES LIPOME PARAOSTEAL"
+ },
+ {
+  "i": 2701,
+  "title": "Ostéome ostéoïde cortical",
+  "desc": "Épaississement cortical localisé centré par un petit nidus lacunaire à centre minéralisé.",
+  "region": "os-entier",
+  "modality": "TDM",
+  "rarity": "peu-commune",
+  "crop": [
+   0.3,
+   0.02,
+   0.71,
+   0.97
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/8506b2e07049.jpg",
+  "src": "drive",
+  "cap": "Cours David Zeitoun/SF 2017 Images minéralisée à la surface GENAH.pptx slide 8 | OSTEOME OSTEOIDE IMAGES CARACTERISTIQUES"
+ },
+ {
+  "i": 2706,
+  "title": "Apatite de la ligne âpre",
+  "desc": "Calcifications nuageuses de la ligne âpre fémorale avec érosion corticale : résorption de dépôt d'apatite.",
+  "region": "os-entier",
+  "modality": "TDM",
+  "rarity": "rare",
+  "crop": [
+   0.3,
+   0.03,
+   0.72,
+   0.95
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/2aae4b9dbc96.jpg",
+  "src": "drive",
+  "cap": "Cours David Zeitoun/SF 2017 Images minéralisée à la surface GENAH.pptx slide 21 | "
+ },
+ {
+  "i": 2710,
+  "title": "Hématome périosté ossifié",
+  "desc": "Masse juxtacorticale tibiale cernée d'une coque ossifiée en hyposignal, au contenu hétérogène.",
+  "region": "os-entier",
+  "modality": "IRM",
+  "rarity": "rare",
+  "crop": [
+   0.05,
+   0.04,
+   0.95,
+   0.97
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/a6be90eea1ee.jpg",
+  "src": "drive",
+  "cap": "Cours David Zeitoun/SF 2017 Images minéralisée à la surface GENAH.pptx slide 29 | Hématome périosté ossifié coll . du Dr Anne Miquel,  hôpital  Saint-Antoine"
+ },
+ {
+  "i": 2760,
+  "title": "SNAC wrist (stade 2)",
+  "desc": "Pseudarthrose du scaphoïde avec pôle proximal dense nécrotique et pincement radio-scaphoïdien.",
+  "region": "main-poignet",
+  "modality": "Radiographie",
+  "rarity": "peu-commune",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/568f02725d8f.jpg",
+  "src": "drive",
+  "cap": "Cours larib/EPU Arthroscanner - le poignet.pptx slide 43 | Cas 3 Arthrose = SNAC 2  TFCC : Perforation centrale du disque Intégrité des ligaments SCL et LNT Fracture + nécrose pole proximal scaphoïde"
+ },
+ {
+  "i": 2761,
+  "title": "SLAC wrist stade 3 en arthroscanner",
+  "desc": "Diastasis scapholunaire, passage de contraste entre compartiments et chondropathie luno-capitale.",
+  "region": "main-poignet",
+  "modality": "TDM",
+  "rarity": "rare",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/7bc8a4f4cc37.jpg",
+  "src": "drive",
+  "cap": "Cours larib/EPU Arthroscanner - le poignet.pptx slide 46 | Cas 4 TFCC : Désinsertion ulnaire des ligaments  radioulnaire  + perforation du disque LNT : rupture fx sup LSL : rupture fx dorsal + sup + diastasis Chondropathie  luno-capito-hamatale   = SLAC 3 "
+ },
+ {
+  "i": 2773,
+  "title": "Rupture transfixiante de coiffe",
+  "desc": "Arthroscanner : opacification de la bourse sous-acromio-deltoïdienne via une rupture du supra-épineux.",
+  "region": "epaule",
+  "modality": "TDM",
+  "rarity": "commune",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/c035d7e36b83.jpg",
+  "src": "drive",
+  "cap": "Cours larib/Imagerie de l'omarthrose.pptx slide 6 | "
+ },
+ {
+  "i": 2801,
+  "title": "Conflit postéro-supérieur de Walch",
+  "desc": "Arthroscanner : géodes du versant postéro-supérieur du tubercule majeur, conflit glénoïdien interne.",
+  "region": "epaule",
+  "modality": "TDM",
+  "rarity": "peu-commune",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/83ae096fef15.jpg",
+  "src": "drive",
+  "cap": "Cours larib/Instabilité gléno-humérale.pptx slide 72 | Conflit postérieur de Walch "
+ },
+ {
+  "i": 2826,
+  "title": "Métastase vertébrale mammaire",
+  "desc": "Corps vertébral lombaire hétérogène, mixte lytique et condensant, typique d'une métastase mammaire.",
+  "region": "rachis",
+  "modality": "TDM",
+  "rarity": "commune",
+  "crop": [
+   0.15,
+   0.2,
+   0.85,
+   0.9
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/a75e0da32c08.jpg",
+  "src": "drive",
+  "cap": "Cours larib/PRESENTATION TUMEURS OSSEUSES DES.pptx slide 25 | Femme, 60 ans, métastase d’un carcinome mammaire"
+ },
+ {
+  "i": 2846,
+  "title": "Myélome en TDM corps entier",
+  "desc": "Déminéralisation diffuse, lacunes multiples des corps vertébraux et tassements étagés.",
+  "region": "rachis",
+  "modality": "TDM",
+  "rarity": "peu-commune",
+  "crop": [
+   0.2,
+   0.16,
+   1.0,
+   1.0
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/dcb5be47bc23.jpg",
+  "src": "drive",
+  "cap": "Cours larib/Plasmocytome et myélome - de la physiopathologie et l’imagerie V longue.pptx slide 16 | Lacunes à l’emporte pièce Déminéralisation diffuse Déminéralisation diffuse + lésions focales Fractures vertébrales Scanner corps entier : Type d’atteinte  Risque fracturaire Complications mécaniques Scanner complémentaire si lésion douteuse"
+ },
+ {
+  "i": 2859,
+  "title": "Malformation artérioveineuse embolisée",
+  "desc": "MAV de la cuisse gauche : matériel d'embolisation hyperdense et remaniements lacunaires fémoraux.",
+  "region": "parties-molles",
+  "modality": "TDM",
+  "rarity": "rare",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/c891d5097829.jpg",
+  "src": "drive",
+  "cap": "Cours larib/SavoirFaire2023v1.pptx slide 13 | 3.4  TDM (ou radiographies) L acunes osseuses  -&gt;  veines de drainage  dans les MAV, ou  les MV Phlébolithes   -&gt; si doute à l’IRM Lacunes osseuses -&gt; nidus embolisés Grille de lecture 2. Imagerie Phlébolithes"
+ },
+ {
+  "i": 2865,
+  "title": "Malformation artérioveineuse du pied",
+  "desc": "Hypertrophie des parties molles, vaisseaux plantaires rehaussés et lacunes osseuses calcanéennes.",
+  "region": "cheville-pied",
+  "modality": "TDM",
+  "rarity": "rare",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/89282bcf02f9.jpg",
+  "src": "drive",
+  "cap": "Cours larib/SavoirFaire2023v1.pptx slide 31 | TDM IV- Sag DP Sag T1 Cas 7 MIP 4D TRAK Sag T1, IV+ TDM  IV+ Patiente  de 9 ans  ATCD:  Anomalie du pied droit Chronologie:  Évoluant depuis la petite enfance Clinique: Pied chaud Tuméfaction battante    H ypertrophie  tissulaire de la jambe et du pied  associé Échographie :  Malformation  avec shun"
+ },
+ {
+  "i": 2868,
+  "title": "Pannus rhumatoïde C1-C2",
+  "desc": "Pannus synovial en hypersignal T2 FS autour de l'odontoïde (flèche), au contact de la moelle.",
+  "region": "rachis",
+  "modality": "IRM",
+  "rarity": "rare",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/cc3250aea85e.jpg",
+  "src": "drive",
+  "cap": "Cours larib/Syllabus - Rachis inflammatoire - infectieux.pptx slide 6 | CR IRM Rachis cervical dans la polyarthrite rhumatoïde Les images clefs Résultats Rachis cervical supérieur :  \tarticulations C0-C1 et C1-C2 latérales : arthropathies \t articulation  odonto -atloïdienne : \t\tpannus synovial : activité \t\tdiastasis/subluxation antérieure \t\t impression basilaire/subluxa"
+ },
+ {
+  "i": 2894,
+  "title": "Myxome intramusculaire",
+  "desc": "Masse ovalaire en hypersignal T2 pseudo-liquidien avec coiffe d'œdème péri-lésionnelle aux pôles.",
+  "region": "parties-molles",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/f1393a20db95.jpg",
+  "src": "drive",
+  "cap": "Cours larib/Tumeurs et pseudotumeurs myxoïdes IGGA.pptx slide 23 | Myxome Terrain: 40-70ans Siège: Membre inférieur  et aux ceintures Profond, intramusculaire Masse ferme, indolore, de croissance lente Imagerie Lésion bien limitée Signal  pseudoliquidien  avec prise de contraste discrète à modérée 2 signes évocateurs Coiffe œdémateuse aux pôles de la tumeur  Involu"
+ },
+ {
+  "i": 2902,
+  "title": "Chondrosarcome myxoïde extra-osseux",
+  "desc": "Volumineuse masse multilobulée en hypersignal T2 cloisonnée, aspect en grappe de la cuisse.",
+  "region": "parties-molles",
+  "modality": "IRM",
+  "rarity": "legendaire",
+  "crop": [
+   0.08,
+   0.1,
+   0.74,
+   0.95
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/c44f86de213f.jpg",
+  "src": "drive",
+  "cap": "Cours larib/Tumeurs et pseudotumeurs myxoïdes IGGA.pptx slide 53 | CHONDROSARCOME MYXOIDE EXTRASQUELETTIQUE Rare par rapport aux chondrosarcome osseux (=maladie différente) Terrain: âge moyen autour de 50 ans, prédominance masculine Localisation:  Extrémités : cuisses+++ Profonde mais 25-30% sous cutanés Clinique:  Non spécifique : masse +/- indolore Imagerie: Gran"
+ },
+ {
+  "i": 2907,
+  "title": "SpA : sacro-iliite et coxite",
+  "desc": "Sacro-iliite bilatérale avec pincement concentrique des deux coxo-fémorales chez un adulte jeune.",
+  "region": "bassin-hanche",
+  "modality": "Radiographie",
+  "rarity": "peu-commune",
+  "crop": [
+   0.28,
+   0.15,
+   1.0,
+   1.0
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/bd23a3ca903c.jpg",
+  "src": "drive",
+  "cap": "Cours larib/Vrais-faux Romanus - Présentation.pptx slide 5 | T1 STIR SACRO-ILIITE COXITE ARTHRITE  ARTICULAIRE POSTERIEURE ARTHRITE  COSTO-VERTEBRALE CAS CLINIQUE 1 : Spondylarthrite ankylosante"
+ },
+ {
+  "i": 2924,
+  "title": "Lésion ostéochondrale instable (talus)",
+  "desc": "Arthroscanner : contraste à l'interface os-fragment du dôme talien médial, signe d'instabilité.",
+  "region": "cheville-pied",
+  "modality": "TDM",
+  "rarity": "peu-commune",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/497a33fb5e15.jpg",
+  "src": "drive",
+  "cap": "Cours larib/arthroscanner cheville.pptx slide 27 | Cas numéro 2 Lésion  ostéochondrale  instable du versant médial du dôme  talien  de type O de la classification FOG avec méplat de la lame osseuse sous-chondrale. Fissure cartilagineuse se prolongeant par un passage de produit de contraste à l'interface entre l'os et le fragment  ostéochondral  témo"
+ },
+ {
+  "i": 2967,
+  "title": "Fracture de contrainte du 2e MT",
+  "desc": "Cal périosté fusiforme autour de la diaphyse du 2e métatarsien : fracture de fatigue en consolidation.",
+  "region": "cheville-pied",
+  "modality": "Radiographie",
+  "rarity": "commune",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/77839371f36b.jpg",
+  "src": "drive",
+  "cap": "articles et topos divers et variés/Tbs statique avtpied.pptx slide 9 | FRACTURE DE CONTRAINTE Sous-chondrale Tête des métatarsiens 2 et 3 ; diaphyse/col Mécanisme: compression/cisaillement FF: sport, prise de poids rapide… Evolution: restitution ad  integrum , ostéonécrose RADIOGRAPHIE   Diagnostic tardif   Normale 10J Puis appositions  périostées  / cal osseux Weinfel"
+ },
+ {
+  "i": 2971,
+  "title": "Métallose : pseudotumeur de PTH",
+  "desc": "Collection refoulant l'iliopsoas, à paroi et septa très denses (débris métalliques), ostéolyse acétabulaire.",
+  "region": "bassin-hanche",
+  "modality": "TDM",
+  "rarity": "rare",
+  "crop": [
+   0.14,
+   0.02,
+   0.9,
+   0.75
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/cd1d2347a54a.jpg",
+  "src": "drive",
+  "cap": "articles et topos divers et variés/staff metallose.pptx slide 16 | Scanner MAR-&gt;  Metal   Artifact   Reduction Etude de la lyse péri-prothétique Analyse de l’état et du positionnement des composants prothétiques Recherche de dépôts métalliques finement hyperdenses"
+ },
+ {
+  "i": 3002,
+  "title": "Pachydermopériostose : tibia",
+  "desc": "Appositions périostées épaisses et irrégulières des métaphyses et diaphyses tibiale et fibulaire distales.",
+  "region": "os-entier",
+  "modality": "Radiographie",
+  "rarity": "legendaire",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/93cb0a2c8793.jpg",
+  "src": "drive",
+  "cap": "Présentation Larib hiver 2023/Bone club 23.11.2022 LRB MILLION.pptx slide 3 | "
+ },
+ {
+  "i": 3014,
+  "title": "Pachydermopériostose : doigts",
+  "desc": "Hippocratisme digital : parties molles distales hypertrophiées, touffes phalangiennes élargies et irrégulières.",
+  "region": "main-poignet",
+  "modality": "Radiographie",
+  "rarity": "rare",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/02f801a07364.jpg",
+  "src": "drive",
+  "cap": "Présentation Larib hiver 2023/Bone club 23.11.2022 LRB MILLION.pptx slide 30 | Pachydermopériostose  : Sémiologie radiologique      Hippocratisme digital ( svt  très marqué) Petites  proliférations  osseuses des IPD  +/-  Acro -ostéolyse Appositions  périostées  : Épaisses (+/-incorporées à la corticale +/-  spiculées , dites exubérantes + Hyperfixation intense en  scinti  Os "
+ },
+ {
+  "i": 3046,
+  "title": "Lésion de Nora (BPOP)",
+  "desc": "Masse ossifiée sessile appendue à la corticale, sans continuité corticomédullaire avec l'os porteur.",
+  "region": "main-poignet",
+  "modality": "TDM",
+  "rarity": "rare",
+  "crop": [
+   0.15,
+   0.15,
+   1.0,
+   0.95
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/93a0c74932c4.jpg",
+  "src": "drive",
+  "cap": "Présentation Larib hiver 2023/Cas Rhum Main IMAGIN Best-of Avril 21 3.pptx slide 192 | La BPOP Masse indolore ou sensible des parties molles Masse ossifiée s'étendant à travers le périoste auquel elle est  accorchée  de façon sessile ou pédiculée sans réaction périostée Traitement chirurgical   récidive fréquente Pas de complication"
+ },
+ {
+  "i": 3054,
+  "title": "Spondylodiscite à Candida",
+  "desc": "Lyse du corps vertébral de L1 avec géode antérolatérale et sclérose réactionnelle : spondylodiscite fongique.",
+  "region": "rachis",
+  "modality": "TDM",
+  "rarity": "rare",
+  "crop": [
+   0.0,
+   0.07,
+   1.0,
+   1.0
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/be0108addfa8.jpg",
+  "src": "drive",
+  "cap": "Présentation Larib hiver 2023/Cas mardi 12 12.pptx slide 27 | Spondylodiscite à Candida Albicans   3 mois 4 mois"
+ },
+ {
+  "i": 3079,
+  "title": "Tumeur desmoïde",
+  "desc": "Volumineuse masse des parties molles en hypersignal T2 hétérogène, avec bandes en hyposignal (collagène).",
+  "region": "parties-molles",
+  "modality": "IRM",
+  "rarity": "rare",
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   0.93
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/c4a66ba70f95.jpg",
+  "src": "drive",
+  "cap": "Présentation Larib hiver 2023/PrésentationMILLION.pptx slide 19 | Stratégie thérapeutique :  Cryoablation"
+ },
+ {
+  "i": 3089,
+  "title": "Kyste osseux anévrysmal du clivus",
+  "desc": "Lésion multiloculée de la base du crâne, logettes en hypersignal T2 avec niveaux liquide-liquide.",
+  "region": "os-entier",
+  "modality": "IRM",
+  "rarity": "legendaire",
+  "crop": [
+   0.49,
+   0.08,
+   0.99,
+   1.0
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/4ffc4b0cdea4.jpg",
+  "src": "drive",
+  "cap": "Présentation Larib hiver 2023/Staff 09.11.2022 LRB clement.pptx slide 23 | KOA Bénigne, ostéolytique, soufflante Formé de multiples cavités vasculaires anastomosées remplies de sang  //!\\\\ Une lésion peut s’ anévrysmaliser  secondairement (ex :  TCG, chondrosarcome , méta …) Localisation au  clivus  possible IRM :  Multiples logettes en hyperT2 avec niveau liquide-liquide"
+ },
+ {
+  "i": 3107,
+  "title": "Dystrophie rachidienne de croissance",
+  "desc": "Plateaux vertébraux ondulés et irréguliers, empreintes discales étagées (flèches) : maladie de Scheuermann.",
+  "region": "rachis",
+  "modality": "TDM",
+  "rarity": "peu-commune",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/7ce6d9c2d55b.jpg",
+  "src": "drive",
+  "cap": "Présentation Larib hiver 2023/cours Présentation Fracture ostéoporotique.pptx slide 36 | Diagnostic différentiel : dystrophie vertébrale de croissance "
+ },
+ {
+  "i": 3117,
+  "title": "Fracture du lunatum (Kienböck)",
+  "desc": "Lunatum dense, scléreux, avec fracture aiguë du pôle dorsal (flèche) : Kienböck révélé par une fracture.",
+  "region": "main-poignet",
+  "modality": "TDM",
+  "rarity": "rare",
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   0.71
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/8dcc3451bca9.jpg",
+  "src": "drive",
+  "cap": "Présentation Larib hiver 2023/fracture des os du carpe Alex.pptx slide 17 | Imagerie Lunatum 3,9% Trait variable Compression axiale avec enfoncement du capitatum Superposition de profil rendant son diagnostic difficile Instabilité Ostéonécrose (différentiel du  Kienböck )"
+ },
+ {
+  "i": 3121,
+  "title": "Fracture de l'hamulus de l'hamatum",
+  "desc": "Trait de fracture non déplacé à la base du crochet de l'hamatum (flèche) en coupe axiale.",
+  "region": "main-poignet",
+  "modality": "TDM",
+  "rarity": "peu-commune",
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   0.2736
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/b5b9f46b3a3e.jpg",
+  "src": "drive",
+  "cap": "Présentation Larib hiver 2023/fracture des os du carpe Alex.pptx slide 22 | Imagerie Hamatum 1,7% Crochet +++ par compression directe par un manche de raquette En plein corps par surcharge axiale des 4 ème  et 5 ème  rayons. Retard de cicatrisation des fractures du crochet (site d’insertion de structures musculaires et ligamentaires) Incidence du tunnel carpien"
+ },
+ {
+  "i": 3131,
+  "title": "Luxation périlunaire trans-scaphoïde",
+  "desc": "Capitatum luxé en arrière du lunatum de profil ; fracture du scaphoïde et arcs de Gilula rompus de face.",
+  "region": "main-poignet",
+  "modality": "Radiographie",
+  "rarity": "rare",
+  "crop": [
+   0.0,
+   0.06,
+   1.0,
+   1.0
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/ad192e670879.jpg",
+  "src": "drive",
+  "cap": "Présentation Larib hiver 2023/luxations peri-lunaires.pptx slide 21 | Luxation péri-lunaire stade II trans- scaphoïdienne"
+ },
+ {
+  "i": 3160,
+  "title": "Bursite sous-acromio-deltoïdienne",
+  "desc": "Épanchement liquidien en croissant de la bourse sous-acromio-deltoïdienne, coiffant la grosse tubérosité.",
+  "region": "epaule",
+  "modality": "IRM",
+  "rarity": "commune",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/e06bbd9f7558.jpg",
+  "src": "drive",
+  "cap": "DU IRM 2021/DU IRM epaule.pptx slide 49 | Bursite BSAD"
+ },
+ {
+  "i": 3162,
+  "title": "Encoche de Malgaigne en IRM",
+  "desc": "Encoche postérolatérale de la tête humérale avec œdème adjacent : séquelle de luxation antérieure.",
+  "region": "epaule",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/51658595c922.jpg",
+  "src": "drive",
+  "cap": "DU IRM 2021/DU IRM epaule.pptx slide 60 | Fracture de Malgaigne"
+ },
+ {
+  "i": 3187,
+  "title": "Pied de Charcot en IRM",
+  "desc": "Désorganisation du médio-pied avec anomalies de signal diffuses des os du tarse : neuro-ostéoarthropathie.",
+  "region": "cheville-pied",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "crop": [
+   0.0,
+   0.1,
+   0.93,
+   1.0
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/a3264f01071f.jpg",
+  "src": "drive",
+  "cap": "DU IRM 2021/DU pied.pptx slide 29 | PIED DE CHARCOT"
+ },
+ {
+  "i": 3189,
+  "title": "Ménisque discoïde",
+  "desc": "Ménisque latéral élargi, continu d'avant en arrière en coupe sagittale, sans aspect en nœud papillon.",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/f07d4e1452b2.jpg",
+  "src": "drive",
+  "cap": "DU IRM 2021/IRM DU GENOU 1.pptx slide 35 | Ménisque discoïde"
+ },
+ {
+  "i": 3194,
+  "title": "Schwannome du nerf fibulaire commun",
+  "desc": "Masse ovalaire bien limitée en hypersignal T2 franc, sur le trajet du nerf fibulaire commun (fosse poplitée).",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "rare",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/deed4e2c7946.jpg",
+  "src": "drive",
+  "cap": "DU IRM 2021/IRM DU GENOU 1.pptx slide 67 | Schwannome  Nerf Fibulaire Commun"
+ },
+ {
+  "i": 3196,
+  "title": "Rupture du LCA",
+  "desc": "LCA détendu, ondulé et arciforme, ayant perdu son parallélisme avec la ligne de Blumensaat.",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "commune",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/342cff567d15.jpg",
+  "src": "drive",
+  "cap": "DU IRM 2021/IRM DU GENOU 2.pptx slide 7 | LCA rupture:   signes directs \tLCA non tendu, ondulé, arciforme"
+ },
+ {
+  "i": 2990,
+  "title": "Kyste poplité (de Baker)",
+  "desc": "Collection en hypersignal T2 entre gastrocnémien médial et semi-membraneux, communiquant avec l'articulation.",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "commune",
+  "crop": [
+   0.552,
+   0.469,
+   0.821,
+   0.922
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/1d5d32ee3c6a.jpg",
+  "src": "drive",
+  "cap": "SF 2023 IRM GENOU/2.IRM Gonarthrose.pptx slide 32 | "
+ },
+ {
+  "i": 2989,
+  "title": "Lipome arborescent",
+  "desc": "Prolifération synoviale villeuse en franges de signal graisseux, baignant dans l'épanchement articulaire.",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "rare",
+  "crop": [
+   0.462,
+   0.564,
+   0.679,
+   0.95
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/7618f323544e.jpg",
+  "src": "drive",
+  "cap": "SF 2023 IRM GENOU/2.IRM Gonarthrose.pptx slide 30 | "
+ },
+ {
+  "i": 3247,
+  "title": "Fracture de fatigue de l'os peroneum",
+  "desc": "Os peroneum fragmenté en plusieurs morceaux sur le trajet du long fibulaire, en regard du cuboïde.",
+  "region": "cheville-pied",
+  "modality": "Radiographie",
+  "rarity": "rare",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/eaa942dd4611.jpg",
+  "src": "drive",
+  "cap": "J1/ECHOGRAPHIE DE LA CHEVILLE.pptx slide 31 | Fracture de fatigue de l’os  peroneum , sésamoïde du LFL"
+ },
+ {
+  "i": 3393,
+  "title": "Enthésopathie calcifiante du FUC",
+  "desc": "Calcification amorphe des parties molles au contact du pisiforme, à l'insertion du fléchisseur ulnaire du carpe.",
+  "region": "main-poignet",
+  "modality": "Radiographie",
+  "rarity": "peu-commune",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/c788f739b9f2.jpg",
+  "src": "drive",
+  "cap": "J2/ECHOGRAPHIE DU POIGNET.pptx slide 60 | Enthésopathie calcifiante FUC (  )"
+ },
+ {
+  "i": 3390,
+  "title": "Carpe bossu (carpal boss)",
+  "desc": "Saillie osseuse dorsale ostéophytique à l'interligne carpo-métacarpienne de profil.",
+  "region": "main-poignet",
+  "modality": "Radiographie",
+  "rarity": "peu-commune",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/9abacd45d7d7.jpg",
+  "src": "drive",
+  "cap": "J2/ECHOGRAPHIE DU POIGNET.pptx slide 45 | Carpe bossu: arthropathie  carpo -MTC avec déformation dorsale, épaississement hypoéchogène enthèse LERC avec hyperhémie"
+ },
+ {
+  "i": 3236,
+  "title": "Fracture de fatigue du plateau tibial",
+  "desc": "Œdème médullaire du plateau tibial médial traversé par une bande linéaire en hyposignal parallèle à l'interligne.",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "crop": [
+   0.02,
+   0.02,
+   0.98,
+   0.98
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/765d1ca2cee3.jpg",
+  "src": "drive",
+  "cap": "DU IRM 2021/PRINCIPES TECHNIQUES EN IRM OSTEO-ARTICULAIRE.pptx slide 26 | Fracture de fatigue acquisition 3D et reconstructions"
+ },
+ {
+  "i": 3289,
+  "title": "Kyste de l'échancrure du genou",
+  "desc": "Formation kystique cloisonnée en hypersignal T2 dans l'échancrure, au contact des ligaments croisés.",
+  "region": "genou",
+  "modality": "IRM",
+  "rarity": "peu-commune",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/1bf99c743c42.jpg",
+  "src": "drive",
+  "cap": "J1/ECHOGRAPHIE DU GENOU.pptx slide 34 | Kyste de l’échancrure inter-condylienne"
+ },
+ {
+  "i": 3262,
+  "title": "Ossification d'hématome des adducteurs",
+  "desc": "Ossification linéaire de l'hématome à la face médiale de la cuisse, 6 semaines après désinsertion des adducteurs.",
+  "region": "bassin-hanche",
+  "modality": "Radiographie",
+  "rarity": "rare",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/da1e5d21d9bb.jpg",
+  "src": "drive",
+  "cap": "J1/ECHOGRAPHIE DU BASSIN.pptx slide 18 | Rupture de l’insertion des adducteurs droits avec évolution radiographique à 6 semaines montrant une ossification de l’hématome"
+ },
+ {
+  "i": 3222,
+  "title": "Kyste de la loge de Guyon",
+  "desc": "Kyste synovial lobulé en hypersignal T2 au bord ulnaire du carpe, comprimant le nerf ulnaire (loge de Guyon).",
+  "region": "main-poignet",
+  "modality": "IRM",
+  "rarity": "rare",
+  "crop": null,
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/7122bc3ddc5d.jpg",
+  "src": "drive",
+  "cap": "DU IRM 2021/IRM du membre supérieur hors épaule.pptx slide 36 | Syndrome de la loge de Guyon Compression du nerf ulnaire par un kyste"
+ },
+ {
+  "i": 3254,
+  "title": "Apophysite calcanéenne (Sever)",
+  "desc": "Noyau d'ossification apophysaire postérieur du calcanéus fragmenté et condensé chez l'enfant.",
+  "region": "cheville-pied",
+  "modality": "Radiographie",
+  "rarity": "commune",
+  "crop": [
+   0.0,
+   0.0,
+   0.88,
+   1.0
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/1c3c114fb2f9.jpg",
+  "src": "drive",
+  "cap": "J1/ECHOGRAPHIE DE LA CHEVILLE.pptx slide 60 | Ostéochondromatose de  Sever : l’échographie montre la fragmentation du noyau d’ossification       (  ) et une hyperhémie"
+ },
+ {
+  "i": 3288,
+  "title": "Calcification du LCL du genou",
+  "desc": "Calcification amorphe en regard du condyle fémoral latéral, sur le trajet du ligament collatéral latéral.",
+  "region": "genou",
+  "modality": "Radiographie",
+  "rarity": "peu-commune",
+  "crop": [
+   0.0,
+   0.04,
+   1.0,
+   1.0
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/80f0090143b6.jpg",
+  "src": "drive",
+  "cap": "J1/ECHOGRAPHIE DU GENOU.pptx slide 33 | Calcification du LCL"
+ },
+ {
+  "i": 3290,
+  "title": "Kyste poplité cloisonné",
+  "desc": "Collection anéchogène postéro-médiale à cloisons internes, communiquant entre semi-membraneux et gastrocnémien médial.",
+  "region": "genou",
+  "modality": "Échographie",
+  "rarity": "commune",
+  "crop": [
+   0.03,
+   0.02,
+   0.94,
+   0.98
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/f4a09ab3544e.jpg",
+  "src": "drive",
+  "cap": "J1/ECHOGRAPHIE DU GENOU.pptx slide 36 | Kyste poplité cloisonné"
+ },
+ {
+  "i": 3376,
+  "title": "Schwannome du nerf ulnaire",
+  "desc": "Masse hypoéchogène fusiforme excentrée sur le nerf, refoulant les fascicules nerveux en périphérie.",
+  "region": "coude",
+  "modality": "Échographie",
+  "rarity": "rare",
+  "crop": [
+   0.07,
+   0.0,
+   0.95,
+   0.73
+  ],
+  "path": "/Users/thomaslefevre/.t3/projects/msk-tcg-sources/drive/6665496c7fa4.jpg",
+  "src": "drive",
+  "cap": "J2/ECHOGRAPHIE DU COUDE.pptx slide 37 | Schwannome du nerf ulnaire: la tumeur est fusiforme,  excentrée, refoulant les fascicules nerveux"
  }
 ]
